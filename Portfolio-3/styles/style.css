@@ -1,0 +1,47 @@
+
+* {
+    user-select: none;
+    /* margin: 0;
+    padding: 0; */
+}
+
+html {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+body {
+    /* background: linear-gradient(110deg,#f93d66,); */
+    /* background: rgb(203,38,38); */
+    background: black;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.album_desc, .album_artist {
+    cursor: default;
+}
+
+.album_desc {
+    cursor: default;
+    user-select: none;
+}
+
+.album_details h2 {
+    cursor: default;
+    color: black;
+}
+
+.album_details h2:hover {
+    cursor: pointer;
+    color: white;
+}
+
+img {
+    user-select: none;
+}
