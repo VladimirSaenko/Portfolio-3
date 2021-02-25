@@ -67,3 +67,19 @@
     transition: 1s;
 }
 
+@media(max-width: 450px) {
+    .mainBox {
+        width: auto;
+    }
+
+    .inputRGBText {
+        transform: translateY(-50%);
+        width: 315px;
+        font-size: 33px;
+        border: white 10px ridge;
+    }
+
+    .getRandomRGBcolorButton {
+        transform: translateY(-45%);
+    }
+}
