@@ -5,6 +5,7 @@ let box = document.getElementById("mainBox");
 let inputRgb = document.getElementById("mainInput");
 let getRandomRGBColorBtn = document.getElementById("btnka");
 let infinityColorStreamBtn = document.getElementById("infColorStream");
+let copyBtn = document.getElementById("copyBtn");
 
 infinityColorStreamBtn.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
 infinityColorStreamBtn.style.background = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
@@ -76,6 +77,11 @@ function activateInfinityStreamColor() {
     );
 }
 
+function copyRGBColor() {
+    inputRgb.select();
+    document.execCommand("copy");
+}
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -86,4 +92,3 @@ setInterval(function infinityStreamInColorText() {
     infinityColorStreamBtn.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
     infinityColorStreamBtn.style.background = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
 }, 1000);
-

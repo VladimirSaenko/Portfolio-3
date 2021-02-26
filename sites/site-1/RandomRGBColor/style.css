@@ -67,6 +67,17 @@
     transition: 1s;
 }
 
+.copyImg {
+    cursor: pointer;
+    position: absolute;
+    left: 70vw;
+    width: 105px;
+    height: 105px;
+    background: white;
+    border-radius: 15px;
+    border: white 10px solid;
+}
+
 @media(max-width: 450px) {
     .mainBox {
         width: auto;
@@ -74,12 +85,23 @@
 
     .inputRGBText {
         transform: translateY(-50%);
-        width: 315px;
-        font-size: 33px;
-        border: white 10px ridge;
+        width: 325px;
+        font-size: 33.5px;
+        border: transparent 10px solid;
     }
 
     .getRandomRGBcolorButton {
         transform: translateY(-45%);
+        border: none;
+    }
+
+    .infinityColorStreamBtn {
+        border: none;
+    }
+
+    .copyImg {
+        right: 0;
+        width: 65px;
+        height: 65px;
     }
 }
