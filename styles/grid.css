@@ -38,20 +38,12 @@
         padding: 10px;
     }
 
-    .album_videoscroll {
-        visibility: hidden;
-    }
-    
-    body {
-        background: linear-gradient(0deg, rgba(33,197,0,1) 50%, rgba(33,0,255,1) 75%);
-    }
-
-    .album_videoscroll {
-        display: none;
-    }
-
     .hidd_album {
         display: none;
+    }
+
+    body {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 49%, rgba(31,255,0,1) 62%);
     }
 }
 
@@ -73,7 +65,7 @@
     }
 
     body {
-        background: linear-gradient(0deg, rgb(48, 248, 7) 50%, rgb(0, 0, 0) 75%);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 49%, rgba(31,255,0,1) 62%);
     }
     
 }
