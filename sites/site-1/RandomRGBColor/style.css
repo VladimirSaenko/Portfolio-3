@@ -41,7 +41,7 @@
     text-align: center;
     text-transform: capitalize;
     user-select: none;
-    top: 63%;
+    top: 60%;
     width: 350px;
     user-select: none;
     outline: none;
@@ -59,12 +59,61 @@
     text-transform: capitalize;
     font-size: 35px;
     user-select: none;
-    bottom: 75px;
+    bottom: 25px;
     width: 350px;
     height: 75px;
     outline: none;
     border-radius: 5px;
     transition: 1s;
+}
+
+.userColorButton {
+    cursor: pointer;
+    position: absolute;
+    top: 73.5%;
+    width: 350px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    user-select: none;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.inputsUserColor-List {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 55px;
+}
+
+.inputsUserColor-List input {
+    margin: 0px 10px;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    user-select: none;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: -4px -4px 10px rgb(255 255 255), 
+    inset 4px 4px 10px rgb(0 0 0 / 50%), 
+    inset -4px -4px 10px rgb(255 255 255), 
+    inset -4px -4px 10px rgb(0 0 0 / 50%);
+    border: none;
+    border-radius: 25px;
+    color: black;
+}
+
+/* .inputsUserColor-List input::placeholder {
+    color: black;
+} */
+
+.inputUserColor1 input, .inputUserColor2 input .inputUserColor3 input {
+    user-select: none;
 }
 
 .copyImg {
