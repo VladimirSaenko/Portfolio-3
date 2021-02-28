@@ -1,0 +1,70 @@
+
+@media(max-width:1110px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .mac {
+        position: relative;
+        left: auto;
+        margin-top: 45px;
+    }
+
+    .container .macBookPro {
+        position: relative;
+        margin-top: 45px;
+        left: auto;
+    }
+
+    .container .iphone {
+        position: relative;
+        left: auto;
+        margin-top: 45px;
+    }
+}
+
+@media(max-width: 600px) {
+    .container .mac {
+        /* width: 350px; */
+        width: 90%;
+    }
+
+    .container .mac img {
+        /* width: 350px; */
+        width: 100%;
+    }
+
+    .container .mac .imgBx {
+        /* width: 323px; */
+        width: calc(100% * 555/606);
+        /* height: 181px; */
+        height: calc(100% * 313/489);
+        /* top: 12px; */
+        top: calc(100% * 25/606);
+        /* left: 14px; */
+        left: calc(100% * 25/606);
+    }
+
+    .container .macBookPro .imgBx {
+        width: calc(100% * 466/609);
+        height: calc(100% * 294/362);
+        top: calc(100% * 20/609);
+        left: calc(100% * 72/609);
+    }
+
+    .container .iphone img {
+        width: 100%;
+    }
+
+    .container .iphone {
+        width: 90%;
+        max-width: 157px;
+    }
+
+    .container .iphone .imgBx {
+        width: calc(100% * 158/245);
+        height: calc(100% * 280/383);
+        top: calc(100% * 44/383);
+        left: calc(100% * 44/245);
+    }
+}
