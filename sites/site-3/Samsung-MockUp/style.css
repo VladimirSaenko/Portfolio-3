@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #2196f3;
+}
+
+.container .tv {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    overflow: hidden;
+}
+
+.container .tv .imgBx {
+    position: absolute;
+    transition: background-position 0.5s linear;
+    top: 98px;
+    left: 56px;
+    width: 609px;
+    height: 332px;
+    background-size: 100%;
+    background-position: top;
+    background: red url(assets/window.jpg);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container .tv:hover .imgBx {
+    background-position: bottom;
+}
+
+.container .macBookPro {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+}
+
+.container .macBookPro .imgBx {
+    background: blue url(assets/desktopWebsite.jpg);
+    background-size: 100%;
+    background-position: top;
+    position: absolute;
+    top: 14px;
+    left: 70px;
+    width: 466px;
+    height: 294px;
+    transition: background-position 5s linear;
+}
+
+.container .macBookPro:hover .imgBx {
+    background-position: bottom;
+}
+
+.container .samsung {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    z-index: 2;
+    width: 245px;
+    height: 25px;
+}
+
+.samsung img {
+    width: 350px;
+    height: 375px;
+}
+
+.container .samsung .imgBx {
+    background: green url(assets/mobileWebsite.jpg);
+    position: absolute;
+    top: 6px;
+    left: 159px;
+    height: 359px;
+    width: 190px;
+    border-radius: 6px;
+    background-size: 100%;
+    background-position: top;
+    transition: background-position 7s linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container .samsung:hover .imgBx {
+    background-position: bottom;
+}
+
+@media(max-width:1110px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .tv {
+        position: relative;
+        left: auto;
+        margin-top: 45px;
+    }
+
+    .container .macBookPro {
+        position: relative;
+        margin-top: 45px;
+        left: auto;
+    }
+
+    .container .samsung {
+        position: relative;
+        left: auto;
+        margin-top: 45px;
+    }
+}
+
+@media(max-width: 600px) {
+    .container .tv {
+        /* width: 350px; */
+        width: 90%;
+    }
+
+    .container .tv img {
+        /* width: 350px; */
+        width: 100%;
+    }
+
+    .container .tv .imgBx {
+        /* width: 323px; */
+        width: calc(100% * 609/720);
+        /* height: 181px; */
+        height: calc(100% * 313/489);
+        /* top: 12px; */
+        top: calc(100% * 98/720);
+        /* left: 14px; */
+        left: calc(100% * 56/720);
+    }
+
+    .container .macBookPro {
+        width: 90%;
+    }
+    .container .macBookPro img {
+        width: 100%;
+    }
+    .container .macBookPro .imgBx {
+        width: calc(100% * 465 / 609);
+        height: calc(100% * 291 / 362);
+        top: calc(100% * 20 / 609);
+        left: calc(100% * 72 / 609);
+    }
+
+    .container .samsung {
+        display: none;
+    }
+}
