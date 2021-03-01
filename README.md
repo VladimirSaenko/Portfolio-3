@@ -24,3 +24,15 @@ https://vladimirsaenko.github.io/Apples-MockUp-example/
 https://github.com/VladimirSaenko/Apples-MockUp-example
 
 }
+
+3. Samsung MockUp example {
+
+https://github.com/VladimirSaenko/Samsung-MockUp-example
+
+https://vladimirsaenko.github.io/Samsung-MockUp-example/
+
+https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.html
+
+}
+
+}
