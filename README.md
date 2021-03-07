@@ -35,4 +35,11 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
 
 }
 
+4. SVG-Icons animations example {
+
+ https://github.com/VladimirSaenko/SVG-Icons-animation-example
+ 
+ https://vladimirsaenko.github.io/SVG-Icons-animation-example/
+ 
+ https://vladimirsaenko.github.io/Portfolio-3/sites/site-4/SVG-Icon-animation-example/index.html
 }
