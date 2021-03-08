@@ -155,3 +155,65 @@ body {
         fill: #31e8ff;
     }
 }
+
+.container .icon.sun path {
+    stroke-dasharray: 1560;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.sun:hover path {
+    animation: animate-sun 3.5s linear forwards;
+}
+
+@keyframes animate-sun {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 3120;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 3120;
+        fill: yellow;
+        stroke: yellow;
+    }
+}
+
+
+.container .icon.eagle path {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 0;
+    stroke: #31e8ff;
+}
+
+.container .icon.eagle:hover path {
+    animation: animate-eagle 3.5s linear forwards;
+}
+
+@keyframes animate-eagle {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 500;
+    }
+
+    80% {
+        stroke-dashoffset: 1000;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 1000;
+        fill: white;
+        stroke: red;
+    }
+}
