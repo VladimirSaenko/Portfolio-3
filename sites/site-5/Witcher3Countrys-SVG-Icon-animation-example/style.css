@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #06181f;
+    transition: 2s;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.container .icon {
+    width: 275px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container .icon path {
+    fill: transparent;
+    stroke: #31e8ff;
+    stroke-width: 10;
+}
+
+.title {
+    visibility: hidden;
+    font-family: 'Akaya Kanadaka', cursive, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    transition: 2s;
+    letter-spacing: 3px;
+    margin-top: 45px;
+    /* text-transform: capitalize; */
+}
+
+.container .icon.unicorn path {
+    stroke-dasharray: 1560;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.unicorn:hover path {
+    animation: animate-unicorn 2s linear forwards;
+}
+
+@keyframes animate-unicorn {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 3120;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 3120;
+        fill: black;
+        stroke: yellow;
+    }
+}
+
+
+.container .icon.sun path {
+    stroke-dasharray: 1810;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.sun:hover path {
+    animation: animate-sun 2s linear forwards;
+}
+
+@keyframes animate-sun {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1810;
+    }
+
+    80% {
+        stroke-dashoffset: 3620;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 3620;
+        fill: #e6ff05;
+        stroke: #eeff05;
+    }
+}
+
+.container .icon.eagle path {
+    stroke-dasharray: 250;
+    stroke-dashoffset: 0;
+    stroke: rgb(10, 255, 243);
+}
+
+.container .icon.eagle:hover path {
+    animation: animate-eagle 2s linear forwards;
+}
+
+@keyframes animate-eagle {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 250;
+    }
+
+    80% {
+        stroke-dashoffset: 500;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 500;
+        fill: white;
+        stroke: black;
+    }
+}
