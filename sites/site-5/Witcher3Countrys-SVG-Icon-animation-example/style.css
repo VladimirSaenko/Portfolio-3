@@ -139,3 +139,12 @@ body {
         stroke: black;
     }
 }
+
+@media(max-width: 600px) {
+
+    .container {
+        width: 100%;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+}
