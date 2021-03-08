@@ -3,7 +3,7 @@
 Третья версия портфолио
 
 
-Сайт {
+Сайты: {
 
 1. Generator Random RGB Color {
 
