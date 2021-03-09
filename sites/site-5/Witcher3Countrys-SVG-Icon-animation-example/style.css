@@ -42,10 +42,8 @@ body {
     font-family: 'Akaya Kanadaka', cursive, sans-serif;
     font-size: 55px;
     text-transform: uppercase;
-    transition: 2s;
     letter-spacing: 3px;
     margin-top: 45px;
-    /* text-transform: capitalize; */
 }
 
 .container .icon.unicorn path {
