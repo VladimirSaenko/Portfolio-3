@@ -49,8 +49,9 @@
     height: 85px;
     font-size: 35px;
     transition: 0.3s;
+    outline: none;
+    border: none;
 }
-
 
 .infinityColorStreamBtn {
     cursor: pointer;
@@ -65,6 +66,7 @@
     outline: none;
     border-radius: 5px;
     transition: 1s;
+    border: none;
 }
 
 .userColorButton {
@@ -80,6 +82,7 @@
     text-align: center;
     text-transform: capitalize;
     outline: none;
+    border: none;
 }
 
 .inputsUserColor-List {
@@ -141,7 +144,7 @@
 
     .getRandomRGBcolorButton {
         /* transform: translateY(-45%); */
-        border: none;
+        margin: -10px 0px;
     }
 
     .copyImg {
@@ -151,6 +154,6 @@
     }
 
     .infinityColorStreamBtn {
-        border: none;
+        margin: -10px 0px;
     }
 }
