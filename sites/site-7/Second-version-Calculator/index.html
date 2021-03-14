@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Calculator site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form class="calculator" name="calcul">
+            <input type="text" name="txt" class="value" readonly>
+            <span class="numb clear" onclick="document.calcul.txt.value = '' ">C</span>
+            <span class="numb" onclick="document.calcul.txt.value += '/' ">/</span>
+            <span class="numb" onclick="document.calcul.txt.value += '*' ">*</span>
+            <span class="numb" onclick="document.calcul.txt.value += '7' ">7</span>
+    
+            <span class="numb" onclick="document.calcul.txt.value += '8' ">8</span>
+            <span class="numb" onclick="document.calcul.txt.value += '9' ">9</span>
+            <span class="numb" onclick="document.calcul.txt.value += '-' ">-</span>
+            <span class="numb" onclick="document.calcul.txt.value += '4' ">4</span>
+    
+            <span class="numb" onclick="document.calcul.txt.value += '5' ">5</span>
+            <span class="numb" onclick="document.calcul.txt.value += '6' ">6</span>
+            <span class="numb plus" onclick="document.calcul.txt.value += '+' ">+</span>
+            <span class="numb" onclick="document.calcul.txt.value += '1' ">1</span>
+    
+            <span class="numb" onclick="document.calcul.txt.value += '2' ">2</span>
+            <span class="numb" onclick="document.calcul.txt.value += '3' ">3</span>
+            <span class="numb" onclick="document.calcul.txt.value += '0' ">0</span>
+            <span class="numb" onclick="document.calcul.txt.value += '00' ">00</span>
+            <span id="musicbutt-3" class="numb minus_3" onclick="document.calcul.txt.value += '-3' ">-3</span>
+    
+            <span class="numb" onclick="document.calcul.txt.value += '(' ">(</span>
+            <span class="numb" onclick="document.calcul.txt.value += ')' ">)</span>
+            <span class="numb" onclick="document.calcul.txt.value += '.' ">.</span>
+            <!-- <span class="numb" onclick="document.calcul.txt.value += '%' ">%</span> -->
+            <span class="numb over_numb" onclick="document.calcul.txt.value += '25' ">25</span>
+            
+            <span class="numb" id="musicbutt40" onclick="document.calcul.txt.value += '40' ">40</span>
+            <span class="numb trak_numb" onclick="document.calcul.txt.value += '300' ">300</span>
+            <span class="numb alc_numb" id="alc-1" onclick="document.calcul.txt.value += '0.25' ">0.25</span>
+            <span class="numb" id="alc-2" onclick="document.calcul.txt.value += '0.5' ">0.5</span>
+            <span class="numb equal" onclick="document.calcul.txt.value = eval(calcul.txt.value)">=</span>
+        </form>
+    </div>
+    <audio id="sound-3" src="audio/minusthree.mp3"></audio>
+    <audio id="sound40" src="audio/music40.mp3"></audio>
+    <audio id="alcosound" src="audio/zvyakane_bokalov.mp3"></audio>
+    <script src="calculator.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".container"), {
+        max: 15,
+        speed: 400,
+        glare: true,
+        "max-glare":0.2
+    });
+    
+    //It also supports NodeList
+    // VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+</body>
+</html>
