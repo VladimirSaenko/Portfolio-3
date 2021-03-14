@@ -53,4 +53,24 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   https://vladimirsaenko.github.io/Kaedwen-Redania-Nilfgaard-SVG-Icons-animations/
  }
  
+ 6. Second-Clock site {
+   
+   https://vladimirsaenko.github.io/Portfolio-3/sites/site-6/Second-version-Clock/index.html
+   
+   https://vladimirsaenko.github.io/Second-Clock-version-site/
+   
+   https://github.com/VladimirSaenko/Second-Clock-version-site
+   
+   }
+   
+ 7. Second-Calculator site {
+   
+   https://github.com/VladimirSaenko/Second-Calculator-version-site
+   
+   https://vladimirsaenko.github.io/Second-Calculator-version-site/
+   
+   https://vladimirsaenko.github.io/Portfolio-3/sites/site-7/Second-version-Calculator/index.html
+   
+   }
+ 
   }
