@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter-Images-example</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="filter-menu">
+            <li>All</li>
+            <li>Camera</li>
+            <li>Headphone</li>
+            <li>Mobile</li>
+            <li>Shoe</li>
+            <li>Watch</li>
+        </ul>
+        <div class="product">
+            <div class="itemBox" data-item="camera">
+                <img src="images/camera1.jpg" alt="camera1"></img>
+            </div>
+            <div class="itemBox" data-item="camera">
+                <img src="images/camera2.jpg" alt="camera1"></img>
+            </div>
+            <div class="itemBox" data-item="camera">
+                <img src="images/camera3.jpg" alt="camera1"></img>
+            </div>
+            <div class="itemBox" data-item="headphone">
+                <img src="images/headphone1.jpg" alt="headphone1"></img>
+            </div>
+            <div class="itemBox" data-item="headphone">
+                <img src="images/headphone2.jpg" alt="headphone2"></img>
+            </div>
+            <div class="itemBox" data-item="headphone">
+                <img src="images/headphone3.jpg" alt="headphone3"></img>
+            </div>
+            <div class="itemBox" data-item="headphone">
+                <img src="images/headphone4.jpg" alt="headphone4"></img>
+            </div>
+            <div class="itemBox" data-item="mobile">
+                <img src="images/mobile1.jpg" alt="mobile1"></img>
+            </div>
+            <div class="itemBox" data-item="mobile">
+                <img src="images/mobile2.jpg" alt="mobile2"></img>
+            </div>
+            <div class="itemBox" data-item="mobile">
+                <img src="images/mobile3.jpg" alt="mobile3"></img>
+            </div>
+            <div class="itemBox" data-item="mobile">
+                <img src="images/mobile4.jpg" alt="mobile4"></img>
+            </div>
+            <div class="itemBox" data-item="mobile">
+                <img src="images/mobile5.jpg" alt="mobile5"></img>
+            </div>
+            <div class="itemBox" data-item="shoe">
+                <img src="images/shoe1.jpg" alt="shoe1"></img>
+            </div>
+            <div class="itemBox" data-item="shoe">
+                <img src="images/shoe2.jpg" alt="shoe2"></img>
+            </div>
+            <div class="itemBox" data-item="shoe">
+                <img src="images/shoe3.jpg" alt="shoe3"></img>
+            </div>
+            <div class="itemBox" data-item="shoe">
+                <img src="images/shoe4.jpg" alt="shoe4"></img>
+            </div>
+            <div class="itemBox" data-item="watch">
+                <img src="images/watch1.jpg" alt="watch1"></img>
+            </div>
+            <div class="itemBox" data-item="watch">
+                <img src="images/watch2.jpg" alt="watch2"></img>
+            </div>
+            <div class="itemBox" data-item="watch">
+                <img src="images/watch3.jpg" alt="watch3"></img>
+            </div>
+            <div class="itemBox" data-item="watch">
+                <img src="images/watch4.jpg" alt="watch4"></img>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/filterscript.js"></script>
+    <script src="scripts/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".product .itemBox"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 1
+        });
+        //It also supports NodeList
+        // VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+</body>
+</html>
