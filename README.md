@@ -72,5 +72,15 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
    https://vladimirsaenko.github.io/Portfolio-3/sites/site-7/Second-version-Calculator/index.html
    
    }
+   
+   8. Filter Images {
+   
+   https://vladimirsaenko.github.io/Filter-Images-example/
+   
+   https://vladimirsaenko.github.io/Portfolio-3/sites/site-8/Filter-Images-example/index.html
+   
+   https://github.com/VladimirSaenko/Filter-Images-example
+   
+  }
  
   }
