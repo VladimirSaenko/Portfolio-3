@@ -11,14 +11,15 @@
 <body>
     <div class="container">
         <ul class="filter-menu">
-            <li>All</li>
-            <li>Camera</li>
-            <li>Headphone</li>
-            <li>Mobile</li>
-            <li>Shoe</li>
-            <li>Watch</li>
-            <li>Computer</li>
+            <li id="all-images">All</li>
+            <li id="camera">Camera</li>
+            <li id="headphone">Headphone</li>
+            <li id="mobile">Mobile</li>
+            <li id="shoe">Shoe</li>
+            <li id="watch">Watch</li>
+            <li id="computer">Computer</li>
         </ul>
+        <h2 id="count" class="countTittle"></h2>
         <div class="product">
             <div class="itemBox" data-item="camera">
                 <img src="images/camera1.jpg" alt="camera1"></img>
@@ -106,5 +107,6 @@
         //It also supports NodeList
         // VanillaTilt.init(document.querySelectorAll(".your-element"));
     </script>
+    <script src="scripts/count.js"></script>
 </body>
 </html>
