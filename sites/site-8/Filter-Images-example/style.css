@@ -71,7 +71,7 @@
     visibility: hidden;
 }
 
-@media(max-width:400px) {
+@media(max-width: 600px) {
     .container ul {
         align-items: center;
         flex-wrap: wrap;
