@@ -201,7 +201,24 @@ body {
     align-items: flex-end;
   }
 
-  .renameButton, .repaintButton {
-    display: none;
+  .repaintButton, .renameButton {
+    position: fixed;
+  }
+
+  .flask {
+    margin-top: 150px;
+  }
+
+  .flask h2 {
+    font-size: 30px;
+  }
+
+  /* .flask-img {
+    width: 350px;
+  } */
+
+  .bubble1, .bubble2, .bubble3, .bubble4 {
+    animation: none;
+    visibility: hidden;
   }
 }
