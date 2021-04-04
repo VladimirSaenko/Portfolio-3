@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #353535;
+    overflow: hidden;
+    z-index: 1000;
+    transition: opacity 0.5s 0.4s;
+}
+
+.preloader.preload-finish {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.outer-space {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rocket-container {
+    position: absolute;
+    bottom: 52%;
+    left: 49%;
+    transform: translate(-50%, 50%);
+}
+
+.preloader.preload-finish .rocket-container {
+    animation: finish 0.5s 1 ease forwards;
+}
+
+.rocket {
+    height: 320px;
+    animation: move 0.2s linear infinite alternate-reverse;
+}
+
+@keyframes finish {
+    from {
+       bottom: 50%;
+    }
+    to {
+        bottom: 140%;
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-5px);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+
+.title {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 35px;
+    position: absolute;
+    text-transform: capitalize;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#circle {
+    animation: move-circle 0.2s linear infinite alternate-reverse;
+}
+
+@keyframes move-circle {
+    from {
+        transform: translateY(-5px);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+
+/* #star {
+    animation: stars 2s linear infinite alternate-reverse;
+} */
+
+@keyframes stars {
+    from {
+        transform: translateY(-1000px);
+    }
+    to {
+        transform: translateY(1000px);
+    }
+}
+
+.content {
+    background: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+/* .content h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    position: absolute;
+    bottom: 25%;   
+} */
+
+.image {
+    width: 400px;
+    height: 275px;
+    background: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
