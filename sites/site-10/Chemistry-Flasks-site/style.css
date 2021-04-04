@@ -209,6 +209,11 @@ body {
     margin-top: 150px;
   }
 
+  .last-flask {
+    margin-bottom: 175px;
+    margin-top: 75px;
+  }
+
   .flask h2 {
     font-size: 30px;
   }
@@ -221,4 +226,4 @@ body {
     animation: none;
     visibility: hidden;
   }
-}
+} 
