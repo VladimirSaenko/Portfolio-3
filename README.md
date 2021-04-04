@@ -112,5 +112,15 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
    https://github.com/VladimirSaenko/Chemistry-Flasks-site
    
    }
+   
+   12. Preloader Rocket example {
+ 
+   https://vladimirsaenko.github.io/Preloader-Rocket-example/
+   
+   https://github.com/VladimirSaenko/Preloader-Rocket-example
+   
+   https://vladimirsaenko.github.io/Portfolio-3/sites/site-11/Preloader-example/index.html
+   
+   }
  
   }
