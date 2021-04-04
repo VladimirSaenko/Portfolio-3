@@ -75,15 +75,10 @@ button {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .btn-container {
-        /* display: flex; */
+        display: flex;
         flex-direction: column;
         position: absolute;
-        top: 60%;
+        top: 50%;
         flex-wrap: wrap;
-        overflow: visible;
-    }
-
-    .btn-container button:last-child {
-        display: none;
     }
 }
