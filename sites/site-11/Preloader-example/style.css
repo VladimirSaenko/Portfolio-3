@@ -96,7 +96,7 @@ body {
 }
 
 /* #star {
-    animation: stars 2s linear infinite alternate-reverse;
+    animation: stars 1.3s linear infinite alternate-reverse;
 } */
 
 @keyframes stars {
