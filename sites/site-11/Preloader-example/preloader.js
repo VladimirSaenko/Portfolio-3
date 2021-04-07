@@ -4,7 +4,7 @@
 const stars = document.querySelectorAll("#star");
 
 stars.forEach(star => {
-    let duration = Math.random() * (0.6) + 0.6;
+    let duration = Math.random() * (0.4) + 1.3;
     // console.log(duration);
     star.style.animation = `stars ${duration}s linear infinite alternate-reverse`;
 });
