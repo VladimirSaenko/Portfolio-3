@@ -1,0 +1,220 @@
+
+* {
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border-radius: 100px; */
+}
+
+button,input {
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    background: white;
+    color: black;
+    text-transform: capitalize;
+}
+
+.content {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content i {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    animation: starsSpawn linear infinite;
+    z-index: 1;
+}
+
+/* planet */
+
+.planet {
+    position: relative;
+    left: 15%;
+    text-align: center;
+    width: 395px;
+    height: 395px;
+    background-image: url("https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -80px -20px 70px 2px rgb(29, 28, 28) inset, 3px 0 20px rgba(206, 182, 138, 0.555);
+    animation: spin linear 5s reverse infinite;
+    transform: rotate(30deg);
+    animation-duration: 1s;
+    /* filter: hue-rotate(0deg); */
+    /* backface-visibility: visible; */
+}
+
+.title-planet {
+    position: fixed;
+    cursor: pointer;
+    top: 10%;
+    left: 70%;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 55px;
+    flex-wrap: wrap;
+    /* transform: rotate(-30deg); */
+    text-transform: capitalize;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.meteors li {
+	position: absolute;
+	list-style: none;
+	transform: rotate(45deg);
+    /* width: 5px; */
+	/* height: 5px; */
+	/* border-radius: 100%; */
+	/* background-color:white; */
+}
+
+/* venator */
+
+.meteors li:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(venator.png);
+    animation: venatorspacejump 5s infinite linear;
+    transform: rotate(10deg);
+    border-radius: 0;
+}
+
+/* meteors */
+
+.meteors li:nth-child(2) {
+    top: 10%;
+    left: 50%;
+    width: 5px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: red;
+    animation: meteor 2s infinite linear;
+}
+
+.meteors li:nth-child(3) {
+    opacity: 0;
+    top: 20%;
+    left: 45%;
+    width: 7px;
+    height: 10px;
+    border-radius: 100%;
+    animation: meteor 1.5s infinite linear;
+    animation-delay: 1s;
+    background-color: white;
+}
+
+.meteors li:nth-child(4) {
+    top: 15%;
+    left: 75%;
+    width: 5px;
+    height: 25px;
+    animation: meteor 5s infinite linear;
+    background-color: white;
+    border-radius: 100%;
+    transform: rotate(50deg);
+}
+
+.meteors li:nth-child(5) {
+    opacity: 0;
+    top: 25%;
+    left: 55%;
+    width: 5px;
+    height: 20px;
+    animation: meteor 5s infinite linear;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.buttons-list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 75px;
+    width: 100%;
+    height: 85px;
+    list-style: none;
+}
+
+.buttons-list li {
+    margin: 0px 25px;
+}
+
+.renameButton, .repaintButton, .renameButton-2, .resizePlanetInput, .rotationPlanet {
+    width: 175px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.renameButton-2 {
+    font-size: 27px;
+    width: 195px;
+}
+
+.resizePlanetInput, .rotationPlanet {
+    font-size: 25px;
+}
+
+@keyframes spin {
+    100% {
+        background-position: 100%;
+    }
+}
+
+@keyframes starsSpawn {
+    0% {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    10%,90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+}
+
+@keyframes meteor {
+    10% {
+        opacity: 2;
+    }
+    80%	{
+        left: 5%;
+        top: 85%;
+        opacity: 0;
+    }
+}
+
+@keyframes venatorspacejump {
+    10% {
+        opacity: 2;
+    }
+    80%	{
+        left: 0%;
+        top: 50%;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
