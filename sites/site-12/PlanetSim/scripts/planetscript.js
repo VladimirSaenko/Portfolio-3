@@ -35,12 +35,23 @@ function resizePlanet() {
     if(resizePlanetInput.value == "") {
         planet.style.width = 395 + 'px';
         planet.style.height = 395 + 'px';
+        
+        if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
+            planet.style.width = 300 + 'px';
+            planet.style.height = 300 + 'px';
+        }
     }
 
     if(resizePlanetInput.value <= 0) {
         planet.style.width = 395 + 'px';
         planet.style.height = 395 + 'px';
         resizePlanetInput.style.color = "red";
+
+        if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
+            planet.style.width = 300 + 'px';
+            planet.style.height = 300 + 'px';
+            resizePlanetInput.style.color = "red"; 
+        }
     }
 
     else {
@@ -87,7 +98,13 @@ function getRandomPlanetName() {
         //     randomPlanetNumber += planetNumbers[randomNumber2];
         // }
         let randomPlanetNumber = getRandomInt(0,20);
-        planetName.innerHTML = randomPlanetName + '-' + planetNumbers[randomPlanetNumber]; 
+        planetName.innerHTML = randomPlanetName + '-' + planetNumbers[randomPlanetNumber];
+
+        if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
+            let randomNumber2 = Math.floor(Math.random() * planetNumbers.length); 
+            randomPlanetNumber += planetNumbers[randomNumber2];
+            planetName.innerHTML = randomPlanetName + '-' + randomPlanetNumber.length;
+        }
     }
 }
 
@@ -103,7 +120,13 @@ function renamePlanetName() {
         //     randomPlanetNumber += planetNumbers[randomNumber2];
         // }
         let randomPlanetNumber = getRandomInt(0,20);
-        planetName.innerHTML = randomPlanetName + '-' + planetNumbers[randomPlanetNumber]; 
+        planetName.innerHTML = randomPlanetName + '-' + planetNumbers[randomPlanetNumber];
+
+        if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
+            let randomNumber2 = Math.floor(Math.random() * planetNumbers.length); 
+            randomPlanetNumber += planetNumbers[randomNumber2];
+            planetName.innerHTML = randomPlanetName + '-' + randomPlanetNumber.length;
+        } 
     }
 }
 
