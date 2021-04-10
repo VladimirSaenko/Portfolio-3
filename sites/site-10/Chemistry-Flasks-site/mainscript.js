@@ -7,6 +7,7 @@ let flask2 = document.getElementById("flask2");
 let flask3 = document.getElementById("flask3");
 let flask4 = document.getElementById("flask4");
 let flask5 = document.getElementById("flask5");
+let toggleDarkThemeButton = document.getElementById("toggleDark");
 let color1= getRandomInt(5,1000);
 let color2= getRandomInt(5,1000);
 let color3= getRandomInt(5,1000);
@@ -19,7 +20,7 @@ let chemistrynames = [
     'кси','эти','лен','поли','ти','кол','трит','пен','бу','та',
     'про','ар','зил','ард','зил','ал','па','аква','ви','зол',
     'гид','де','аце','тон','ол','изо','бит','дио','ксид','лиз',
-    'ват','троп','бон','тер','эпо','се','ка','рид','кар','аз'
+    'ват','цик','бон','тер','эпо','се','ка','рид','кар','аз',
 ];
 let substanceName1 = document.getElementById("name1");
 let substanceName2 = document.getElementById("name2");
@@ -31,6 +32,34 @@ let name2 = "";
 let name3 = "";
 let name4 = "";
 let name5 = "";
+
+function toggleDarkTheme() {
+    toggleDarkThemeButton.style.background = "white";
+    container.style.background = "black";
+    substanceName1.style.color = "white";
+    substanceName2.style.color = "white";
+    substanceName3.style.color = "white";
+    substanceName4.style.color = "white";
+    substanceName5.style.color = "white";
+    if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
+        let body = document.body;
+        body.style.background = "black";
+    }
+}
+
+function toggleLightTheme() {
+    toggleDarkThemeButton.style.background = "black";
+    container.style.background = "white";
+    substanceName1.style.color = "black";
+    substanceName2.style.color = "black";
+    substanceName3.style.color = "black";
+    substanceName4.style.color = "black";
+    substanceName5.style.color = "black";
+    if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
+        let body = document.body;
+        body.style.background = "white";
+    }
+}
 
 function getRandomSubstancesNames() {
     for(let i = 0; i < chemistrynameLength; i++) {

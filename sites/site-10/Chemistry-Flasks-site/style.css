@@ -144,6 +144,36 @@ body {
   text-transform: capitalize;
 }
 
+
+.toggleDarkTheme {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  outline: none;
+  border-color: transparent;
+  background: black;
+  transition: 0.5s;
+}
+
+.toggleLightTheme {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  outline: none;
+  border-color: transparent;
+  background: yellow;
+  transition: 0.5s;
+}
+
+
 @keyframes bubbles {
   from {
     bottom: 110px;
