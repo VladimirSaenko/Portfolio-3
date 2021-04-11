@@ -8,7 +8,7 @@
     transform: translate(-50%,-50%);
     z-index: 1000;
     user-select: none;
-    /* display: none; */
+    display: none;
 }
 
 .popup::before {
@@ -20,7 +20,7 @@
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,0.6);
-    /* размыть фон */
+    filter: blur(50px);
 }
 
 .popup .contentBox {

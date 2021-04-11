@@ -169,7 +169,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,0.6);
-    /* размыть фон */
+    filter: blur(50px);
 }
 
 .popup .contentBox {
