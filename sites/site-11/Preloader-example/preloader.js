@@ -17,7 +17,7 @@ window.addEventListener('load', function() {
 
     setTimeout(()=> {
         popup.style.display = "block";
-    }, 2000);
+    }, 7000);
 
     setInterval(()=> {
         popup.style.display = "block";
