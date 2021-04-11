@@ -12,6 +12,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(45deg,#e91e63,#f1f3f4);
+    text-align: center;
 }
 
 .player {
@@ -43,7 +44,6 @@ body {
     background: #f1f3f4;
 }
 
-
 .title {
     position: absolute;
     font-family: 'Train One', cursive, sans-serif;
@@ -51,4 +51,13 @@ body {
     font-size: 65px;
     color: #0066FF;
     text-shadow: yellow 1px 2px 1px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .title {
+        top: 25px;
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
 }
