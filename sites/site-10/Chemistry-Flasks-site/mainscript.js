@@ -8,6 +8,7 @@ let flask3 = document.getElementById("flask3");
 let flask4 = document.getElementById("flask4");
 let flask5 = document.getElementById("flask5");
 let toggleDarkThemeButton = document.getElementById("toggleDark");
+let toggleLightThemeButton = document.getElementById("toggleLight");
 let color1= getRandomInt(5,1000);
 let color2= getRandomInt(5,1000);
 let color3= getRandomInt(5,1000);
@@ -41,6 +42,8 @@ function toggleDarkTheme() {
     substanceName3.style.color = "white";
     substanceName4.style.color = "white";
     substanceName5.style.color = "white";
+    toggleLightThemeButton.style.visibility = "visible";
+
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "black";
@@ -55,6 +58,8 @@ function toggleLightTheme() {
     substanceName3.style.color = "black";
     substanceName4.style.color = "black";
     substanceName5.style.color = "black";
+    toggleLightThemeButton.style.visibility = "hidden";
+    
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "white";

@@ -156,10 +156,10 @@ body {
   outline: none;
   border-color: transparent;
   background: black;
-  transition: 0.5s;
 }
 
 .toggleLightTheme {
+  visibility: hidden;
   cursor: pointer;
   position: absolute;
   top: 10px;
@@ -170,9 +170,7 @@ body {
   outline: none;
   border-color: transparent;
   background: yellow;
-  transition: 0.5s;
 }
-
 
 @keyframes bubbles {
   from {
