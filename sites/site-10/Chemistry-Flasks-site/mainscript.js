@@ -15,12 +15,12 @@ let color4= getRandomInt(5,1000);
 let color5= getRandomInt(5,1000);
 let chemistrynameLength = 5;
 let chemistrynames = [
-    'гидро','хлор','ин','ан','дал','то','нид','рин','рол','ка',
-    'лин','кло','гекса','нол','бен','зол','окс','гли','ин','лит',
+    'гидро','хлор','ин','ан','дал','цикло','нид','гекс','рол','ка',
+    'лин','кло','нонан','нол','бен','зол','окс','гли','ин','лит',
     'кси','эти','лен','поли','ти','кол','трит','пен','бу','та',
     'про','ар','зил','ард','зил','ал','па','аква','ви','зол',
     'гид','де','аце','тон','ол','изо','бит','дио','ксид','лиз',
-    'ват','цик','бон','тер','эпо','се','ка','рид','кар','аз',
+    'ват','цик','бон','тер','эпо','окта','тетра','ил','нат','диен',
 ];
 let substanceName1 = document.getElementById("name1");
 let substanceName2 = document.getElementById("name2");
@@ -245,55 +245,6 @@ function repaintAllFlasks() {
     flask3.style.filter = 'hue-rotate(' + color3  + 'deg)';
     flask4.style.filter = 'hue-rotate(' + color4  + 'deg)';
     flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
-}
-
-function ifEqualyColorFlasks() {
-    if(flask1.style.filter == flask2.style.filter || flask1.style.filter == flask3.style.filter || flask1.style.filter == flask4.style.filter
-    || flask1.style.filter == flask5.style.filter || flask2.style.filter == flask1.style.filter || flask2.style.filter == flask3.style.filter ||
-    flask2.style.filter == flask4.style.filter || flask2.style.filter == flask5.style.filter || flask3.style.filter == flask1.style.filter ||
-    flask3.style.filter == flask2.style.filter || flask3.style.filter == flask4.style.filter || flask3.style.filter == flask5.style.filter ||
-    flask4.style.filter == flask1.style.filter || flask4.style.filter == flask2.style.filter || flask4.style.filter == flask3.style.filter ||
-    flask4.style.filter == flask5.style.filter || flask5.style.filter == flask1.style.filter || flask5.style.filter == flask2.style.filter ||
-    flask5.style.filter == flask3.style.filter || flask5.style.filter == flask4.style.filter) {
-        color1 = getRandomInt(5,1000);
-        color2 = getRandomInt(5,1000);
-        color3 = getRandomInt(5,1000);
-        color4 = getRandomInt(5,1000);
-        color5 = getRandomInt(5,1000);
-        flask1.style.filter = 'hue-rotate(' + color1  + 'deg)';
-        flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
-        flask3.style.filter = 'hue-rotate(' + color3  + 'deg)';
-        flask4.style.filter = 'hue-rotate(' + color4  + 'deg)';
-        flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
-    }
-}
-
-function ifEqualySubstancesNames() {
-    if(substanceName1.innerHTML == substanceName2 || substanceName1.innerHTML == substanceName3 || substanceName1.innerHTML == substanceName4 
-    || substanceName1.innerHTML == substanceName5 ||substanceName2.innerHTML == substanceName1 || substanceName2.innerHTML == substanceName3 
-    || substanceName2.innerHTML == substanceName4 || substanceName2.innerHTML == substanceName5 || substanceName3.innerHTML == substanceName1
-    || substanceName3.innerHTML == substanceName2 || substanceName3.innerHTML == substanceName4 || substanceName3.innerHTML == substanceName5
-    || substanceName4.innerHTML == substanceName1 || substanceName4.innerHTML == substanceName2 || substanceName4.innerHTML == substanceName3
-    || substanceName4.innerHTML == substanceName5 || substanceName5.innerHTML == substanceName1 || substanceName5.innerHTML == substanceName2
-    || substanceName5.innerHTML == substanceName3 || substanceName5.innerHTML == substanceName4){
-        for(let i = 0; i < chemistrynameLength; i++) {
-            let randomName1 = Math.floor(Math.random() * chemistrynames.length);
-            let randomName2 = Math.floor(Math.random() * chemistrynames.length);
-            let randomName3 = Math.floor(Math.random() * chemistrynames.length);
-            let randomName4 = Math.floor(Math.random() * chemistrynames.length);
-            let randomName5 = Math.floor(Math.random() * chemistrynames.length);
-            name1 += chemistrynames[randomName1];
-            name2 += chemistrynames[randomName2];
-            name3 += chemistrynames[randomName3];
-            name4 += chemistrynames[randomName4];
-            name5 += chemistrynames[randomName5];
-            substanceName1.innerHTML = name1;
-            substanceName2.innerHTML = name2;
-            substanceName3.innerHTML = name3;
-            substanceName4.innerHTML = name4;
-            substanceName5.innerHTML = name5;
-        }
-    }
 }
 
 function getRandomInt(min, max) {
