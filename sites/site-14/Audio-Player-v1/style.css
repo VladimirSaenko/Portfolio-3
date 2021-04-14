@@ -38,20 +38,52 @@ body {
     /* object-position: center; */
 }
 
-.player audio {
-    width: 100%;
-    outline: none;
-    background: #f1f3f4;
-}
-
 .title {
-    position: absolute;
+    /* position: absolute; */
     font-family: 'Train One', cursive, sans-serif;
     top: 5%;
     font-size: 65px;
     color: yellow;
     text-shadow: #0066FF 5px 5px 2px;
     flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.player audio {
+    width: 100%;
+    outline: none;
+    background: #f1f3f4;
+    border-color: transparent;
+}
+
+audio {
+    outline: none;
+}
+
+.vanilla-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 300px);
+    height: 100%;
+    background: transparent;
+}
+
+.vanilla-container p {
+    font-family: 'Train One', cursive, sans-serif;
+    position: absolute;
+    bottom: 15px;
+    color: pink;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.vanilla-container p span {
+    color: yellow;
+    text-shadow: #0066FF 5px 5px 2px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
