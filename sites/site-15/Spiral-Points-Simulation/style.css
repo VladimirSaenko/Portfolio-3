@@ -71,10 +71,31 @@ input {
 
 .startButton {
     display: none;
+    outline: none;
 }
 
 .speed {
     display: none;
     visibility: hidden;
     opacity: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .startButton {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 20%;
+        top: 0;
+        justify-content: center;
+        width: 250px;
+        height: 35px;
+        text-align: center;
+        font-size: 32px;
+        outline: none;
+        background: white;
+        border-color: black;
+        color: black;
+        border-radius: 50px;
+    }
 }
