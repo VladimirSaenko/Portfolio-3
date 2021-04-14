@@ -85,7 +85,6 @@ input {
         position: absolute;
         display: flex;
         top: 0;
-        left: 20%;
         top: 0;
         justify-content: center;
         width: 250px;
@@ -97,5 +96,14 @@ input {
         border-color: black;
         color: black;
         border-radius: 50px;
+    }
+
+    .repaintButton {
+        width: 250px;
+        margin-top: 15px;
+    }
+
+    .settings-form {
+        top: 50%;
     }
 }
