@@ -51,7 +51,7 @@ input {
 }
 
 .repaintButton {
-    width: 150px;
+    width: 250px;
     height: 75px;
     border-radius: 50px;
     background: white;
@@ -61,7 +61,7 @@ input {
     cursor: pointer;
 }
 
-.repaintButton:active {
+.repaintButton:active, .startButton:active {
     background: rgb(190, 184, 184);
 }
 
@@ -87,7 +87,6 @@ input {
         top: 0;
         top: 0;
         justify-content: center;
-        width: 250px;
         height: 35px;
         text-align: center;
         font-size: 32px;
