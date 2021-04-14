@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiral points simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Zen+Dots:regular" rel="stylesheet" />
+</head>
+<body>
+    <div id="container" class="container">
+        <form class="settings-form" id="settings_form">
+            <label>
+              <h2>Points</h2>
+              <input type="number" name="dots" />
+            </label>
+            <label>
+              <h2>Point Size</h2>
+              <input type="number" name="dotSize" />
+            </label>
+            <label>
+              <h2>Point Interval</h2>
+              <input type="number" name="dotInterval" step=".1" />
+            </label>
+            <label>
+              <h2>Spread</h2>
+              <input type="number" name="spread" step=".1" />
+            </label>
+            <label class="speed">
+              <!-- Speed -->
+              <input type="number" name="speed" step=".00001" />
+            </label>
+            <label>
+              <button onclick="getRandomColor()" class="repaintButton">Repaint All Points</button>
+            </label>
+            <!-- <label>
+              <input type="color" id="color1">
+            </label>
+            <label>
+              <input type="color" id="color2">
+            </label>
+            <label>
+              <input type="color" id="color3">
+            </label> -->
+            <button class="startButton" type="submit" name="set">Go!</button>
+          </form>
+    </div>
+    <script src="mainscript.js"></script>
+</body>
+</html>
