@@ -79,7 +79,8 @@ audio {
     font-family: 'Train One', cursive, sans-serif;
     position: absolute;
     bottom: 15px;
-    color: pink;
+    color: #ff0055;
+    text-shadow: rgb(255, 0, 0) 1px -5px 1px;
     left: 0;
     right: 0;
     font-size: 20px;
@@ -96,5 +97,11 @@ audio {
         top: 25px;
         font-size: 45px;
         letter-spacing: 2px;
+    }
+
+    .vanilla-container {
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.432);
     }
 }
