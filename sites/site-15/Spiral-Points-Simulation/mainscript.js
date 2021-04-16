@@ -46,7 +46,7 @@ animate();
 
 function animate() {
   ctx.beginPath();
-  ctx.fillStyle = "white";
+  ctx.fillStyle = "black";
   ctx.fillRect(0, 0, spiral.width, spiral.height);
   ctx.fill();
   drawSpiral(interval);
