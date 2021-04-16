@@ -88,6 +88,8 @@ input {
         top: 0;
         justify-content: center;
         height: 35px;
+        width: 250px;
+        margin-top: -30px;
         text-align: center;
         font-size: 32px;
         outline: none;
