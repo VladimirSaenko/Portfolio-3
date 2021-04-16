@@ -12,6 +12,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: black;
+    /* background: white; */
 }
 
 input {
@@ -31,6 +33,8 @@ input {
     align-items: center;
     width: 100%;
     height: 100vh;
+    /* color: black; */
+    color: white;
 }
 
 .settings-form {
