@@ -12,6 +12,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #64cfff;
+    text-transform: capitalize;
 }
 
 .container {
@@ -43,7 +44,7 @@ body {
     border: none;
 }
 
-p {
+.container p {
     display: flex;
     align-items: center;
     font-size: 20px;
@@ -57,4 +58,23 @@ p {
     margin-left: 10px;
     font-weight: 500;
     /* font-weight: 600; */
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .container h3 {
+        font-size: 32px;
+    }
+
+    .container textarea {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 30px;
+    }
+
+    .container .count {
+        font-size: 30px;
+    }
 }
