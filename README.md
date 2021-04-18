@@ -42,7 +42,8 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
  https://vladimirsaenko.github.io/SVG-Icons-animation-example/
  
  https://vladimirsaenko.github.io/Portfolio-3/sites/site-4/SVG-Icon-animation-example/index.html
-}
+ 
+ }
 
 5. Kaedwen-Redania-Nilfgaard SVG Icons animations {
   
@@ -51,8 +52,9 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   https://github.com/VladimirSaenko/Kaedwen-Redania-Nilfgaard-SVG-Icons-animations
   
   https://vladimirsaenko.github.io/Kaedwen-Redania-Nilfgaard-SVG-Icons-animations/
- }
- 
+  
+  }
+  
  6. Second Clock site {
    
    https://vladimirsaenko.github.io/Portfolio-3/sites/site-6/Second-version-Clock/index.html
@@ -81,7 +83,7 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
    
    https://github.com/VladimirSaenko/Filter-Images-example
    
-  }
+   }
   
   9. 3D Robot Model {
    
@@ -130,8 +132,8 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
    https://github.com/VladimirSaenko/PlanetSim
    
    https://vladimirsaenko.github.io/Portfolio-3/sites/site-12/PlanetSim/index.html
- 
-  }
+   
+   }
   
   15. Audio Player v1 {
   
@@ -141,7 +143,7 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
   https://github.com/VladimirSaenko/Audio-Player-v1
   
-   }
+  }
    
   16. Spiral Points Simulation {
    
@@ -151,6 +153,26 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
   https://vladimirsaenko.github.io/Spiral-Points-Simulation/
   
-   }
+  }
   
+  17. Live Letters Counter {
+   
+  https://vladimirsaenko.github.io/Portfolio-3/sites/site-16/Live-Letters-Counter/index.html
+  
+  https://github.com/VladimirSaenko/Live-Letters-Counter
+  
+  https://vladimirsaenko.github.io/Live-Letters-Counter/
+  
+  }
+  
+  18. Cursor Icons {
+   
+  https://vladimirsaenko.github.io/Portfolio-3/sites/site-17/Cursor-Icon/index.html
+  
+  https://vladimirsaenko.github.io/Cursor-Icons/
+  
+  https://github.com/VladimirSaenko/Cursor-Icons
+  
+  }
+   
   }
