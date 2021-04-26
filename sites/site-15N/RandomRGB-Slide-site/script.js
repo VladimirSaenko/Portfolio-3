@@ -18,25 +18,16 @@ color3.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,25
 color4.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + "url(img/bg4.jpg)";
 color5.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + "url(img/bg5.jpg)";
 
-lorem1.addEventListener('click', function() {
-    lorem1.classList.toggle('active');
-})
+const clip = document.querySelectorAll('p');
 
-lorem2.addEventListener('click', function() {
-    lorem2.classList.toggle('active');
-})
-
-lorem3.addEventListener('click', function() {
-    lorem3.classList.toggle('active');
-})
-
-lorem4.addEventListener('click', function() {
-    lorem4.classList.toggle('active');
-})
-
-lorem5.addEventListener('click', function() {
-    lorem5.classList.toggle('active');
-})
+for(let i = 0; i < clip.length; i++) {
+    clip[i].addEventListener('click', function(e) {
+        clip[i].style.color = "white";
+    });
+    clip[i].addEventListener('dblclick', function(e) {
+        clip[i].style.color = "black";
+    });
+}
 
 function getColor1() {
     color1.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + `url(img/bg${getRandomInt(1,5)}.jpg)`;
