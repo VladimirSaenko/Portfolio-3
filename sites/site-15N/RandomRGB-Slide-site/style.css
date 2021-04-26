@@ -27,36 +27,38 @@ section {
 }
 
 section:nth-child(1) {
-    background: #f00 url(img/bg1.jpg);
+    background: #f00 url(images/bg1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 
 section:nth-child(2) {
-    background: #0f0 url(img/bg2.jpg);
+    background: #0f0 url(images/bg2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 
 section:nth-child(3) {
-    background: #ff0 url(img/bg3.jpg);
+    background: #ff0 url(images/bg3.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 
 section:nth-child(4) {
-    background: #0ff url(img/bg4.jpg);
+    background: #0ff url(images/bg4.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 section:nth-child(5) {
-    background: #00f url(img/bg5.jpg);
+    background: #00f url(images/bg5.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 section .content {
