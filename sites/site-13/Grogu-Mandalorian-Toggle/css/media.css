@@ -1,8 +1,9 @@
-/* 
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .switch {
         width: 300px;
         height: 100px;
+        top: 75%;
     }
 
     svg {
@@ -13,9 +14,13 @@
     .crib {
         position: absolute;
         left: -11px;
-        bottom: 0;
+        bottom: -10px;
         transition: 0.4s;
         z-index: 100;
         overflow: hidden;
-      }
-} */
+    }
+
+    input:checked + .slider .crib {
+        transform: translateX(200px);
+    }
+}
