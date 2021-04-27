@@ -12,10 +12,10 @@ let randomPlanetName = "";
 let randomPlanetNumber = "";
 
 let planetNames = [
-    'aba','far','corus','nar','nol','gado','gad',
-    'mar','adu','az','ak','to','Aqu','aki','aku','mak',
-    'al','zoc','am','ray','ana','prime','an','ar','val',
-    'bal','lok','bir','vi','vo','vul'
+    'aba','far','corus','nar','satur','pluto','uran', 'tatoo',
+    'mar','adu','az','ak','to','kor','aki','aku','ban','al','zoc',
+    'am','ray','ana','prime','an','ar','val','bal','lok',
+    'bir','vi','vo','vul', 'lor', 'mir', 'land', 'mor'
 ];
 
 let planetNumbers = [
