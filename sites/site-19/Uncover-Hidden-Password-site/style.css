@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --width-button: 350px;
+    --height-button: 75px;
+    --fontSize-button: 25px;
+    --borderRadius-button: 35px;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    box-shadow: -4px -4px 10px rgb(68,169,39), 
+    inset 4px 4px 10px rgb(0 0 0 / 50%), 
+    inset -4px -4px 10px rgb(67,172,33), -4px -4px 10px rgb(0 0 0 / 50%);
+}
+
+input {
+    border-radius: 35px;
+    font-size: 45px;
+}
+
+input::placeholder {
+    color: rgb(39, 90, 25);
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.inputsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 55px;
+    text-transform: capitalize;
+    color: rgb(117,255,71);
+    font-family: 'Kelly Slab', cursive, sans-serif;
+}
+
+.inputsBox * {
+    margin: 20px 0;
+}
+
+.passwordInput {
+    cursor: text;
+    user-select: text;
+    width: 100%;
+    height: 75px;
+    background: white;
+    /* letter-spacing: 4px; */
+    color: black;
+}
+
+.passwordInput2 {
+    width: 100%;
+    height: 65px;
+    background: white;
+    cursor: default;
+    user-select: none;
+}
+
+.creatingPasswordButton, .onhiddenPasswordButton {
+    width: var(--width-button);
+    height: var(--height-button);
+    font-size: var(--fontSize-button);
+    text-transform: capitalize;
+    color: rgb(117,255,71);
+    background: black;
+    border-radius: var(--fontSize-button);
+}
+
+.creatingPasswordButton:hover, .onhiddenPasswordButton:hover {
+    color: rgb(59, 146, 30);
+}
