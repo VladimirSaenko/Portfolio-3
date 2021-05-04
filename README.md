@@ -195,4 +195,14 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
   }
   
+  21. Random Gaming Cards Flipping {
+  
+  https://vladimirsaenko.github.io/Random-Gaming-Cards-Flipping/
+  
+  https://github.com/VladimirSaenko/Random-Gaming-Cards-Flipping
+  
+  https://vladimirsaenko.github.io/Portfolio-3/sites/site-20/Random-Gaming-Cards/index.html
+  
+  }
+  
    }
