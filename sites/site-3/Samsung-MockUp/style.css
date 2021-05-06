@@ -50,26 +50,30 @@ body {
     background-position: bottom;
 }
 
-.container .macBookPro {
+.container .pc {
     position: absolute;
     top: 40%;
     left: 45%;
     z-index: 1;
 }
 
-.container .macBookPro .imgBx {
+.container .pc .imgBx {
     background: blue url(assets/desktopWebsite.jpg);
     background-size: 100%;
     background-position: top;
     position: absolute;
-    top: 14px;
-    left: 70px;
-    width: 466px;
-    height: 294px;
+    top: 22px;
+    left: 83px;
+    width: 437px;
+    height: 249px;
     transition: background-position 5s linear;
 }
 
-.container .macBookPro:hover .imgBx {
+.container .pc img {
+    width: 600px;
+}
+
+.container .pc:hover .imgBx {
     background-position: bottom;
 }
 
@@ -90,18 +94,18 @@ body {
 .container .samsung .imgBx {
     background: green url(assets/mobileWebsite.jpg);
     position: absolute;
-    top: 6px;
-    left: 159px;
-    height: 359px;
-    width: 190px;
+    top: 3px;
+    left: 150px;
+    height: 365px;
+    width: 194px;
     border-radius: 6px;
     background-size: 100%;
     background-position: top;
     transition: background-position 7s linear;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .container .samsung:hover .imgBx {
@@ -119,7 +123,7 @@ body {
         margin-top: 45px;
     }
 
-    .container .macBookPro {
+    .container .pc {
         position: relative;
         margin-top: 45px;
         left: auto;
@@ -154,20 +158,16 @@ body {
         left: calc(100% * 56/720);
     }
 
-    .container .macBookPro {
+    .container .pc {
         width: 90%;
     }
-    .container .macBookPro img {
+    .container .pc img {
         width: 100%;
     }
-    .container .macBookPro .imgBx {
+    .container .pc .imgBx {
         width: calc(100% * 465 / 609);
         height: calc(100% * 291 / 362);
         top: calc(100% * 20 / 609);
         left: calc(100% * 72 / 609);
-    }
-
-    .container .samsung {
-        display: none;
     }
 }
