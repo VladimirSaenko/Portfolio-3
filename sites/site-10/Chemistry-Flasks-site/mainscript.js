@@ -43,7 +43,6 @@ function toggleDarkTheme() {
     substanceName4.style.color = "white";
     substanceName5.style.color = "white";
     toggleLightThemeButton.style.visibility = "visible";
-
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "black";
@@ -59,7 +58,6 @@ function toggleLightTheme() {
     substanceName4.style.color = "black";
     substanceName5.style.color = "black";
     toggleLightThemeButton.style.visibility = "hidden";
-    
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "white";
@@ -177,66 +175,25 @@ function autoColorFlasks() {
 flask1.addEventListener('click', function() {
     color1 = getRandomInt(0,1000);
     flask1.style.filter = 'hue-rotate(' + color1 + 'deg)';
-    document.getElementById('audio').play();
-    if(matchMedia("screen and (min-width: 300px) and (max-width: 800px)")) {
-        document.getElementById('audio').pause();
-    }
-})
-
-flask1.addEventListener('mouseout', function() {
-    document.getElementById('audio').pause();
 })
 
 flask2.addEventListener('click', function() {
     color2 = getRandomInt(0,1000);
     flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
-    document.getElementById('audio').play();
-    if(matchMedia("screen and (min-width: 300px) and (max-width: 800px)")) {
-        document.getElementById('audio').pause();
-    }
-})
-
-flask2.addEventListener('mouseout', function() {
-    document.getElementById('audio').pause();
 })
 
 flask3.addEventListener('click', function() {
     color3 = getRandomInt(0,1000);
     flask3.style.filter = 'hue-rotate(' + color3 + 'deg)';
-    document.getElementById('audio').play();
-    if(matchMedia("screen and (min-width: 300px) and (max-width: 800px)")) {
-        document.getElementById('audio').pause();
-    }
 })
-
-flask3.addEventListener('mouseout', function() {
-    document.getElementById('audio').pause();
-})
-
 flask4.addEventListener('click', function() {
     color4 = getRandomInt(0,1000);
     flask4.style.filter = 'hue-rotate(' + color4 + 'deg)';
-    document.getElementById('audio').play();
-    if(matchMedia("screen and (min-width: 300px) and (max-width: 800px)")) {
-        document.getElementById('audio').pause();
-    }
-})
-
-flask4.addEventListener('mouseout', function() {
-    document.getElementById('audio').pause();
 })
 
 flask5.addEventListener('click', function() {
     color5 = getRandomInt(0,1000);
     flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
-    document.getElementById('audio').play();
-    if(matchMedia("screen and (min-width: 300px) and (max-width: 800px)")) {
-        document.getElementById('audio').pause();
-    }
-})
-
-flask5.addEventListener('mouseout', function() {
-    document.getElementById('audio').pause();
 })
 
 function repaintAllFlasks() {
