@@ -38,7 +38,7 @@ body {
     height: 313px;
     background-size: 100%;
     background-position: top;
-    background:  red url(assets/window.jpg);
+    background:  red url(assets/linux.jpg);
 }
 
 .container .mac:hover .imgBx {
@@ -137,6 +137,7 @@ body {
         top: calc(100% * 25/606);
         /* left: 14px; */
         left: calc(100% * 25/606);
+        background: url(assets/window.jpg);
     }
 
     .container .macBookPro {
