@@ -15,7 +15,7 @@ https://vladimirsaenko.github.io/Generator-Random-RGB-Color-site/
 
 }
 
-2. Apples MockUp example {
+2. Apples MockUp {
 
 https://vladimirsaenko.github.io/Portfolio-3/sites/site-2/Apples-MockUp/index.html
 
@@ -25,7 +25,7 @@ https://github.com/VladimirSaenko/Apples-MockUp
 
 }
 
-3. Samsung MockUp example {
+3. Samsung MockUp {
 
 https://vladimirsaenko.github.io/Samsung-MockUp/
 
