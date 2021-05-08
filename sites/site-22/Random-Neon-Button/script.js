@@ -54,6 +54,14 @@ neonButton.addEventListener('mouseleave', function() {
     neonButton.style.background = "black";
     neonButton.style.color = userColor.value;
     neonButton.style.boxShadow = "none";
+    if(userColor.value == "#000000") {
+        let color4 = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
+        neonButton.style.color = color4;
+        span1.style.background = `linear-gradient(90deg,transparent, ${color4})`;
+        span2.style.background = `linear-gradient(90deg,transparent, ${color4})`;
+        span3.style.background = `linear-gradient(90deg,transparent, ${color4})`;
+        span4.style.background = `linear-gradient(90deg,transparent, ${color4})`;
+    }
 })
 
 getRandomColor();
