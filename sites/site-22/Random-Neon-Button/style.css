@@ -30,7 +30,7 @@
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .box a:hover {
@@ -130,6 +130,27 @@
 .box input {
     outline: none;
     /* border: none; */
+    margin-bottom: 50px;
+}
+
+.getRandomColorButton {
+    cursor: pointer;
+    width: 325px;
+    height: 75px;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 45px;
+}
+
+.getRandomColorButton:hover {
+    background: black;
+    color: white;
+    border-color: white;
+    border: white 5px solid;
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {

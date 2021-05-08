@@ -34,7 +34,6 @@ function getUserColor() {
     }
 }
 
-
 neonButton.addEventListener('mousemove', function() {
     neonButton.style.background = userColor.value;
     let color3 = userColor.value;
