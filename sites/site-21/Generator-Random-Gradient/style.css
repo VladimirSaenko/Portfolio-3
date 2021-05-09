@@ -39,6 +39,10 @@
     font-size: 75px;
 }
 
+.content button {
+    user-select: none;
+}
+
 .create {
     width: 250px;
     height: 65px;
