@@ -19,6 +19,7 @@
     font-size: 65px;
     text-transform: capitalize;
     user-select: none;
+    text-align: center;
 }
 
 .content input {
@@ -64,4 +65,10 @@
     width: 275px;
     height: 75px;
     font-size: 30px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .content input {
+        width: 435px;
+    }
 }
