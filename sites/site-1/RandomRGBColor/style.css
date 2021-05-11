@@ -130,7 +130,7 @@
     border: white 10px solid;
 }
 
-@media(max-width: 450px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
     .mainBox {
         width: auto;
     }
@@ -145,6 +145,8 @@
     .getRandomRGBcolorButton {
         /* transform: translateY(-45%); */
         margin: -10px 0px;
+        border-radius: 50px;
+        width: 350px;
     }
 
     .copyImg {
@@ -155,5 +157,12 @@
 
     .infinityColorStreamBtn {
         margin: -10px 0px;
+        border-radius: 50px;
+        width: 335px;
+    }
+
+    .userColorButton {
+        border-radius: 50px;
+        width: 300px;
     }
 }
