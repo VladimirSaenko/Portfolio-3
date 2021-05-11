@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     user-select: none;
-    font-family: Mandalore, sans-serif;
+    font-family: 'Mandalorian';
 }
 
 .container {
@@ -50,4 +50,19 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.way-span {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    color: rgb(177, 175, 175);
+    bottom: 40%;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.way-span:hover {
+    text-decoration: underline;
+    color: white;
 }

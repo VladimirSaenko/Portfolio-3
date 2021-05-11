@@ -35,4 +35,9 @@
         width: 30px;
         height: 30px;
     }
+
+    .way-span {
+        bottom: 25%;
+        font-size: 25px;
+    }
 }
