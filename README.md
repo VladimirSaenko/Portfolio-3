@@ -9,9 +9,9 @@
 
 https://vladimirsaenko.github.io/Portfolio-3/sites/site-1/RandomRGBColor/index.html
 
-https://github.com/VladimirSaenko/Generator-Random-RGB-Color-site.git
+https://vladimirsaenko.github.io/Generator-Random-RGB-Color/
 
-https://vladimirsaenko.github.io/Generator-Random-RGB-Color-site/
+https://github.com/VladimirSaenko/Generator-Random-RGB-Color
 
 }
 
@@ -75,7 +75,7 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
    
    }
    
-   8. Filter Images {
+   8. Filter Images example {
    
    https://vladimirsaenko.github.io/Filter-Images-example/
    
