@@ -37,7 +37,7 @@
     }
 
     .way-span {
-        bottom: 25%;
+        bottom: 0;
         font-size: 25px;
     }
 }
