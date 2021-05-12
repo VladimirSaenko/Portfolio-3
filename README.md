@@ -165,13 +165,13 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
   }
   
-  18. Cursor Icons {
+  18. Cursor Icons example {
    
   https://vladimirsaenko.github.io/Portfolio-3/sites/site-17/Cursor-Icon/index.html
   
-  https://vladimirsaenko.github.io/Cursor-Icons/
+  https://vladimirsaenko.github.io/Cursor-Icons-example/
   
-  https://github.com/VladimirSaenko/Cursor-Icons
+  https://github.com/VladimirSaenko/Cursor-Icons-example
   
   }
  
