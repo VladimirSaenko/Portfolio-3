@@ -20,7 +20,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background: #2196f3;
+    background: linear-gradient(214deg, rgb(35, 155, 138), rgb(114, 53, 223));
 }
 
 .container .tv {
