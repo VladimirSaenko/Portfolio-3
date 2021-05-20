@@ -91,6 +91,10 @@ body {
     height: 375px;
 }
 
+.samsung {
+    visibility: visible;
+}
+
 .container .samsung .imgBx {
     background: green url(assets/mobileWebsite.jpg);
     position: absolute;
@@ -161,13 +165,19 @@ body {
     .container .pc {
         width: 90%;
     }
+
     .container .pc img {
         width: 100%;
     }
+
     .container .pc .imgBx {
         width: calc(100% * 465 / 609);
         height: calc(100% * 291 / 362);
         top: calc(100% * 20 / 609);
         left: calc(100% * 72 / 609);
+    }
+
+    .samsung {
+        visibility: hidden;
     }
 }
