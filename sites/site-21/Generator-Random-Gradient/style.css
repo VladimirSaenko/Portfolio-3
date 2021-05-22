@@ -45,6 +45,8 @@
 }
 
 .create {
+    cursor: pointer;
+    font-weight: bolder;
     width: 250px;
     height: 65px;
     outline: none;
@@ -56,6 +58,7 @@
 
 .copy {
     margin-top: 15px;
+    font-weight: bolder;
     outline: none;
     border-radius: 35px;
     text-align: center;
@@ -65,6 +68,11 @@
     width: 275px;
     height: 75px;
     font-size: 30px;
+}
+
+.create:hover, .copy:hover {
+    background: white;
+    color: black;
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
