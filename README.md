@@ -235,4 +235,14 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
   }
   
+  25. Your Samsung Galaxy Watch Active2 SmartClock  {
+
+  https://github.com/VladimirSaenko/Your-Samsung-Galaxy-Watch-Active2-SmartClock
+  
+  https://vladimirsaenko.github.io/Portfolio-3/sites/site-24/Your-Samsung-Active-SmartClock/index.html
+ 
+  https://vladimirsaenko.github.io/Your-Samsung-Galaxy-Watch-Active2-SmartClock/
+  
+  }
+  
    }
