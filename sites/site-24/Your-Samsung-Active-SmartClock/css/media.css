@@ -9,4 +9,12 @@
     .main-dial {
         left: -100px;
     }
+
+    button {
+        text-shadow: white 1px 5px 1px;
+    }
+
+    button:checked, button:hover {
+        text-shadow: none;
+    }
 }
