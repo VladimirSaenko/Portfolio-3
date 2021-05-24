@@ -46,6 +46,10 @@
     body {
         background: linear-gradient(0deg, rgba(0,0,0,1) 49%, rgba(31,255,0,1) 62%);
     }
+
+    .img-23 {
+        width: 175px;
+    }
 }
 
 @media all and(max-width:380px) {
@@ -68,5 +72,4 @@
     body {
         background: linear-gradient(0deg, rgba(0,0,0,1) 49%, rgba(31,255,0,1) 62%);
     }
-    
 }
