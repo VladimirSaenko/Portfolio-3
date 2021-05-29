@@ -45,13 +45,13 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
  
  }
 
-5. Kaedwen-Redania-Nilfgaard SVG Icons animations {
+5. Witcher Countrys SVG Icons animations {
   
-  https://vladimirsaenko.github.io/Portfolio-3/sites/site-5/Witcher3Countrys-SVG-Icon-animation-example/index.html
+  https://vladimirsaenko.github.io/Portfolio-3/sites/site-5/Witcher-Countrys-SVG-Icons-animations/index.html
   
-  https://github.com/VladimirSaenko/Kaedwen-Redania-Nilfgaard-SVG-Icons-animations
+  https://github.com/VladimirSaenko/Witcher-Countrys-SVG-Icons-animations
   
-  https://vladimirsaenko.github.io/Kaedwen-Redania-Nilfgaard-SVG-Icons-animations/
+  https://vladimirsaenko.github.io/Witcher-Countrys-SVG-Icons-animations/
   
   }
   
