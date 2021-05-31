@@ -166,8 +166,7 @@ body::after {
     border-radius: 6px 6px 0 0;
 }
 
-@media(max-width:400px) {
-
+@media screen and (min-width: 300px) and (max-width: 800px){
     .container {
         width: 100vw;
         height: 100vh;
@@ -187,5 +186,9 @@ body::after {
         animation: none;
         width: 350px;
         height: 350px;
+    }
+
+    body {
+        background: #e91e63;
     }
 }
