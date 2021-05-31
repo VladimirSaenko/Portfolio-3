@@ -58,7 +58,7 @@ function otherWise() {
             body.style.alignItems = "center";
             body.style.background = "purple"
             title4.style.visibility = "visible";
-            title4.style.color = "black";
+            title4.style.color = "white";
             title4.innerHTML = "skellige";
             eagle.style.display = "none";
             unicorn.style.display = "none";
@@ -137,7 +137,7 @@ drakkar.addEventListener('mousemove', function() {
     body.style.background = "purple";
     title4.style.visibility = "visible";
     title4.innerHTML = "skellige";
-    title4.style.color = "black";
+    title4.style.color = "white";
     sun.style.visibility = "hidden";
     eagle.style.visibility = "hidden";
     unicorn.style.visibility = "hidden";
