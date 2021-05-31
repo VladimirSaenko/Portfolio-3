@@ -11,7 +11,7 @@
     }
 
     button {
-        text-shadow: white 1px 5px 1px;
+        text-shadow: white -3.5px 3.5px 1px;
     }
 
     button:checked, button:hover {
