@@ -104,7 +104,7 @@ body {
     0 0 5em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.2);
     transition: transform 100ms ease-out;
     transform-origin: bottom;
-    transition: 1s;
+    transition: 0s;
 }
   
 .blade::before {
@@ -124,6 +124,7 @@ body {
   
 #on-off:not(:checked) + .blade {
     transform: scaleY(0);
+    transition: 1s;
 }
   
 #on-off:checked + .blade {
