@@ -19,9 +19,9 @@ body {
     position: relative;
     width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -139,8 +139,47 @@ body {
     }
 }
 
-@media(max-width: 600px) {
+.container .icon.drakkar path {
+    stroke-dasharray: 2560;
+    stroke-dashoffset: 0;
+}
 
+.container .icon.drakkar {
+    transform: translateX(-50%);
+}
+
+#title4 {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(50%);
+}
+
+.container .icon.drakkar:hover path {
+    animation: animate-drakkar 2s linear forwards;
+}
+
+@keyframes animate-drakkar {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 2560;
+        /* fill: transparent; */
+    }
+
+    100% {
+        stroke-dashoffset: 2560;
+        fill: white;
+        /* stroke: black; */
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
     .container {
         width: 100%;
         margin-top: 40px;
