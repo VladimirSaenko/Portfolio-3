@@ -169,13 +169,11 @@ body {
 
     80% {
         stroke-dashoffset: 2560;
-        /* fill: transparent; */
     }
 
     100% {
         stroke-dashoffset: 2560;
         fill: white;
-        /* stroke: black; */
     }
 }
 
