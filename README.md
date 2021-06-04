@@ -15,7 +15,7 @@ https://github.com/VladimirSaenko/Generator-Random-RGB-Color
 
 }
 
-2. Apples MockUp {
+2. Apples MockUp example {
 
 https://vladimirsaenko.github.io/Portfolio-3/sites/site-2/Apples-MockUp/index.html
 
@@ -25,7 +25,7 @@ https://github.com/VladimirSaenko/Apples-MockUp
 
 }
 
-3. Samsung MockUp {
+3. Samsung MockUp example {
 
 https://vladimirsaenko.github.io/Samsung-MockUp/
 
@@ -235,7 +235,7 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
 }
   
-24. Random Neon Button {
+24. RandomColorLightSaber {
   
   https://github.com/VladimirSaenko/Random-Color-LightSaber
  
