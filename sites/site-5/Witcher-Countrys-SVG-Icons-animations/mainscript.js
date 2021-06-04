@@ -77,6 +77,7 @@ unicorn.addEventListener('mousemove', function() {
     title1.style.color = "black";
     sun.style.visibility = "hidden";
     eagle.style.visibility = "hidden";
+    drakkar.style.visibility = "hidden";
     title2.style.visibility = "hidden";
     title3.style.visibility = "hidden";
 })
@@ -86,6 +87,7 @@ unicorn.addEventListener('mouseout', function() {
     title1.style.visibility = "hidden";
     sun.style.visibility = "visible";
     eagle.style.visibility = "visible";
+    drakkar.style.visibility = "visible";
     title2.style.visibility = "hidden";
     title3.style.visibility = "hidden";
 })
@@ -97,6 +99,7 @@ eagle.addEventListener("mousemove",function() {
     title2.innerHTML = "redania";
     sun.style.visibility = "hidden";
     unicorn.style.visibility = "hidden";
+    drakkar.style.visibility = "hidden";
     title1.style.visibility = "hidden";
     title3.style.visibility = "hidden";
 })
@@ -105,6 +108,7 @@ eagle.addEventListener('mouseout',function() {
     body.style.background = "#06181f";
     sun.style.visibility = "visible";
     unicorn.style.visibility = "visible";
+    drakkar.style.visibility = "visible";
     title1.style.visibility = "hidden";
     title2.style.visibility = "hidden";
 })
