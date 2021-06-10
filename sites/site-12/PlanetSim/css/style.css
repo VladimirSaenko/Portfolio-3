@@ -52,6 +52,7 @@ button,input {
     animation: spin linear 5s reverse infinite;
     transform: rotate(30deg);
     animation-duration: 1s;
+    z-index: 100;
     /* filter: hue-rotate(0deg); */
     /* backface-visibility: visible; */
 }
