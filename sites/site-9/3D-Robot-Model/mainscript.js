@@ -46,6 +46,6 @@ animBtn.forEach(btns => {
 //     modelViewer.animationName = 'Jump';
 // }
 
-// function WalkingPutin() {
+// function Walking() {
 //     modelViewer.animationName = 'Walking';
 // }
