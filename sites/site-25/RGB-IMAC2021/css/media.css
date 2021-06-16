@@ -1,0 +1,16 @@
+
+@media screen and (min-width: 300px) and (max-width: 800px)  {
+    .mainlist {
+        flex-direction: column;
+    }
+
+    .mainlist li {
+        margin: 20px 0px;
+    }
+
+    .randomColorsBtn {
+        width: 250px;
+        height: 75px;
+        font-size: 30px;
+    }
+}
