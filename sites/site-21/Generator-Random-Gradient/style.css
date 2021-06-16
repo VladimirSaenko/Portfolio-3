@@ -20,7 +20,13 @@
     text-transform: capitalize;
     user-select: none;
     text-align: center;
-    text-shadow: white 1px 5px 1px;
+    color: white;
+    text-shadow: black -10px 1px 1px;
+}
+
+.content h3:hover {
+    color: black;
+    text-shadow: white 5px 1px 1px;
 }
 
 .content input {
