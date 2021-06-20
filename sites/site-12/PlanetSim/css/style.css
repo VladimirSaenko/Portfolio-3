@@ -81,22 +81,6 @@ button,input {
 	/* background-color:white; */
 }
 
-/* venator */
-
-.meteors li:nth-child(1) {
-    width: 300px;
-    height: 300px;
-    top: 50%;
-    left: 30%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-image: url(venator.png);
-    animation: venatorspacejump 5s infinite linear;
-    transform: rotate(10deg);
-    border-radius: 0;
-}
-
 /* meteors */
 
 .meteors li:nth-child(2) {
