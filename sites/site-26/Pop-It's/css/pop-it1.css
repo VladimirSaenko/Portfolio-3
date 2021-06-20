@@ -1,0 +1,106 @@
+
+.popit-1 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.popit1__line {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.popit1__circle {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 0 3.5px;
+    background: #000;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.popit1__line:nth-child(1) {
+    background: red;
+}
+
+.popit1__line:nth-child(1) .popit1__circle {
+    background: linear-gradient(145deg, #cf2929, #d32020);
+    box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #ff0000;
+}
+
+.popit1__line:nth-child(1) .popit1__circle.active {
+    background: #ff1d1d;
+    box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #ff0000;
+}
+
+.popit1__line:nth-child(2) {
+    background: #ff8c08;
+}
+
+.popit1__line:nth-child(2) .popit1__circle {
+    background: linear-gradient(145deg, #8b5e0b, #ff9b05);
+    box-shadow: inset 5px 5px 10px #755113, inset -5px -5px 10px #ffad00;
+}
+
+.popit1__line:nth-child(2) .popit1__circle.active {
+    background: #ff8c08;
+}
+
+.popit1__line:nth-child(3) {
+    background: #fff707;
+}
+
+.popit1__line:nth-child(3) .popit1__circle {
+    background: linear-gradient(145deg, #706b1b, #ffe852);
+}
+
+.popit1__line:nth-child(3) .popit1__circle.active {
+    background: #fbff00;
+    box-shadow: inset 5px 5px 10px #9c8f35, inset -5px -5px 10px #ffec00;
+}
+
+.popit1__line:nth-child(4) {
+    background: #04d419;
+}
+
+.popit1__line:nth-child(4) .popit1__circle {
+    background: linear-gradient(145deg, #138a11, #04e600);
+}
+
+.popit1__line:nth-child(4) .popit1__circle.active {
+    background: #00ff1e;
+    box-shadow: inset 5px 5px 10px #166415, inset -5px -5px 10px #04ff00;
+}
+
+.popit1__line:nth-child(5) {
+    background: #00b7ff;
+}
+
+.popit1__line:nth-child(5) .popit1__circle {
+    background: linear-gradient(145deg, #2f81a1, #00b7ff);
+}
+
+.popit1__line:nth-child(5) .popit1__circle.active {
+    background: #00b7ff;
+    box-shadow: inset 5px 5px 10px #2c8bb1, inset -5px -5px 10px #189bd8;
+}
+
+.popit1__line:nth-child(6) {
+    background: #e465f5;
+}
+
+.popit1__line:nth-child(6) .popit1__circle {
+    background: linear-gradient(145deg, #b12ee9, #c46af5);
+}
+
+.popit1__line:nth-child(6) .popit1__circle.active {
+    background: #e465f5;
+    box-shadow: inset 5px 5px 10px #9500e6, inset -5px -5px 10px #b200ff;
+}
