@@ -20,7 +20,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background: linear-gradient(to left, rgb(52, 143, 80), rgb(86, 180, 211));
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgba(245,67,119,1) 26%, rgba(252,28,28,1) 50%, rgba(252,28,28,1) 75%, rgb(245,67,119,1) 100%);
 }
 
 .container .mac {
@@ -96,7 +96,6 @@ body {
 @media(max-width:1110px) {
     .container {
         flex-direction: column;
-        background: linear-gradient(to top, rgb(52, 143, 80), rgb(86, 180, 211));
     }
 
     .container .mac {
