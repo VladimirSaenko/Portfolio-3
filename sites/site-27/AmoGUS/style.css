@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background: white; */
+    background: black;
+}
+
+.amogus {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    animation: eject 5s infinite linear;
+}
+
+@keyframes eject {
+    0% {
+      transform: translate3d(-50vmin, -20vmin, 0px) rotate(0turn);
+    }
+    50%,
+    100% {
+      transform: translate3d(100vw, -20vmin, 0px) rotate(-2turn);
+    }
+}
+
+.imposter-text {
+    width: 25em;
+    z-index: 1000;
+    color: white;
+    font-size: 35px;
+    font-family: arial, sans-serif,cursive;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 5s infinite steps(50,start);
+}
+
+@keyframes type {
+    from { width: 0; }
+}
+
+
+.content {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content i {
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    animation: starsSpawn linear infinite;
+    z-index: 1;
+}
+
+@keyframes starsSpawn {
+    0% {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    10%,90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .amogus {
+        width: 150px;
+        height: 150px;
+    }
+
+    .imposter-text {
+        font-size: 30px;
+    }
+}
