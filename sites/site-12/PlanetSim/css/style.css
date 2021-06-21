@@ -189,17 +189,3 @@ button,input {
         opacity: 0;
     }
 }
-
-@keyframes venatorspacejump {
-    10% {
-        opacity: 2;
-    }
-    80%	{
-        left: 0%;
-        top: 50%;
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}

@@ -15,10 +15,6 @@
         font-size: 55px;
     }
 
-    .meteors li:nth-child(1) {
-        display: none;
-    }
-
     .buttons-list {
         flex-direction: column;
         justify-content: center;
