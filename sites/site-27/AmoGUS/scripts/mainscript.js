@@ -54,7 +54,7 @@ const colors = [
 ];
 
 setInterval(function() {
-    randomColor = getRandomInt(0,43);
+    randomColor = getRandomInt(0,44);
     if(randomColor == 1 || randomColor == 0) {
         impostortext.innerText = `${colors[0]} was The Impostor`;
         color1.style.fill = 'rgb(215, 30, 34)';
