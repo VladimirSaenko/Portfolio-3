@@ -125,13 +125,13 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
    
 }
    
-13. PlanetSim {
+13. ReShape-Planet-site {
    
-   https://vladimirsaenko.github.io/PlanetSim/
+   https://github.com/VladimirSaenko/ReShape-Planet-site
    
-   https://github.com/VladimirSaenko/PlanetSim
+   https://vladimirsaenko.github.io/ReShape-Planet-site/
    
-   https://vladimirsaenko.github.io/Portfolio-3/sites/site-12/PlanetSim/index.html
+   https://vladimirsaenko.github.io/Portfolio-3/sites/site-12/ReShape-Planet-site/index.html
    
 }
   
