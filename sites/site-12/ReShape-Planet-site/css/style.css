@@ -42,7 +42,6 @@ button,input {
 .planet {
     position: relative;
     left: 15%;
-    text-align: center;
     width: 395px;
     height: 395px;
     background-image: url("https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -69,62 +68,6 @@ button,input {
     /* transform: rotate(-30deg); */
     text-transform: capitalize;
     font-family: 'Londrina Solid', cursive;
-}
-
-.meteors li {
-	position: absolute;
-	list-style: none;
-	transform: rotate(45deg);
-    /* width: 5px; */
-	/* height: 5px; */
-	/* border-radius: 100%; */
-	/* background-color:white; */
-}
-
-/* meteors */
-
-.meteors li:nth-child(2) {
-    top: 10%;
-    left: 50%;
-    width: 5px;
-    height: 25px;
-    border-radius: 100%;
-    background-color: red;
-    animation: meteor 2s infinite linear;
-}
-
-.meteors li:nth-child(3) {
-    opacity: 0;
-    top: 20%;
-    left: 45%;
-    width: 7px;
-    height: 10px;
-    border-radius: 100%;
-    animation: meteor 1.5s infinite linear;
-    animation-delay: 1s;
-    background-color: white;
-}
-
-.meteors li:nth-child(4) {
-    top: 15%;
-    left: 75%;
-    width: 5px;
-    height: 25px;
-    animation: meteor 5s infinite linear;
-    background-color: white;
-    border-radius: 100%;
-    transform: rotate(50deg);
-}
-
-.meteors li:nth-child(5) {
-    opacity: 0;
-    top: 25%;
-    left: 55%;
-    width: 5px;
-    height: 20px;
-    animation: meteor 5s infinite linear;
-    background-color: white;
-    border-radius: 100%;
 }
 
 .buttons-list {
@@ -179,13 +122,40 @@ button,input {
     }
 }
 
-@keyframes meteor {
-    10% {
-        opacity: 2;
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .planet {
+        width: 300px;
+        height: 300px;
+        left: -5%;
     }
-    80%	{
-        left: 5%;
-        top: 85%;
-        opacity: 0;
+
+    .title-planet {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 50px;
+        left: 17%;
+        letter-spacing: 2px;
+        font-size: 55px;
+    }
+
+    .buttons-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        bottom: 50px;
+        z-index: 100;
+    }
+
+    .buttons-list li {
+        margin: 15px 0px;
+    }
+
+    .buttons-list li:nth-child(3) {
+        display: none;
+    }
+
+    .resizePlanetInput::placeholder {
+        color: black;
     }
 }
