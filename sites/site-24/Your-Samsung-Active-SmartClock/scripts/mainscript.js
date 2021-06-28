@@ -74,7 +74,6 @@ function getStrapsColor() {
     strap2.style.background = strap1.style.background;
 }
 
-
 color1.addEventListener('change', function() {
     holderdown1.style.background = color1.value;
     holderup1.style.background = color1.value;
