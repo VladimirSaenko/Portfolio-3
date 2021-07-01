@@ -20,6 +20,7 @@ body {
     position: absolute;
     font-size: 65px;
     font-weight: bolder;
+    text-transform: capitalize;
     z-index: 1;
     text-shadow: black 1px 2px 1px;
     font-family: 'Life Savers', cursive, sans-serif;
