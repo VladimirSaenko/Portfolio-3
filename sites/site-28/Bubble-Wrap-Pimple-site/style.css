@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: rgb(14, 58, 255);
+    overflow: hidden;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    width: 625px;
+    height: 605px;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 20%);
+    background: rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    border-radius: 35px;
+}
+
+.sheetbutton {
+    cursor: pointer;
+    font-family: 'Arial Narrow', sans-serif, cursive;
+    outline: none;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    width: 275px;
+    height: 75px;
+    background: rgb(15, 18, 192);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.sheetbutton:hover {
+    background: rgb(33, 33, 105);
+}
+
+.bubble {
+    cursor: pointer;
+    visibility: visible;   
+    box-shadow: inset 5px 5px 10px #a4c5d4, inset -5px -5px 10px #8e8f96;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 100%;
+}
+
+.bubble.active {
+    visibility: hidden;
+    cursor: none;
+}
+
+.line {
+    margin: 15px 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .box {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .wrap {
+        width: 335px;
+        overflow: hidden;
+    }
+
+    .bubble {
+        width: 46px;
+        height: 46px;
+    }
+}
