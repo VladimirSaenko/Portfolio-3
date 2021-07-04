@@ -4,6 +4,7 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
+    font-family: 'Orelega One', cursive, sans-serif;
 }
 
 .box {
@@ -31,12 +32,12 @@
 
 .sheetbutton {
     cursor: pointer;
-    font-family: 'Arial Narrow', sans-serif, cursive;
     outline: none;
     font-weight: bolder;
     border: none;
     border-radius: 50px;
     text-align: center;
+    letter-spacing: 3.5px;
     font-size: 35px;
     margin-top: 20px;
     width: 275px;
