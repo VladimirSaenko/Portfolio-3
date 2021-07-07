@@ -2,7 +2,7 @@
  
 ## Третья версия портфолио
 
-## Сайты: {
+### Сайты:
 
 ### 1. Generator Random RGB Color {
 
@@ -154,7 +154,7 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   
 }
    
-### 16. Random RGB Slide site  {
+### 16. Random RGB Slide site {
    
   https://vladimirsaenko.github.io/RandomRGB-Slide-site/
   
@@ -293,5 +293,4 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
   https://github.com/VladimirSaenko/Bubble-Wrap-site
   
 }
-  
-  }
+
