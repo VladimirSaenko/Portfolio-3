@@ -248,7 +248,7 @@ https://vladimirsaenko.github.io/Portfolio-3/sites/site-3/Samsung-MockUp/index.h
 
   https://vladimirsaenko.github.io/User-Samsung-Galaxy-Watch-Active2-SmartClock/
   
-  https://vladimirsaenko.github.io/Portfolio-3/sites/site-24/Your-Samsung-Active-SmartClock/index.html
+  https://vladimirsaenko.github.io/Portfolio-3/sites/site-24/User-Samsung-Active-SmartClock/index.html
  
   https://github.com/VladimirSaenko/User-Samsung-Galaxy-Watch-Active2-SmartClock
   
