@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let gradientText = document.getElementById('gradient-text');
 let box = document.getElementById("box");
