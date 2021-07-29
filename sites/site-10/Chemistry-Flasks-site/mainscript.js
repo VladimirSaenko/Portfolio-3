@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let container = document.getElementById("container");
 let flask1 = document.getElementById("flask1");
