@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let color1 = document.getElementById('c1');
 let color2 = document.getElementById('c2');
@@ -16,7 +16,6 @@ let titleSection2 = document.getElementById("titleSection2");
 let titleSection3 = document.getElementById("titleSection3");
 let titleSection4 = document.getElementById("titleSection4");
 let titleSection5 = document.getElementById("titleSection5");
-
 
 color1.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + "url(images/bg1.jpg)";
 color2.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + "url(images/bg2.jpg)";
