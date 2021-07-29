@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let m1card = document.getElementById("m1");
 let m2card = document.getElementById("m2");
