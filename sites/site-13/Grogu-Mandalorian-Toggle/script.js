@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let mando = document.getElementById("mando");
 let container = document.getElementById("container");
