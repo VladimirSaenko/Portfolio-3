@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 const liItem = document.querySelectorAll('.filter-menu li');
 const imgItem = document.querySelectorAll('.product .itemBox');
