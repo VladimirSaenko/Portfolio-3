@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let countTittle = document.getElementById("count");
 let allImages = document.getElementById("all-images");
