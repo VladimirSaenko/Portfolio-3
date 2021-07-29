@@ -1,4 +1,5 @@
-"use strict"
+
+"use strict";
 
 let number1 = document.getElementById("numb1");
 let number1_1 = document.getElementById("numb1-1");
@@ -24,7 +25,6 @@ let number11 = document.getElementById("numb11");
 let number11_11 = document.getElementById("numb11-11");
 let number12 = document.getElementById("numb12");
 let number12_12 = document.getElementById("numb12-12");
-
 number1.innerHTML = getRandomInt(2,10);
 number1_1.innerHTML = number1.innerHTML;
 number2.innerHTML = getRandomInt(2,10);
