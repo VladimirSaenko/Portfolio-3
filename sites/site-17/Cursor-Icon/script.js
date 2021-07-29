@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 const cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove',(e) => {
