@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let scren = document.getElementById("scren");
 let holderup1 = document.getElementById("holderup1");
@@ -12,6 +12,7 @@ let color1 = document.getElementById("color1");
 let color2 = document.getElementById("color2");
 let colorstrap1 = document.getElementById("colorstrap1");
 let colorstrap2 = document.getElementById("colorstrap2");
+
 let directions = [
     "right",
     "left",
