@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 const textarea = document.querySelector("textarea");
 const count = document.querySelector(".count");
