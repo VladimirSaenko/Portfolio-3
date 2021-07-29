@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let body = document.body;
 let unicorn = document.getElementById("kaedwen");
