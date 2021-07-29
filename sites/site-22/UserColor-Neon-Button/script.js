@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let neonButton = document.getElementById("btn");
 let userColor = document.getElementById("userColor");
