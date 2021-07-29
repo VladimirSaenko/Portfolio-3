@@ -1,5 +1,5 @@
 
-"use string"
+"use strict";
 
 const modelViewer = document.getElementById('model');
 const animBtn = document.querySelectorAll('.btn-container button');
