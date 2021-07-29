@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let planet = document.getElementById("planet");
 let planetName = document.getElementById("title");
@@ -10,14 +10,12 @@ let planetNameLenght = 3;
 // let planetNumberLenght = 1;
 let randomPlanetName = "";
 let randomPlanetNumber = "";
-
 let planetNames = [
     'aba','far','corus','nar','satur','pluto','uran', 'tatoo',
     'mar','adu','az','ak','to','kor','aki','aku','ban','al','zoc',
     'am','ray','ana','prime','an','ar','val','bal','lok',
     'bir','vi','vo','vul', 'lor', 'mir', 'land', 'mor'
 ];
-
 let planetNumbers = [
     'III','II','I','IV','V','VI','VII',
     'VIII','IX','X','XI','XII','XIV','XV','XVI',
