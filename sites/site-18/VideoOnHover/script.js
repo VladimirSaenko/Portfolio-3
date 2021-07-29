@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 const clip = document.querySelectorAll('video');
 
