@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let rgbStreamButton = document.getElementById("rgbparty");
 let mainbutton = document.getElementById("mainbtn");
