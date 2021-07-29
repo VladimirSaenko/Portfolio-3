@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let randomColor1 = 'rgb(' + getRandomInt(0,255) + "," + getRandomInt(0,255) + "," + getRandomInt(0,255) + ")";
 let randomColor2 = 'rgb(' + getRandomInt(0,255) + "," + getRandomInt(0,255) + "," + getRandomInt(0,255) + ")";
