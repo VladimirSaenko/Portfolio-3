@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 const stars = document.querySelectorAll("#star");
 const popup = document.querySelector('.popup');
