@@ -15,7 +15,7 @@
   height: 100vh;
   overflow: hidden;
   /* background: black; */
-  background: white;
+  background: rgb(30, 30, 32);
 }
 
 .popit-1, .popit-2, .popit-3 {
