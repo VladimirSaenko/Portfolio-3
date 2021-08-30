@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -29,6 +29,7 @@ body {
     width: 275px;
     cursor: default;
     text-align: center;
+    margin: 0px 25px;
     /* cursor: pointer; */
 }
 
@@ -76,7 +77,6 @@ body {
         stroke: yellow;
     }
 }
-
 
 .container .icon.sun path {
     stroke-dasharray: 1810;
@@ -148,6 +148,10 @@ body {
     transform: translateX(-50%);
 }
 
+.icon.drakkar {
+    margin: 0 125px;
+}
+
 #title4 {
     position: absolute;
     bottom: 0;
@@ -177,10 +181,56 @@ body {
     }
 }
 
+.container .icon.helmet path {
+    stroke-dasharray: 3680;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.helmet:hover path {
+    animation: animate-helmet 2s linear forwards;
+}
+
+#title5 {
+    text-shadow: black -5px 5px 1px;
+}
+
+@keyframes animate-helmet {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 2560;
+    }
+
+    100% {
+        stroke-dashoffset: 3680;
+        fill: white;
+        stroke: yellow;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .container {
         width: 100%;
         margin-top: 40px;
         flex-direction: column;
+        overflow: hidden;
+    }
+
+    .icon.drakkar {
+        margin: 55px 0px;
+    }
+
+    .container .icon {
+        width: 275px;
+        cursor: default;
+        text-align: center;
+        margin: 0px 25px;
+        /* cursor: pointer; */
     }
 }
