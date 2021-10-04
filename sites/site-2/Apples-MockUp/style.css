@@ -38,7 +38,7 @@ body {
     height: 313px;
     background-size: 100%;
     background-position: top;
-    background:  red url(assets/linux.jpg);
+    background:  red url(assets/macBg.jpg);
 }
 
 .container .mac:hover .imgBx {
