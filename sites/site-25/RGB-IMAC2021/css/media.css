@@ -2,6 +2,7 @@
 @media screen and (min-width: 300px) and (max-width: 800px)  {
     .mainlist {
         flex-direction: column;
+        align-items: center;
     }
 
     .mainlist li {
