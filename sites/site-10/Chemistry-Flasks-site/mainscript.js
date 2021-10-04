@@ -14,14 +14,14 @@ let color2= getRandomInt(5,1000);
 let color3= getRandomInt(5,1000);
 let color4= getRandomInt(5,1000);
 let color5= getRandomInt(5,1000);
-let chemistrynameLength = 5;
+let chemistrynameLength = 4;
 let chemistrynames = [
     'гидро','хлор','ин','ан','дал','цикло','нид','гекс','рол','ка',
     'лин','кло','нонан','нол','бен','зол','окс','гли','ин','лит',
     'кси','эти','лен','поли','ти','кол','трит','пен','бу','та',
     'про','ар','зил','ард','зил','ал','па','аква','ви','зол',
     'гид','де','аце','тон','ол','изо','бит','дио','ксид','лиз',
-    'ват','цик','бон','тер','эпо','окта','тетра','ил','нат','диен',
+    'ват','цик','бон','тер','эпо','окта','тетра','ил','нат','диен'
 ];
 let substanceName1 = document.getElementById("name1");
 let substanceName2 = document.getElementById("name2");
@@ -43,6 +43,7 @@ function toggleDarkTheme() {
     substanceName4.style.color = "white";
     substanceName5.style.color = "white";
     toggleLightThemeButton.style.visibility = "visible";
+
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "black";
@@ -58,6 +59,7 @@ function toggleLightTheme() {
     substanceName4.style.color = "black";
     substanceName5.style.color = "black";
     toggleLightThemeButton.style.visibility = "hidden";
+
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "white";
