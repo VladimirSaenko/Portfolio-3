@@ -137,7 +137,7 @@ body {
         top: calc(100% * 25/606);
         /* left: 14px; */
         left: calc(100% * 25/606);
-        background: url(assets/window.jpg);
+        background: url(assets/macBg.jpg);
     }
 
     .container .macBookPro {
