@@ -105,4 +105,8 @@ audio {
         height: 100%;
         background: rgba(255, 255, 255, 0.432);
     }
+    
+    .vanilla-container p span, .vanilla-container p {
+        font-size: 15px;
+    }
 }
