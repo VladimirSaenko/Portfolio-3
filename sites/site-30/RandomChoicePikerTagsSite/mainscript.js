@@ -56,7 +56,7 @@ function randomSelect() {
 
 function pickRandomTag() {
     const tags = document.querySelectorAll('.tag');
-    return tags[Math.floor(Math.random * tags.length)];
+    return tags[Math.floor(Math.random() * tags.length)];
     // const kek = Math.random() * tags.length;
     // const lol = Math.floor(kek);
     // const azaza = tags[lol];
