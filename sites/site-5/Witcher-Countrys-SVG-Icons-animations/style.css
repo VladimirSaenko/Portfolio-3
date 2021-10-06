@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -45,7 +45,7 @@ body {
     font-size: 55px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .container .icon.unicorn path {
