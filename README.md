@@ -293,3 +293,23 @@
 ### https://github.com/VladimirSaenko/Bubble-Wrap-site
   
 ### }
+
+## 30. Event Key Codes {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-29/EventKeyCodesSite/index.html
+  
+### https://vladimirsaenko.github.io/Event-Key-Codes-site/
+  
+### https://github.com/VladimirSaenko/Event-Key-Codes-site
+  
+### }
+
+## 31. Random Choice Piker {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-30/RandomChoicePikerTagsSite/index.html
+  
+### https://vladimirsaenko.github.io/Random-Choice-Piker-Tags-Site/
+  
+### https://github.com/VladimirSaenko/Random-Choice-Piker-Tags-Site
+  
+### }
