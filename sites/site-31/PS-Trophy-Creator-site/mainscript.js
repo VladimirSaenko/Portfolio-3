@@ -9,6 +9,9 @@ let trophyName = document.getElementById("trophyName");
 let mainbutton = document.getElementById("mainbutton");
 let isActive = false;
 
+trophynameInput.focus();
+// trophytypeInput.focus();
+
 mainbutton.addEventListener("click", function() {
     if(isActive == false) {
         setTimeout(function() {
