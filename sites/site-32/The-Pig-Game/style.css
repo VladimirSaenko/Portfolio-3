@@ -175,3 +175,40 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  body {
+    height: auto;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 100%;
+    height: 50px;
+    font-weight: bolder;
+    white-space: nowrap;
+  }
+
+  .name {
+    white-space: nowrap;
+  }
+
+  .dice {
+    position: absolute;
+    top: 45%;
+    border: #2f2f2f 5px solid;
+  }
+
+  .btn--hold {
+    top: 55%;
+  }
+
+  .btn--new {
+    top: 0;
+  }
+}
