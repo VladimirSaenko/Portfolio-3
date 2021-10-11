@@ -33,8 +33,9 @@ main {
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
+  justify-content: center;
 }
 
 .player {
@@ -176,6 +177,23 @@ main {
   color: #c7365f;
 }
 
+#result {
+  position: absolute;
+  top: -10%;
+  border-radius: 45px;
+  color: black;
+  font-size: 50px;
+  width: 450px;
+  height: 75px;
+  background: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#result.hidden {
+  display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
   main {
     flex-direction: column;
@@ -209,6 +227,13 @@ main {
   }
 
   .btn--new {
+    top: 3.5%;
+  }
+  
+  #result {
     top: 0;
+    font-size: 30px;
+    width: 300px;
+    height: 35px;
   }
 }
