@@ -40,3 +40,16 @@ a {
     cursor: pointer;
     color: white;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .album_artwork {
+        width: 325px;
+        height: 255px;
+    }
+
+    .album_artist {
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+}

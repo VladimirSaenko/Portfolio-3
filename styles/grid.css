@@ -11,9 +11,9 @@
     grid-gap: 20px;
 }
 
-.album_artwork {
+/* .album_artwork {
     width: 100%;
-}
+} */
 
 .album {
     display: grid;
@@ -52,7 +52,7 @@
     }
 }
 
-@media all and(max-width:380px) {
+@media all and(max-width: 380px) {
 
     .album {
         grid-template-columns: 1fr;
