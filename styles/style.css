@@ -11,6 +11,10 @@ html {
     color: white;
 }
 
+.album_artwork {
+    width: 100%;
+}
+
 body {
     /* background: linear-gradient(110deg,#f93d66,); */
     /* background: rgb(203,38,38); */
@@ -41,15 +45,6 @@ a {
     color: white;
 }
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
-    .album_artwork {
-        width: 325px;
-        height: 255px;
-    }
+/* @media screen and (min-width: 300px) and (max-width: 800px) {
 
-    .album_artist {
-        font-weight: bold;
-        letter-spacing: 2px;
-        font-size: 15px;
-    }
-}
+} */
