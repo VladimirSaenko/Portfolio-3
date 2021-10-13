@@ -20,6 +20,7 @@ textarea.addEventListener('keyup', (e) => {
 
 function createTags(input) {
     const tags = input.split(',').filter(tag => tag.trim() !== '');
+    // const tags = input.split('!').filter(tag => tag.trim() !== '');
     tagsElement.innerHTML = '';
     tags.forEach(tag => {
         const tagElement = document.createElement('span');
