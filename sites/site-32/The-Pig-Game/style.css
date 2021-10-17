@@ -177,7 +177,7 @@ main {
   color: #c7365f;
 }
 
-#result {
+/* #result {
   position: absolute;
   top: -10%;
   border-radius: 45px;
@@ -192,7 +192,7 @@ main {
 
 #result.hidden {
   display: none;
-}
+} */
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
   main {
@@ -230,10 +230,10 @@ main {
     top: 3.5%;
   }
   
-  #result {
+  /* #result {
     top: 0;
     font-size: 30px;
     width: 300px;
     height: 35px;
-  }
+  } */
 }
