@@ -86,47 +86,27 @@ button {
 
 .trophyIcon {
     position: absolute;
-    display: none;
+    top: 0;
+    left: 0;
+    transform: translateX(-500px);
     justify-content: center;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    left: 0;
-    margin-left: -500px;
     width: 445px;
     height: 165px;
     background: black;
     border: 5px white solid;
-    /* animation: uprise 1s forwards; */
+    transition: transform 1s ease-in-out;
 }
 
-@keyframes uprise {
-    0% {
-        margin-left: -500px;
-    }
-
-    100% {
-        margin-left: 0px;
-    }
-}
-
-@keyframes returnUprise {
-    0% {
-        margin-left: 0px;
-    }
-    100% {
-        margin-left: -500px;
-    }
+.trophyIcon.active {
+    transform: translateX(0px);
 }
 
 .trophyName {
     font-size: 35px;
     text-transform: capitalize;
-}
-
-.PSIcon {
-    width: 75px;
-    height: 75px;
 }
 
 .trophytypeImg {
@@ -156,10 +136,6 @@ button {
         width: 75px;
         height: 75px;
         margin-top: 15px;
-    }
-
-    .PSIcon {
-        display: none;
     }
 
     .container {
