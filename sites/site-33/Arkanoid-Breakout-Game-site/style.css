@@ -26,8 +26,8 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 45px;
+.title {
+  font-size: 55px;
   color: var(--text-color);
 }
 
@@ -80,4 +80,12 @@ canvas {
 
 .rules.show {
   transform: translateX(0);
+}
+
+.rules h2 {
+  font-size: 47px;
+}
+
+.rules p {
+  margin: 25px 0px;
 }
