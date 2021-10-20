@@ -211,3 +211,10 @@ document.addEventListener('keyup', keyUp);
 
 // Rules and close event handlers for rulesBtn and closeBtn
 
+rulesBtn.addEventListener('click', () => {
+  rules.classList.add('show');
+})
+
+closeBtn.addEventListener('click', () => {
+  rules.classList.remove('show');
+})
