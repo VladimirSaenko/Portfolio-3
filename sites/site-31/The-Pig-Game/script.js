@@ -14,10 +14,6 @@ const btnHold = document.querySelector('.btn--hold');
 
 let scores, currentScore, activePlayer, playing;
 
-// const init = function() {
-
-// };
-
 const init = () => {
     scores = [0,0];
     currentScore = 0;
@@ -32,7 +28,7 @@ const init = () => {
     player1El.classList.remove('player--winner');
     player0El.classList.add('player--active');
     player1El.classList.remove('player--active');
-    resultText.classList.add('hidden');
+    // resultText.classList.add('hidden');
 };
 
 init();
