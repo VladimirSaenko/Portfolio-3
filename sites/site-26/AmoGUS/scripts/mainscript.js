@@ -1,12 +1,15 @@
 
-"use strict"
+"use strict";
 
 let color1 = document.querySelector('.st2'); // основной цвет
 let color2 = document.querySelector('.st3'); // цвет в тени
 let color3 = document.querySelector('.st7'); // цвет учатска портфеля
 let color4 = document.querySelector('.st4'); // цвет портфеля
 let impostortext = document.getElementById("impostertext");
+let hat = document.getElementById("hat"); //шляпа
 let randomColor = getRandomInt(0,22);
+let randomHat = getRandomInt(1,30);
+hat.src = `hats/${randomHat}.png`;
 const colors = [
     'Red',
     'Blue',
@@ -509,6 +512,14 @@ function getColor() {
 }
 
 getColor();
+getHat();
+
+function getHat() {
+    setInterval(function() {
+        randomHat = getRandomInt(1,30);
+        hat.src = `hats/${randomHat}.png`;
+    },5000);
+}
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;

@@ -28,22 +28,32 @@
     animation: eject 5s infinite linear;
 }
 
+.hats-img {
+    position: absolute;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+    left: 65px;
+    animation: eject 5s infinite linear;
+}
+
 @keyframes eject {
     0% {
       transform: translate3d(-50vmin, -20vmin, 0px) rotate(0turn);
     }
-    50%,
-    100% {
+
+    50%, 100% {
       transform: translate3d(100vw, -20vmin, 0px) rotate(-2turn);
     }
 }
 
 .imposter-text {
-    width: 25em;
+    position: fixed;
+    width: 30em;
     z-index: 1000;
     color: white;
     font-size: 35px;
-    font-family: arial, sans-serif,cursive;
+    font-family: arial ,sans-serif, cursive;
     white-space: nowrap;
     overflow: hidden;
     animation: type 5s infinite steps(50,start);
@@ -78,9 +88,11 @@
         opacity: 0;
         transform: translateX(0px);
     }
-    10%,90% {
+
+    10%, 90% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         transform: translateX(100px);
@@ -95,5 +107,9 @@
 
     .imposter-text {
         font-size: 30px;
+    }
+
+    .container {
+        height: auto;
     }
 }
