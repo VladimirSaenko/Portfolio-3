@@ -9,7 +9,6 @@ function letsGoParty() {
         body.style.background = 'linear-gradient(' + randomdeg + 'deg' + ',' + 'rgb(' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + 
         ',' + getRandomInt(0,255) + ')' + ',' + 'rgb(' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + 
         ',' + getRandomInt(0,255) + ')' + ')';
-        body.style.transition = "10s";
     }, 1000)
 }
 
