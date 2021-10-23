@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+input, button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
 .mainBox {
     display: flex;
     justify-content: center;
@@ -27,10 +33,8 @@
     inset 4px 4px 10px rgb(0 0 0 / 50%), 
     inset -4px -4px 10px rgb(255 255 255), 
     inset -4px -4px 10px rgb(0 0 0 / 50%);
-    border: none;
     border-radius: 8px;
     font-size: 52px;
-    outline: none;
     letter-spacing: 0;
     transition: 1s;
 }
@@ -43,14 +47,10 @@
     user-select: none;
     top: 60%;
     width: 350px;
-    user-select: none;
-    outline: none;
     border-radius: 5px;
     height: 85px;
     font-size: 35px;
     transition: 0.3s;
-    outline: none;
-    border: none;
 }
 
 .infinityColorStreamBtn {
@@ -63,10 +63,8 @@
     bottom: 25px;
     width: 350px;
     height: 75px;
-    outline: none;
     border-radius: 5px;
     transition: 1s;
-    border: none;
 }
 
 .userColorButton {
@@ -75,14 +73,11 @@
     top: 73.5%;
     width: 350px;
     height: 75px;
-    border: none;
     border-radius: 10px;
     user-select: none;
     font-size: 35px;
     text-align: center;
     text-transform: capitalize;
-    outline: none;
-    border: none;
 }
 
 .inputsUserColor-List {
@@ -98,7 +93,6 @@
     margin: 0px 10px;
     height: 100px;
     width: 100px;
-    outline: none;
     user-select: none;
     text-align: center;
     font-size: 45px;
@@ -106,7 +100,6 @@
     inset 4px 4px 10px rgb(0 0 0 / 50%), 
     inset -4px -4px 10px rgb(255 255 255), 
     inset -4px -4px 10px rgb(0 0 0 / 50%);
-    border: none;
     border-radius: 25px;
     color: black;
 }
