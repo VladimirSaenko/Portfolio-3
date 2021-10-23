@@ -154,13 +154,13 @@
   
 ### }
    
-## 16. Random RGB Slide site {
+## 16. RGB Slide site {
    
-### https://vladimirsaenko.github.io/RandomRGB-Slide-site/
+### https://github.com/VladimirSaenko/RGB-Slide-site
   
-### https://github.com/VladimirSaenko/RandomRGB-Slide-site
+### https://vladimirsaenko.github.io/RGB-Slide-site/
   
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-15N/RandomRGB-Slide-site/index.html
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-15/RGB-Slide-site/index.html
   
 ### }
   
