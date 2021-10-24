@@ -22,8 +22,6 @@ const ball = {
   visib: true
 }
 
-// ball.x = 132; prost
-
 // Create paddle props
 const paddle = {
   x: canvas.width / 2 - 40,
@@ -90,7 +88,9 @@ function drawPaddle() {
 
 // Draw score on canvas
 function drawScore() {
-  
+  ctx.font = '20px Arial';
+  ctx.fillText(`Score: ${score} `, canvas.width - 100, 30);
+
 }
 
 // Draw bricks on canvas
@@ -104,7 +104,7 @@ function drawBricks() {
       ctx.closePath();
     });
   });
-};
+}
 
 // Move paddle on canvas
 function movePaddle() {
@@ -152,16 +152,56 @@ function moveBall() {
       }
     })
   })
+
+  if (ball.y + ball.size > canvas.height) {
+    showAllBricks();
+    score = 0;
+  }
 }
 
 // Increase score
 function increaseScore() {
+  // score = score + 1;
+  // score += 1;
+  // score +=2 ;
+  // score = score + 2;
+  score++;
 
+  if(score % (brickRowCount * brickColumnCount) === 0) {
+    ball.visib = false;
+    paddle.visib = false;
+    setTimeout(() => {
+      showAllBricks();
+      score = 0;
+      paddle.x = canvas.width / 2 - 40;
+      paddle.y = canvas.height - 20;
+      ball.x = canvas / 2;
+      ball.y = canvas.height / 2;
+      ball.visib = true;
+      paddle.visib = true;
+    }, delay)
+  }
+
+  // if(score - (brickRowCount * brickColumnCount) === 0) {
+
+  // }
 }
 
 // Make all bricks appear
 function showAllBricks() {
-  
+  bricks.forEach(column => column.forEach(b => b.visib = true));
+
+  // Analog
+  // for(let i = 0; i < brickColumnCount; i++) {
+  //   for(let j = 0; j < brickRowCount; j++) {
+  //     bricks[i][j].visib = true;
+  //   }
+  // }
+ 
+  // for(let i = 0; i < brickColumnCount; i = i + 2) {
+
+  // }
+
 }
 
 // Draw everything
