@@ -333,3 +333,33 @@
 ### https://vladimirsaenko.github.io/Arkanoid-Breakout-Game-site/
   
 ### }
+
+## 34. The Hangman Game  {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-33/The-Hangman/index.html
+  
+### https://vladimirsaenko.github.io/The-Hangman-Game/
+  
+### https://github.com/VladimirSaenko/The-Hangman-Game
+  
+### }
+
+## 35. JS DrumKit  {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-34/JS-DrumKit/index.html
+  
+### https://github.com/VladimirSaenko/JS-DrumKit
+  
+### https://vladimirsaenko.github.io/JS-DrumKit/
+  
+### }
+
+## 36. Music Player  {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-35/Music-Player/index.html
+  
+### https://vladimirsaenko.github.io/Music-Player/
+  
+### https://github.com/VladimirSaenko/Music-Player
+  
+### }
