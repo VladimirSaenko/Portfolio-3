@@ -77,7 +77,17 @@ function prevSong() {
     playSong();
 }
 
+function nextSong() {
+    songIndex++;
+    if(songIndex > songs.length - 1) {
+        songIndex = 0
+    }
+    loadSong(songs[songIndex]);
+    playSong();
+}
+
 prevBtn.addEventListener('click', prevSong);
+nextBtn.addEventListener('click', nextSong);
 
 function getSongBg() {
     if(title.innerText == 'Summer') {
