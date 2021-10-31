@@ -38,3 +38,48 @@ function playingSound() {
 }
 
 // console.log(audios);
+
+function key1() {
+    let audio1 = document.getElementById("a1");
+    audio1.play();
+}
+
+function key2() {
+    let audio2 = document.getElementById("a2");
+    audio2.play();
+}
+
+function key3() {
+    let audio3 = document.getElementById("a3");
+    audio3.play();
+}
+
+function key4() {
+    let audio4 = document.getElementById("a4");
+    audio4.play();
+}
+
+function key5() {
+    let audio5 = document.getElementById("a5");
+    audio5.play();
+}
+
+function key6() {
+    let audio6 = document.getElementById("a6");
+    audio6.play();
+}
+
+function key7() {
+    let audio7 = document.getElementById("a7");
+    audio7.play();
+}
+
+function key8() {
+    let audio8 = document.getElementById("a8");
+    audio8.play();
+}
+
+function key9() {
+    let audio9 = document.getElementById("a9");
+    audio9.play();
+}

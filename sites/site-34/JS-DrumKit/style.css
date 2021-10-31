@@ -57,3 +57,9 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .keys {
+    flex-direction: column;
+  }
+}
