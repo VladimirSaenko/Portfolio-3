@@ -1,6 +1,5 @@
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
-
     .container {
        flex-direction: column;
        overflow: visible;
