@@ -16,7 +16,7 @@ color7.style.fill = 'rgb(225, 225, 225)';
 let impostortext = document.getElementById("impostertext");
 let hat = document.getElementById("hat"); //шляпа
 let randomColor = getRandomInt(0,22);
-let randomHat = getRandomInt(1,30);
+let randomHat = getRandomInt(1,35);
 hat.src = `hats/${randomHat}.png`;
 const colors = [
     'Red',
@@ -946,7 +946,7 @@ getHat();
 
 function getHat() {
     setInterval(function() {
-        randomHat = getRandomInt(1,30);
+        randomHat = getRandomInt(1,35);
         hat.src = `hats/${randomHat}.png`;
     }, 5000);
 }
