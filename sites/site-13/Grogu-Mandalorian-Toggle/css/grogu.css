@@ -56,8 +56,7 @@ svg {
   transform-origin: center;
 }
   
-#Left,
-#Right {
+#Left, #Right {
   transform-origin: center;
   transition: 0.5s ease-in-out;
 }
@@ -77,7 +76,6 @@ input:checked + .slider .crib #Left {
 input:checked + .slider .crib #Right {
   transform: rotate(90deg) translate(70px) scale(0.8);
 }
-
   
 #Grogu {
   transform-origin: center;
