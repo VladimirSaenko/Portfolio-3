@@ -7,7 +7,7 @@
     /* border-radius: 100px; */
 }
 
-button,input {
+button, input {
     outline: none;
     border-color: transparent;
     cursor: pointer;
