@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .content {
@@ -21,7 +21,7 @@
     user-select: none;
     text-align: center;
     color: white;
-    text-shadow: black -10px 1px 1px;
+    text-shadow: black -5px 1px 1px;
 }
 
 .content h3:hover {
