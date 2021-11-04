@@ -81,11 +81,12 @@ const colors = [
     'Passion Fruit',
     'Scary Dark',
     'Empty Black',
-    'Retro Green'
+    'Retro Green',
+    'Dark Blue'
 ];
 
 setInterval(function() {
-    randomColor = getRandomInt(0, 64);
+    randomColor = getRandomInt(0, 65);
     if(randomColor == 1 || randomColor == 0) {
         impostortext.innerText = `${colors[0]} was The Imposter`;
         color1.style.fill = 'rgb(215, 30, 34)';
@@ -706,7 +707,7 @@ setInterval(function() {
         color6.style.fill = 'rgb(76, 76, 76)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 63 || randomColor == 64) {
+    if(randomColor == 63) {
         impostortext.innerText = `${colors[60]} was The Imposter`;
         color1.style.fill = 'rgb(155, 188, 11)';
         color2.style.fill = 'rgb(53, 98, 57)';
@@ -715,6 +716,16 @@ setInterval(function() {
         color5.style.fill = 'rgb(61, 88, 57)';
         color6.style.fill = 'rgb(117, 162, 103)';
         color7.style.fill = 'rgb(200, 232, 191)';
+    }
+    if(randomColor == 64 || randomColor == 65) {
+        impostortext.innerText = `${colors[61]} was The Imposter`;
+        color1.style.fill = 'rgb(45, 64, 107)';
+        color2.style.fill = 'rgb(34, 44, 71)';
+        color3.style.fill = color1.style.fill;
+        color4.style.fill = color2.style.fill;
+        color5.style.fill = 'rgb(69, 99, 109)';
+        color6.style.fill = 'rgb(157, 205, 219)';
+        color7.style.fill = 'rgb(225, 225, 225)';
     }
 }, 5000);
 
