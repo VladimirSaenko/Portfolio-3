@@ -2,6 +2,7 @@
 "use strict";
 
 const cursor = document.querySelector('.cursor');
+
 document.addEventListener('mousemove',(e) => {
     cursor.style.left = e.pageX + 'px';
     cursor.style.top = e.pageY + 'px';
@@ -19,6 +20,7 @@ function defaultCursor() {
 }
 
 const items = document.querySelectorAll('.changeCursor');
+
 items.forEach(i => {
     i.onmousemove = changeCursor;
     i.onmouseout = defaultCursor;
