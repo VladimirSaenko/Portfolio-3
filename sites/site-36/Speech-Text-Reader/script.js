@@ -49,8 +49,8 @@ const data = [
     text: 'I Want To Go Home'
   },
   {
-    image: './img/school.jpg',
-    text: 'I Want To Go To School'
+    image: './img/angry.jpg',
+    text: 'I Want To Go Minecraft'
   },
   {
     image: './img/grandma.jpg',
@@ -112,10 +112,15 @@ voicesSelect.addEventListener('change', setVoice);
 
 speechSynthesis.addEventListener('voiceschanged', getVoices);
 
+// speechSynthesis.onvoiceschanged = getVoices;
+
 toggleBtn.addEventListener('click', () => {
   document.getElementById('text-box').classList.toggle('show');
 })
 
-// speechSynthesis.onvoiceschanged = getVoices;
+closeBtn.addEventListener('click', () =>
+  document.getElementById('text-box').classList.remove('show')
+);
+
 
 getVoices();
