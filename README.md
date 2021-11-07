@@ -133,24 +133,24 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-12/ReShape-Planet-site/index.html
    
 ### }
-  
-## 14. Audio Player v1 {
-  
-### https://vladimirsaenko.github.io/Audio-Player-v1/
-  
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-14/Audio-Player-v1/index.html
-  
-### https://github.com/VladimirSaenko/Audio-Player-v1
-  
-### }
 
-## 15. Grogu Mandalorian Toggle {
+## 14. Grogu Mandalorian Toggle {
   
 ### https://github.com/VladimirSaenko/Grogu-Mandalorian-Toggle
   
 ### https://vladimirsaenko.github.io/Grogu-Mandalorian-Toggle/
   
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-13/Grogu-Mandalorian-Toggle/index.html
+  
+### }
+  
+## 15. Audio Player v1 {
+  
+### https://vladimirsaenko.github.io/Audio-Player-v1/
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-14/Audio-Player-v1/index.html
+  
+### https://github.com/VladimirSaenko/Audio-Player-v1
   
 ### }
    
@@ -361,5 +361,15 @@
 ### https://vladimirsaenko.github.io/Music-Player/
   
 ### https://github.com/VladimirSaenko/Music-Player
+  
+### }
+
+## 37. Speech Text Reader  {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-36/Speech-Text-Reader/index.html
+  
+### https://github.com/VladimirSaenko/Speech-Text-Reader
+  
+### https://vladimirsaenko.github.io/Speech-Text-Reader/
   
 ### }
