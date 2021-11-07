@@ -146,4 +146,47 @@ main {
   main {
     grid-template-columns: 1fr;
   }
+
+  .text-box {
+    position: fixed;
+  }
+
+  .text-box .close {
+    font-size: 25px;
+  }
+
+  .text-box h3 {
+    font-size: 30px;
+    white-space: wrap;
+    margin: 15px 0px;
+  }
+
+  .text-box .btn {
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+
+  .container h1 {
+    font-size: 35px;
+  }
+
+  .btn-toggle {
+    margin-top: 20px;
+    width: 215px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .box .info {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .box {
+    border-radius: 15px;
+    margin: 20px 0px;
+  }
 }

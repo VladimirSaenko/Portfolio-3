@@ -85,7 +85,7 @@ function getVoices() {
   voices.forEach(voice => {
     const option = document.createElement('option');
     option.value = voice.name;
-    console.log(voice.name);
+    // console.log(voice.name);
     option.innerText = `${voice.name} ${voice.lang}`;
     voicesSelect.appendChild(option);
   })
@@ -121,6 +121,5 @@ toggleBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () =>
   document.getElementById('text-box').classList.remove('show')
 );
-
 
 getVoices();
