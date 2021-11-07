@@ -65,6 +65,8 @@ playBtn.addEventListener('click', function() {
     // }
 })
 
+prevBtn.addEventListener('click', prevSong);
+
 function prevSong() {
     songIndex--;
     if(songIndex < 0) {
@@ -77,17 +79,59 @@ function prevSong() {
     playSong();
 }
 
+nextBtn.addEventListener('click', nextSong);
+
 function nextSong() {
     songIndex++;
     if(songIndex > songs.length - 1) {
-        songIndex = 0
+        songIndex = 0;
     }
     loadSong(songs[songIndex]);
     playSong();
 }
 
-prevBtn.addEventListener('click', prevSong);
-nextBtn.addEventListener('click', nextSong);
+function updateProgress(e) {
+    // console.log(e);
+    // const duration = e.srcElement.duration;
+    // const currentTime = e.srcElement.currentTime;
+    const {duration, currentTime} = e.srcElement;
+    const progressPercent = (currentTime / duration) * 100;
+    progress.style.width = `${progressPercent}%`;
+}
+
+audio.addEventListener('timeupdate', updateProgress);
+
+function setProgress(e) {
+    // console.log(e);
+    // console.log(e.offsetX);
+    // console.log(this.clientWidth);
+    const width = this.clientWidth;
+    const clickX = e.offsetX;
+    const duration = audio.duration;
+    audio.currentTime = (clickX / width) * duration;
+}
+
+progressContainer.addEventListener('click', setProgress);
+
+function durationTimeSong(e) {
+    const {duration, currentTime} = e.srcElement;
+    currentTimeEl.innerText = formatDuration(currentTime);
+    durationTimeEl.innerText = formatDuration(duration);
+}
+
+function formatDuration(seconds) {
+    const min = Math.floor(seconds / 60);
+    const sec = Math.floor(seconds % 60);
+    const resaultMin = min < 10 ? '0' + min : min;
+    const resaultSec = sec < 10 ? '0' + sec : sec;
+    // return `${resaultMin} : ${resaultSec}`;
+    const result = `${resaultMin} : ${resaultSec}`;
+    // return result;
+    return seconds ? result : '00 : 00';
+}
+
+audio.addEventListener('ended', nextSong);
+audio.addEventListener('timeupdate', durationTimeSong);
 
 function getSongBg() {
     if(title.innerText == 'Summer') {
