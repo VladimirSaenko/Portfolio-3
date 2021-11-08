@@ -38,6 +38,7 @@ function loadSong(song) {
     cover.src = `images/${song}.jpg`;
     // audio.play();
     getSongBg();
+    setColorInProgress();
 }
 
 function playSong() {
@@ -187,5 +188,26 @@ function getSongBg() {
         musicContainer.classList.remove("phoenix");
         musicContainer.classList.remove("rock");
         musicContainer.classList.remove("hey");
+    }
+}
+
+function setColorInProgress() {
+    if(title.innerText == 'Summer') {
+        progress.style.backgroundColor = 'rgba(30, 250, 202, 0.6)';
+    }
+    else if(title.innerText == 'Rock') {
+        progress.style.backgroundColor = 'darkblue';
+    }
+    else if(title.innerText == 'Tom') {
+        progress.style.backgroundColor = 'yellow';
+    }
+    else if(title.innerText == 'Hey' || title.innerText == 'Phoenix' || title.innerText == 'Hyper') {
+        progress.style.backgroundColor = 'red';
+    }
+    else if(title.innerText == 'Astronomia') {
+        progress.style.backgroundColor = '#fe8daa';
+    }
+    else {
+        progress.style.backgroundColor = '#fe8daa';
     }
 }
