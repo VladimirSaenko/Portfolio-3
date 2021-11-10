@@ -52,7 +52,6 @@
     from {
        bottom: 50%;
     }
-    
     to {
         bottom: 140%;
     }
@@ -99,7 +98,7 @@
 @keyframes stars {
     from {
         transform: translateY(-1000px);
-    }
+    } 
     to {
         transform: translateY(1000px);
     }
@@ -238,7 +237,7 @@
     right: 20px;
     width: 40px;
     height: 40px;
-    background: url(img/close.png);
+    background: url(../img/close.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
@@ -311,7 +310,7 @@
     .popup .contentBox .close {
         top: -50px;
         right: -10px;
-        background: white url(img/close.png);
+        background: white url(../img/close.png);
         background-repeat: no-repeat;
         background-size: 15px;
         background-position: center;
