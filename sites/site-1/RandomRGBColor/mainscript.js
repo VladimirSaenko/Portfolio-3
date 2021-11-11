@@ -7,9 +7,9 @@ let getRandomRGBColorBtn = document.getElementById("btnka");
 let infinityColorStreamBtn = document.getElementById("infColorStream");
 let copyBtn = document.getElementById("copyBtn");
 let userColorsList = document.getElementById("userColorInpsList");
-let InputUserColor1 = document.getElementById("userColor1");
-let InputUserColor2 = document.getElementById("userColor2");
-let InputUserColor3 = document.getElementById("userColor3");
+let inputUserColor1 = document.getElementById("userColor1");
+let inputUserColor2 = document.getElementById("userColor2");
+let inputUserColor3 = document.getElementById("userColor3");
 let userColorBtn = document.getElementById("userColorBtn");
 
 infinityColorStreamBtn.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
@@ -30,9 +30,9 @@ function getRandomRGBColor() {
 
     if(userColorsList.style.display == "flex" && inputRgb.style.display == "none" && copyBtn.style.display == "none") {
         userColorsList.style.display = "none";
-        InputUserColor1.style.display = "none";
-        InputUserColor2.style.display = "none";
-        InputUserColor3.style.display = "none";
+        inputUserColor1.style.display = "none";
+        inputUserColor2.style.display = "none";
+        inputUserColor3.style.display = "none";
         inputRgb.style.display = "flex";
         copyBtn.style.display = "flex";
     }
@@ -83,12 +83,11 @@ function activateInfinityStreamColor() {
             userColorBtn.style.display = "none";
             let body = document.body;
             body.style.cursor = "none";
-            
             if(userColorsList.style.display == "flex") {
                 userColorsList.style.display = "none";
-                InputUserColor1.style.display = "none";
-                InputUserColor2.style.display = "none";
-                InputUserColor3.style.display = "none";
+                inputUserColor1.style.display = "none";
+                inputUserColor2.style.display = "none";
+                inputUserColor3.style.display = "none";
             }
         }, 1000
     );
@@ -96,69 +95,69 @@ function activateInfinityStreamColor() {
 
 function activateUserRGBColor() {
     userColorsList.style.display = "flex";
-    InputUserColor1.style.display = "flex";
-    InputUserColor2.style.display = "flex";
-    InputUserColor3.style.display = "flex";
+    inputUserColor1.style.display = "flex";
+    inputUserColor2.style.display = "flex";
+    inputUserColor3.style.display = "flex";
     inputRgb.style.display = "none";
     copyBtn.style.display = "none";
     box.style.background = 'rgb(' + 0 + ', ' +  0  + ', ' +  0  + ')';
 
-    if(InputUserColor1.value > 0 || InputUserColor2.value > 0 || InputUserColor3.value > 0) {
-        box.style.background = 'rgb(' + InputUserColor1.value + ', ' + InputUserColor2.value + ', ' + InputUserColor3.value + ')';
+    if(inputUserColor1.value > 0 || inputUserColor2.value > 0 || inputUserColor3.value > 0) {
+        box.style.background = 'rgb(' + inputUserColor1.value + ', ' + inputUserColor2.value + ', ' + inputUserColor3.value + ')';
     }
 }
 
 function getUserRGBColor() {
-    box.style.background = 'rgb(' + InputUserColor1.value + ', ' + InputUserColor2.value + ', ' + InputUserColor3.value + ')';
+    box.style.background = 'rgb(' + inputUserColor1.value + ', ' + inputUserColor2.value + ', ' + inputUserColor3.value + ')';
 }
 
 function ifMoreOrLessValueUserColor() {
-    if(InputUserColor1.value < 0 || InputUserColor1.value > 255 ) {
-        InputUserColor1.style.color = "red";
+    if(inputUserColor1.value < 0 || inputUserColor1.value > 255 ) {
+        inputUserColor1.style.color = "red";
 
-        if(InputUserColor2.value < 0 || InputUserColor2.value > 255 ) {
-            InputUserColor2.style.color = "red";
+        if(inputUserColor2.value < 0 || inputUserColor2.value > 255 ) {
+            inputUserColor2.style.color = "red";
         }
 
-        if(InputUserColor3.value < 0 || InputUserColor3.value > 255 ) {
-            InputUserColor3.style.color = "red";
+        if(inputUserColor3.value < 0 || inputUserColor3.value > 255 ) {
+            inputUserColor3.style.color = "red";
         }
     }
 
-    if(InputUserColor2.value < 0 || InputUserColor2.value > 255 ) {
-        InputUserColor2.style.color = "red";
-        if(InputUserColor2.value < 0 || InputUserColor2.value > 255 ) {
-            InputUserColor2.style.color = "red";
+    if(inputUserColor2.value < 0 || inputUserColor2.value > 255 ) {
+        inputUserColor2.style.color = "red";
+        if(inputUserColor2.value < 0 || inputUserColor2.value > 255 ) {
+            inputUserColor2.style.color = "red";
         }
 
-        if(InputUserColor3.value < 0 || InputUserColor3.value > 255 ) {
-            InputUserColor3.style.color = "red";
+        if(inputUserColor3.value < 0 || inputUserColor3.value > 255 ) {
+            inputUserColor3.style.color = "red";
         }
 
     }
 
-    if(InputUserColor3.value < 0 || InputUserColor3.value > 255 ) {
-        InputUserColor3.style.color = "red";
+    if(inputUserColor3.value < 0 || inputUserColor3.value > 255 ) {
+        inputUserColor3.style.color = "red";
 
-        if(InputUserColor2.value < 0 || InputUserColor2.value > 255 ) {
-            InputUserColor2.style.color = "red";
+        if(inputUserColor2.value < 0 || inputUserColor2.value > 255 ) {
+            inputUserColor2.style.color = "red";
         }
 
-        if(InputUserColor3.value < 0 || InputUserColor3.value > 255 ) {
-            InputUserColor3.style.color = "red";
+        if(inputUserColor3.value < 0 || inputUserColor3.value > 255 ) {
+            inputUserColor3.style.color = "red";
         }
     }  
 
-    if(InputUserColor1.value > 0 && InputUserColor1.value <= 255) {
-        InputUserColor1.style.color = "black";
+    if(inputUserColor1.value > 0 && inputUserColor1.value <= 255) {
+        inputUserColor1.style.color = "black";
     }
 
-    if(InputUserColor2.value > 0 && InputUserColor2.value <= 255) {
-        InputUserColor2.style.color = "black";
+    if(inputUserColor2.value > 0 && inputUserColor2.value <= 255) {
+        inputUserColor2.style.color = "black";
     }
 
-    if(InputUserColor3.value > 0 && InputUserColor3.value <= 255) {
-        InputUserColor3.style.color = "black";
+    if(inputUserColor3.value > 0 && inputUserColor3.value <= 255) {
+        inputUserColor3.style.color = "black";
     }
 }
 
