@@ -4,7 +4,7 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
-    font-family: 'Orelega One', cursive, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .box {
@@ -14,7 +14,7 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: rgb(14, 58, 255);
+    background: linear-gradient(-190deg, rgb(11, 27, 116) 37%, rgb(35, 211, 255) 100%);
     overflow: hidden;
 }
 
@@ -37,12 +37,12 @@
     border: none;
     border-radius: 50px;
     text-align: center;
-    letter-spacing: 3.5px;
+    letter-spacing: 2px;
     font-size: 35px;
     margin-top: 20px;
-    width: 275px;
+    width: 302px;
     height: 75px;
-    background: rgb(15, 18, 192);
+    background: linear-gradient(3deg, rgba(26,37,57,1) 24%, rgba(45,96,221,1) 53%);
     color: whitesmoke;
     transition: 0.5s;
 }
