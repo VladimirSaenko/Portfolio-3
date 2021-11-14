@@ -373,3 +373,13 @@
 ### https://vladimirsaenko.github.io/Speech-Text-Reader/
   
 ### }
+
+## 38. Speak Number Guess  {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-37/Speak-Number-Guess/index.html
+  
+### https://github.com/VladimirSaenko/Speak-Number-Guess
+  
+### https://vladimirsaenko.github.io/Speak-Number-Guess/
+  
+### }
