@@ -26,6 +26,9 @@ function checkNumber(msg) {
     const num = +msg;
     // const num = msg === 'один' ? 1 : +msg;
     console.log(num);
+    if(num === 300) {
+        messageEl.innerHTML = '<div>Make a good in Tractorist!</div>'
+    }
     if(isNaN(num)) {
         messageEl.innerHTML += '<div>That is not a valid number</div>';
         return;
@@ -44,9 +47,9 @@ function checkNumber(msg) {
         `;
     }
     else if(num > randomNumb) {
-        messageEl.innerHTML += '<div>GO LOWER moth@@@@cker</div>';
+        messageEl.innerHTML += '<div>GO LOWER </div>';
     } else {
-        messageEl.innerHTML += '<div>GO HIGHER moth@@@@cker</div>';
+        messageEl.innerHTML += '<div>GO HIGHER </div>';
     }
 }
 
