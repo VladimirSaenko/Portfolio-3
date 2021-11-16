@@ -98,6 +98,7 @@ function updateProgress(e) {
     const {duration, currentTime} = e.srcElement;
     const progressPercent = (currentTime / duration) * 100;
     progress.style.width = `${progressPercent}%`;
+    setColorInProgress();
 }
 
 audio.addEventListener('timeupdate', updateProgress);
@@ -110,6 +111,7 @@ function setProgress(e) {
     const clickX = e.offsetX;
     const duration = audio.duration;
     audio.currentTime = (clickX / width) * duration;
+    setColorInProgress();
 }
 
 progressContainer.addEventListener('click', setProgress);
