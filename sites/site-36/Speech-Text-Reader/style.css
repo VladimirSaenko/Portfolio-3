@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 body {
@@ -49,6 +50,7 @@ h1 {
 .text-box {
   width: 70%;
   position: absolute;
+  text-align: center;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -800px);
@@ -82,6 +84,11 @@ h1 {
   height: 150px;
 }
 
+.text-box h3 {
+  font-size: 35px;
+  margin-top: -25px;
+}
+
 .text-box .btn {
   width: 100%;
 }
@@ -90,6 +97,7 @@ h1 {
   float: right;
   text-align: right;
   cursor: pointer;
+  font-size: 20px;
 }
 
 main {
