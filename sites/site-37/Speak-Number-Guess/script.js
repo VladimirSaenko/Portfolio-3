@@ -27,13 +27,13 @@ function checkNumber(msg) {
     // const num = msg === 'один' ? 1 : +msg;
     console.log(num);
     if(num === 300) {
-        messageEl.innerHTML = '<div>Make a good in Tractorist!</div>'
+        messageEl.innerHTML = '<div>Make a good in Tractorist!</div>';
+        return;
     }
     if(isNaN(num)) {
         messageEl.innerHTML += '<div>That is not a valid number</div>';
         return;
     }
-
     if(num > 100 || num < 1) {
         messageEl.innerHTML += '<div>Number must be between 1 and 100</div>';
         return;
