@@ -383,3 +383,13 @@
 ### https://vladimirsaenko.github.io/Speak-Number-Guess/
   
 ### }
+
+## 39. Quiz Example  {
+  
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-38/Quiz-Example/index.html
+  
+### https://github.com/VladimirSaenko/Quiz-Example
+  
+### https://vladimirsaenko.github.io/Quiz-Example/
+  
+### }
