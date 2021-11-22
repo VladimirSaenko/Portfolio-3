@@ -22,7 +22,6 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(280.47deg, #8833FF 8.88%, #EF33FF 151.94%);
 	background: url(bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
