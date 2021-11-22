@@ -105,7 +105,7 @@ const questions = [
 			optionD: "Los Angeles",
 			correctOption: "optionA"
 	},{
-			question: "How man states does USA have ?",
+			question: "How many states does USA have ?",
 			optionA: "24",
 			optionB: "30",
 			optionC: "50",
@@ -154,7 +154,7 @@ const questions = [
 			optionD: "Venus",
 			correctOption: "optionB"
 	},{
-			question: "where is the smallest bone in human body located?",
+			question: "Where is the smallest bone in human body located?",
 			optionA: "Toes",
 			optionB: "Ears",
 			optionC: "Fingers",
