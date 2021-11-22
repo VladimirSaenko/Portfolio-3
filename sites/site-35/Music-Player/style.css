@@ -102,6 +102,19 @@ h1 {
   z-index: 1;
 }
 
+.music-container.tom::before {
+  content: '';
+	background-color: #fff;
+  border-radius: 15px;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+  box-shadow: 0 20px 20px 0 rgb(248, 224, 12);
+  position: absolute;
+  z-index: 1;
+}
+
 .img-container {
   position: relative;
   width: 110px;
