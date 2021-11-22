@@ -109,13 +109,12 @@ input[type="radio"] {
 	display: none;
 }
 
-
 input[type=radio]:checked ~ .option {
 	background-color: #8833FF;
 	color: #fff;
 }
 
-.next-button-container{
+.next-button-container {
 	width: 50%;
 	height: 3rem;
 	display: flex;
@@ -133,6 +132,7 @@ input[type=radio]:checked ~ .option {
 	cursor: pointer;
 	outline: none;
 }
+
 .next-button-container button:hover {
 	background-color: #8833FF;
 	color: #fff;
@@ -218,6 +218,7 @@ input[type=radio]:checked ~ .option {
 	cursor: pointer;
 	border-radius: 20px;
 }
+
 .modal-button-container button:hover {
 	background-color: rgb(83, 82, 82);
 }
