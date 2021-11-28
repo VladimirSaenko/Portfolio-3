@@ -6,7 +6,6 @@
 }
 
 input, button {
-    cursor: pointer;
     outline: none;
     border: none;
 }
@@ -22,6 +21,7 @@ input, button {
 }
 
 .inputRGBText {
+    cursor: default;
     margin: auto;
     padding: auto;
     user-select: text;
