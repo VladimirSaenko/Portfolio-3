@@ -76,6 +76,24 @@ small {
     /* bottom: 0; */
 }
 
+.cleanBtn {
+    cursor: pointer;
+    margin: 20px 0px;
+    width: 245px;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    height: 75px;
+    border-radius: 50px;
+    border: black 2.5px solid; 
+}
+
+.cleanBtn:hover {
+    border-color: rgb(179, 131, 226);
+    color: rgb(179, 131, 226);
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     body {
         display: flex;
@@ -88,7 +106,7 @@ small {
     }
 
     small {
-        position: absolute;
+        position: relative;
         bottom: 0;
         font-size: 20px;
     }

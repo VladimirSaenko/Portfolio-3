@@ -4,6 +4,7 @@
 const form = document.getElementById("form");
 const todoInput = document.getElementById('input');
 const todosList = document.getElementById("todos");
+const button = document.getElementById('btn');
 
 function addToDo(todo) {
     let todoText = todoInput.value;
@@ -53,3 +54,8 @@ const todosSaves = JSON.parse(localStorage.getItem('todos'));
 if(todosSaves) {
     todosSaves.forEach(todo => addToDo(todo));
 }
+
+button.addEventListener('click', () => {
+    localStorage.removeItem('todos');
+    location.reload();
+});
