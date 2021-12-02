@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: fixed;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* height: 100%; */
+    background: #f7efee;
+}
+
+.container .imgBx {
+    position: relative;
+    height: 100%;
+    /* height: 100vh; */
+    width: 450px;
+    background: url(img/bg.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.container .countdownBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 450px);
+    /* width: calc(550px - 450px); */
+}
+
+.container .countdownBx h2 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+.container .countdownBx h2 span {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.container .countdownBx h2 span i {
+    font-style: initial;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    /* color: #ff0; */
+}
+
+.container .countdownBx .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 120px;
+}
+
+.container .countdownBx .countdown div {
+    position: relative;
+    width: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0 45px 10px;
+}
+
+.container .countdownBx .countdown div::before {
+    content: 'text';
+    /* position: relative; */
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    color: red;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.container .countdownBx .countdown div#day::before {
+    content: 'days';
+}
+
+.container .countdownBx .countdown div#hour::before {
+    content: 'hours';
+}
+
+.container .countdownBx .countdown div#minute::before {
+    content: 'minute';
+}
+
+.container .countdownBx .countdown div#second::before {
+    content: 'seconds';
+}
+
+.container .countdownBx .countdown div#second {
+    color: yellow;
+}
+
+@media (max-width: 991px) {
+    .container .imgBx {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 150px;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .container .countdownBx {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container .countdownBx h2{
+        font-size: 1.1em;
+    }
+
+    .container .countdownBx .countdown {
+        height: 100px;
+    }
+
+    .container .countdownBx .countdown div {
+        width: 80px;
+        color: #fff;
+        margin: 0;
+        margin-top: -25px;
+    }
+}

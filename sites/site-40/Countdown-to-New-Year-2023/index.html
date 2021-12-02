@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown to New Year | 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" /> -->
+</head>
+<div class="container">
+<div class="imgBx"></div>
+    <div class="countdownBx">
+        <h2 id="text">Countdown to New Year <br><span>20<i>23</i></span></h2>
+        <div class="countdown">
+            <div id="day">NAN</div>
+            <div id="hour">NAN</div>
+            <div id="minute">NAN</div>
+            <div id="second">NAN</div>
+        </div>
+    </div>
+</div>
+<script>
+    const countDate = new Date('jan 1, 2023 00:00:00').getTime();
+
+    function newYear() {
+        const nowDate = new Date().getTime();
+        gap = countDate - nowDate;
+
+        if(gap <= 0) {
+            let text = document.getElementById('text');
+            text.innerText = " С Новым Годом! ";
+            document.getElementById('day').textContent = "0";
+            document.getElementById('hour').textContent = "0";
+            document.getElementById('minute').textContent = "0";
+            document.getElementById('second').textContent = "0";
+        }
+
+        else {
+            const second = 1000;
+            const minute = second * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+            const d = Math.floor(gap / day);
+            const h = Math.floor((gap % day) / hour);
+            const m = Math.floor((gap % hour) / minute);
+            const s = Math.floor((gap % minute) / second);
+            document.getElementById('day').textContent = d;
+            document.getElementById('hour').textContent = h;
+            document.getElementById('minute').textContent = m;
+            document.getElementById('second').textContent = s;
+        }
+    }
+
+    setInterval(newYear, 1);
+</script>
+</body>
+</html>
