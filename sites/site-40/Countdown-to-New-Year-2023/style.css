@@ -6,7 +6,7 @@
     box-sizing: border-box;
     user-select: none;
     user-zoom: fixed;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -132,6 +132,7 @@
 @media (max-width: 600px) {
     .container .countdownBx h2{
         font-size: 1.1em;
+        font-weight: bolder;
     }
 
     .container .countdownBx .countdown {
@@ -140,8 +141,10 @@
 
     .container .countdownBx .countdown div {
         width: 80px;
-        color: #fff;
+        color: rgb(255, 255, 255);
+        text-shadow: black 1px 1px 1px;
         margin: 0;
+        font-size: 45px;
         margin-top: -25px;
     }
 }
