@@ -1,4 +1,3 @@
-
 const APIURL = 'https://api.github.com/users/';
 const main = document.getElementById("main");
 const form = document.getElementById('form');
@@ -76,7 +75,15 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const user = search.value;
     if(user) {
-      getUser(user);
+      if(user == 'VladimirSaenko' || user == 'alexanderkhapchenko' || user == 'Dizabanik') {
+        createErrorCard('top secret');
+      }
+      else if(user == 'aboba') {
+        createErrorCard('AMOGUS');
+      }
+      else {
+        getUser(user);
+      }
       search.value = '';
     }
 })
