@@ -115,7 +115,11 @@ function setPosition(position) {
 }
 
 function showError(error) {
-
+    notificationEl.style.display = 'block';
+    notificationEl.innerHTML = `<p> ${error.message} </p>`;
+    setTimeout(()=>{
+        notificationEl.style.display = "none";
+    }, 5000);
 }
 
 async function getWeatherByGeo(latitude, longitude) {
