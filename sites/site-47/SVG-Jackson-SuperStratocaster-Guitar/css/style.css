@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+	background: #e09a17;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+}
+
+svg {
+	height: 100%;
+	width: 100%;
+	display: block;
+	max-width: 980px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.colorsForm {
+	position: absolute;
+	bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.colorsForm div {
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.colorsForm div p {
+    font-family: "Guitar Font", sans-serif;
+    font-size: 3.2em;
+    color: #fff;
+    text-shadow: black -5px 2px 1px;
+}
+
+.notes, .sparks {
+	opacity: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .colorsForm {
+        flex-direction: column;
+		align-items: flex-end;
+        margin-bottom: 0px;
+    }
+
+	svg {
+        /* height: auto; */
+		width: auto;
+	}
+
+    .colorsForm div {
+        margin: 0px 10px;
+    }
+}
