@@ -69,7 +69,7 @@ pin16.style.fill = guitarBody.style.fill;
 pin17.style.fill = guitarBody.style.fill;
 pin18.style.fill = guitarBody.style.fill;
 
-inputMain.addEventListener('change', ()=> {
+inputMain.addEventListener('input', ()=> {
     guitarBody.style.fill = inputMain.value;
     pin1.style.fill = guitarBody.style.fill;
     pin2.style.fill = guitarBody.style.fill;
@@ -91,7 +91,7 @@ inputMain.addEventListener('change', ()=> {
     pin18.style.fill = guitarBody.style.fill;
 })
 
-inputStrings.addEventListener('change', ()=> {
+inputStrings.addEventListener('input', ()=> {
     string1.style.stroke = inputStrings.value;
     string2.style.stroke = string1.style.stroke;
     string3.style.stroke = string1.style.stroke;
@@ -100,7 +100,7 @@ inputStrings.addEventListener('change', ()=> {
     string6.style.stroke = string1.style.stroke;
 })
 
-inputElectric.addEventListener('change', ()=> {
+inputElectric.addEventListener('input', ()=> {
     electric1.style.fill = inputElectric.value;
     electric2.style.fill = electric1.style.fill;
     electric3.style.fill = electric1.style.fill;
@@ -108,7 +108,7 @@ inputElectric.addEventListener('change', ()=> {
     electric5.style.fill = electric1.style.fill;
 })
 
-inputGriff.addEventListener('change', ()=> {
+inputGriff.addEventListener('input', ()=> {
     griff.style.fill = inputGriff.value;
 })
 

@@ -26,13 +26,13 @@ let pin2 = document.getElementById("pin2");
 let pin3 = document.getElementById("pin3");
 let pin4 = document.getElementById("pin4");
 
-guitarPad1.style.fill = `rgb(${getRandomInt(0, 250)}, ${getRandomInt(0, 250)}, ${getRandomInt(0, 250)})`;
+// guitarPad1.style.fill = `rgb(${getRandomInt(0, 250)}, ${getRandomInt(0, 250)}, ${getRandomInt(0, 250)})`;
 guitarPad2.style.fill = guitarPad1.style.fill;
-guitarBody1.style.fill = `rgb(${getRandomInt(0, 250)}, ${getRandomInt(0, 250)}, ${getRandomInt(0, 250)})`;
+// guitarBody1.style.fill = `rgb(${getRandomInt(0, 250)}, ${getRandomInt(0, 250)}, ${getRandomInt(0, 250)})`;
 guitarBody2.style.fill = guitarBody1.style.fill;
 guitarBody3.style.fill = guitarBody1.style.fill;
 guitarBody4.style.fill = guitarBody1.style.fill;
-electric1.style.fill = `rgb(${getRandomInt(0, 250)}, ${getRandomInt(0, 250)}, ${getRandomInt(0, 250)})`;
+// electric1.style.fill = `rgb(${getRandomInt(0, 250)}, ${getRandomInt(0, 250)}, ${getRandomInt(0, 250)})`;
 electric2.style.fill = electric1.style.fill;
 electric3.style.fill = electric1.style.fill;
 electric4.style.fill = electric1.style.fill;
@@ -44,14 +44,14 @@ pin2.style.fill = guitarPad1.style.fill;
 pin3.style.fill = guitarPad1.style.fill;
 pin4.style.fill = guitarPad1.style.fill;
 
-inputMain.addEventListener('change', () => {
+inputMain.addEventListener('input', () => {
     guitarBody1.style.fill = inputMain.value;
     guitarBody2.style.fill = inputMain.value;
     guitarBody3.style.fill = inputMain.value;
     guitarBody4.style.fill = inputMain.value;
 })
 
-inputPad.addEventListener('change', () => {
+inputPad.addEventListener('input', () => {
     guitarPad1.style.fill = inputPad.value;
     guitarPad2.style.fill = guitarPad1.style.fill;
     pin1.style.fill = guitarPad1.style.fill;
@@ -60,7 +60,7 @@ inputPad.addEventListener('change', () => {
     pin4.style.fill = guitarPad1.style.fill;
 })
 
-inputElectrics.addEventListener('change', ()=> {
+inputElectrics.addEventListener('input', ()=> {
     electric1.style.fill = inputElectrics.value;
     electric2.style.fill = inputElectrics.value;
     electric3.style.fill = inputElectrics.value;
