@@ -32,8 +32,14 @@ a {
 }
 
 .album_desc {
+    font-size: 20px;
     cursor: default;
     user-select: none;
+}
+
+.album_artist {
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .album_details h2 {
