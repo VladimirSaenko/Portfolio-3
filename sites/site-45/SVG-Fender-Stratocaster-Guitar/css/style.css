@@ -30,7 +30,6 @@ svg {
     align-items: center;
     flex-direction: row;
     width: 250px;
-    border-radius: 50%;
     margin-bottom: 50px;
 }
 
@@ -51,8 +50,13 @@ svg {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .colorsForm {
+        width: 250px;
         flex-direction: column;
         margin-bottom: 0px;
+        background: rgb(255, 209, 146);
+        border: 10px rgb(8, 145, 186) solid;
+        width: 275px;
+        border-radius: 35px;
     }
 
     .colorsForm div {
