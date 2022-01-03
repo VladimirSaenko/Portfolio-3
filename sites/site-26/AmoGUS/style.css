@@ -109,6 +109,11 @@
         font-size: 30px;
     }
 
+    .hats-img {
+        width: 65px;
+        height: 65px;
+    }
+
     .container {
         height: auto;
     }
