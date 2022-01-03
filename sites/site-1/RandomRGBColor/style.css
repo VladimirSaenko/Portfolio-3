@@ -143,7 +143,7 @@ input, button {
     }
 
     .copyImg {
-        right: 0;
+        display: block;
         width: 65px;
         height: 65px;
     }
