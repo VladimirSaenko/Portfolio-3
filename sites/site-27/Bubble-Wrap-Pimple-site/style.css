@@ -14,7 +14,7 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(-190deg, rgb(11, 27, 116) 37%, rgb(35, 211, 255) 100%);
+    background: linear-gradient(-190deg, rgb(22, 53, 224) 37%, rgb(10, 206, 255) 100%);
     overflow: hidden;
 }
 
@@ -42,7 +42,7 @@
     margin-top: 20px;
     width: 302px;
     height: 75px;
-    background: linear-gradient(3deg, rgba(26,37,57,1) 24%, rgba(45,96,221,1) 53%);
+    background: linear-gradient(3deg, rgb(0, 89, 255) 24%, rgba(45,96,221,1) 53%);
     color: whitesmoke;
     transition: 0.5s;
 }
