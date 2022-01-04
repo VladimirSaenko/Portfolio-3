@@ -17,7 +17,7 @@ function getRandomColor() {
     span4.style.background = `linear-gradient(90deg,transparent, ${randomColor})`;
 }
 
-function getUserColor() {
+userColor.addEventListener('input', () => {
     neonButton.style.color = userColor.value;
     let color = userColor.value;
     span1.style.background = `linear-gradient(90deg,transparent, ${color})`;
@@ -25,14 +25,9 @@ function getUserColor() {
     span3.style.background = `linear-gradient(90deg,transparent, ${color})`;
     span4.style.background = `linear-gradient(90deg,transparent, ${color})`;
     if(userColor.value == "#000000") {
-        let color2 = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
-        neonButton.style.color = color2;
-        span1.style.background = `linear-gradient(90deg,transparent, ${color2})`;
-        span2.style.background = `linear-gradient(90deg,transparent, ${color2})`;
-        span3.style.background = `linear-gradient(90deg,transparent, ${color2})`;
-        span4.style.background = `linear-gradient(90deg,transparent, ${color2})`;
+        getRandomColor();
     }
-}
+})
 
 neonButton.addEventListener('mousemove', function() {
     neonButton.style.background = userColor.value;
@@ -47,7 +42,6 @@ neonButton.addEventListener('mousemove', function() {
         span3.style.background = `linear-gradient(90deg,transparent, ${color3})`;
         span4.style.background = `linear-gradient(90deg,transparent, ${color3})`;
     }
-
 })
 
 neonButton.addEventListener('mouseleave', function() {
