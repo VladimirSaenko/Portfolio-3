@@ -77,16 +77,17 @@ const colors = [
     'Glaucous',
     'Lychee',
     'Watermelon',
-    'Avocado', // Avococde
+    'Avocado', // Avocode
     'Passion Fruit',
     'Scary Dark',
     'Empty Black',
     'Retro Green',
-    'Dark Blue'
+    'Dark Blue',
+    'Silver'
 ];
 
 setInterval(function() {
-    randomColor = getRandomInt(0, 65);
+    randomColor = getRandomInt(0, 66);
     if(randomColor == 1 || randomColor == 0) {
         impostortext.innerText = `${colors[0]} was The Imposter`;
         color1.style.fill = 'rgb(215, 30, 34)';
@@ -717,7 +718,7 @@ setInterval(function() {
         color6.style.fill = 'rgb(117, 162, 103)';
         color7.style.fill = 'rgb(200, 232, 191)';
     }
-    if(randomColor == 64 || randomColor == 65) {
+    if(randomColor == 64) {
         impostortext.innerText = `${colors[61]} was The Imposter`;
         color1.style.fill = 'rgb(45, 64, 107)';
         color2.style.fill = 'rgb(34, 44, 71)';
@@ -726,6 +727,16 @@ setInterval(function() {
         color5.style.fill = 'rgb(69, 99, 109)';
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
+    }
+    if(randomColor == 65 || randomColor == 66) {
+        impostortext.innerText = `${colors[62]} was The Imposter`;
+        color1.style.fill = 'rgb(172, 181, 182)';
+        color2.style.fill = 'rgb(94, 101, 101)';
+        color3.style.fill = color1.style.fill;
+        color4.style.fill = color2.style.fill;
+        color5.style.fill = 'rgb(148, 159, 162)';
+        color6.style.fill = 'rgb(219, 228, 230)';
+        color7.style.fill = 'white';
     }
 }, 5000);
 
