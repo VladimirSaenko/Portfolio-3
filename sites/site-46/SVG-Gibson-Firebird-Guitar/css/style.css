@@ -50,11 +50,11 @@ svg {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .colorsForm {
-        width: 250px;
+        width: 215px;
         flex-direction: column;
         margin-bottom: 0px;
         border-radius: 35px;
-        background: #165319;
+        background: linear-gradient(190deg,rgb(46, 196, 182) 23%, rgb(8, 145, 186) 50%);
         border: rgb(8, 145, 186) 10px solid;
     }
 
