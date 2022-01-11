@@ -42,6 +42,10 @@
         background: linear-gradient(0deg, rgba(0,0,0,1) 49%, rgba(31,255,0,1) 62%);
     }
 
+    .hidden {
+        display: none;
+    }
+
     .img-23 {
         width: 175px;
     }
@@ -53,6 +57,10 @@
         grid-template-rows: 1fr 1fr;
         grid-gap: 5px;
         padding: 5px;
+    }
+
+    .hidden {
+        display: none;
     }
 
     body {
