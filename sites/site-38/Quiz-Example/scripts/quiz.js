@@ -38,7 +38,7 @@ const questions = [
 			question: "Which is the longest river in the world ?",
 			optionA: "River Nile",
 			optionB: "Long River",
-			optionC: "River Niger",
+			optionC: "River Dnieper",
 			optionD: "Lake Chad",
 			correctOption: "optionA"
 	},{
@@ -79,7 +79,7 @@ const questions = [
 	},{
 			question: "The longest river in the Ukraine is ?",
 			optionA: "River Dnieper",
-			optionB: "River Dniester",
+			optionB: "River Nile",
 			optionC: "River Southern Bug",
 			optionD: "River Twitter",
 			correctOption: "optionA"
