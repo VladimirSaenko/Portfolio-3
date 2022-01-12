@@ -219,6 +219,11 @@ body {
     stroke-dashoffset: 0;
 }
 
+.container .icon.axes svg {
+    width: 312px;
+    height: 312px;
+}
+
 .container .icon.axes:hover path {
     animation: animate-axes 1s ease-in-out forwards;
 }
@@ -258,7 +263,7 @@ body {
 }
 
 #title7 {
-    /* margin-top: 20px; */
+    margin-top: 10px;
     color: white;
 }
 
@@ -292,6 +297,11 @@ body {
 
     .icon.drakkar {
         margin: 55px 0px;
+    }
+
+    .container .icon.helmet svg {
+        width: 350px;
+        height: 350px;
     }
 
     .container .icon {
