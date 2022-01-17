@@ -256,41 +256,27 @@
 
 ## 43. SVG Fender Stratocaster Guitar
 
-### 
-
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147706700-93f8f769-c4a7-44ba-bf51-a0df905af942.jpg)
 
-## 44. SVG Gibson Firebird Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-46/SVG-Gibson-Firebird-Guitar/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147706454-044737f2-0dce-4196-b191-313a73bbdf59.jpg)
-
-## 45. SVG Jackson SuperStrat Guitar
+## 44. SVG Jackson SuperStrat Guitar
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-47/SVG-Jackson-SuperStratocaster-Guitar/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147706504-26a03703-0d9e-4c42-b745-6b418d80e982.jpg)
 
-## 46. Infiniti Scroll Lorem Blog
+## 45. Infiniti Scroll Lorem Blog
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-48/Infiniti-Scroll-Lorem-Blog-site/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147706557-5697352f-5f04-49dc-a393-79d2f321b9a1.jpg)
 
-## 47. SVG Gibson Explorer Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-49/SVG-Gibson-Explorer-Guitar/index.html
-
-![147604495-a6af4db6-40bb-44ad-a216-fa9b82732433](https://user-images.githubusercontent.com/56477695/147706621-119ad2fb-e960-4881-98ad-28dc5ea3d1a1.jpg)
-
-## 48. SVG Gibson Les Paul Guitar
+## 46. SVG Gibson Les Paul Guitar
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-50/SVG-Gibson-Les-Paul-Guitar/index.html
 
 ![147850551-8bf4b6d6-051d-446c-805a-36d4bcd4b252](https://user-images.githubusercontent.com/56477695/148844875-0e13160b-e1aa-4ede-aadf-b9fb54dec382.jpg)
 
-## 49. Drag & Drop Image
+## 47. Drag & Drop Image
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-51/Drag-and-Drop-Image-example/index.html
 
