@@ -28,7 +28,6 @@ searchBox.addEventListener('keypress', setQuery);
 function setQuery(e) {
     if(e.keyCode == 13) {
         getWeather(searchBox.value);
-        takeBgCity(searchBox.value);
     }
 }
 
@@ -55,52 +54,6 @@ function createDate(date) {
     const month = months[date.getMonth()];
     const year = date.getFullYear();
     return `${day}. ${datee}. ${month}. ${year}.`;
-}
-
-function takeBgCity(city) {
-    const body = document.body;
-    if(city == 'Moscow') {
-        body.style.backgroundImage = 'url(citys/moscow.jpg)';
-    }
-    else if(city == 'Kyiv' || city == 'Kiev') {
-        body.style.backgroundImage = 'url(citys/kyiv.jpg)';
-    }
-    else if(city == 'Lvov' || city == 'Lviv') {
-        body.style.backgroundImage = 'url(citys/lion.jpg)';
-    }
-    else if(city == 'Berlin') {
-        body.style.backgroundImage = 'url(citys/berlin.jpg)';
-    }
-    else if(city == 'Paris') {
-        body.style.backgroundImage = 'url(citys/paris.jpg)';
-    }
-    else if(city == 'Warsaw') {
-        body.style.backgroundImage = 'url(citys/warsaw.jpg)';
-    }
-    else if(city == 'Zhytomyr') {
-        body.style.backgroundImage = 'url(citys/zhytomyr.jpeg)';
-    }
-    else if(city == 'Ternopil') {
-        body.style.backgroundImage = 'url(citys/ternopil.jpg)';
-    }
-    else if(city == 'Vinnytsia') {
-        body.style.backgroundImage = 'url(citys/vinnytsia.png)';
-    }
-    else if(city == 'Kharkov' || city == 'Kharkiv') {
-        body.style.backgroundImage = 'url(citys/kharkov.jpg)';
-    }
-    else if(city == 'Lutsk') {
-        body.style.backgroundImage = 'url(citys/lutsk.jpg)';
-    }
-    else if(city == 'Kramatorsk') {
-        body.style.backgroundImage = 'url(citys/kramatorsk.jpg)';
-    }
-    else if(city == 'Odessa' || city == 'Odesa') {
-        body.style.backgroundImage = 'url(citys/odessa.jpg)';
-    }
-    else {
-        body.style.backgroundImage = 'url(https://picsum.photos/960/540)'
-    }
 }
 
 if('geolocation' in navigator) {
