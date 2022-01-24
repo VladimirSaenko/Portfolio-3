@@ -190,10 +190,6 @@ body {
     animation: animate-helmet 2s linear forwards;
 }
 
-#title5 {
-    text-shadow: black -5px 5px 1px;
-}
-
 @keyframes animate-helmet {
     0% {
         stroke-dashoffset: 0;
