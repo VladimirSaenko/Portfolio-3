@@ -114,7 +114,7 @@
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-19/Uncover-Hidden-Password-site/index.html
 
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147704250-a1dc1889-e46a-4ad2-b84c-2d55e081626c.png)
+![img-portfolio](https://user-images.githubusercontent.com/56477695/151596890-9f8aafc4-1ac7-4718-b08f-b234800034ee.jpg)
 
 ## Generator Random Gradient
 
