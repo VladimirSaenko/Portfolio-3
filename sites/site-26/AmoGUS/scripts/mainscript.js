@@ -81,11 +81,14 @@ const colors = [
     'Empty Black',
     'Retro Green',
     'Dark Blue',
-    'Silver'
+    'Silver',
+    'Monty Green',
+    'Roxy Purple',
+    'Gregory Color'
 ];
 
 setInterval(function() {
-    randomColor = getRandomInt(0, 66);
+    randomColor = getRandomInt(0, 69);
     if(randomColor == 1 || randomColor == 0) {
         impostortext.innerText = `${colors[0]} was The Imposter`;
         color1.style.fill = 'rgb(215, 30, 34)';
@@ -726,7 +729,7 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 65 || randomColor == 66) {
+    if(randomColor == 65) {
         impostortext.innerText = `${colors[62]} was The Imposter`;
         color1.style.fill = 'rgb(172, 181, 182)';
         color2.style.fill = 'rgb(94, 101, 101)';
@@ -734,6 +737,36 @@ setInterval(function() {
         color4.style.fill = color2.style.fill;
         color5.style.fill = 'rgb(148, 159, 162)';
         color6.style.fill = 'rgb(219, 228, 230)';
+        color7.style.fill = 'white';
+    }
+    if(randomColor == 66) {
+        impostortext.innerText = `${colors[63]} was The Imposter`;
+        color1.style.fill = 'rgb(56, 234, 0)';
+        color2.style.fill = 'rgb(231, 218, 0)';
+        color4.style.fill = color2.style.fill;
+        color3.style.fill = 'rgb(172, 4, 223)';
+        color5.style.fill = 'rgb(148, 159, 162)';
+        color6.style.fill = 'rgb(219, 228, 230)';
+        color7.style.fill = 'white';
+    }
+    if(randomColor == 67) {
+        impostortext.innerText = `${colors[64]} was The Imposter`;
+        color1.style.fill = 'rgb(255, 236, 253)';
+        color2.style.fill = 'rgb(169, 0, 255)';
+        color4.style.fill = color2.style.fill;
+        color3.style.fill = color1.style.fill;
+        color5.style.fill = 'rgb(148, 159, 162)';
+        color6.style.fill = 'rgb(219, 228, 230)';
+        color7.style.fill = 'white';
+    }
+    if(randomColor == 68 || randomColor == 69) {
+        impostortext.innerText = `${colors[65]} was The Imposter`;
+        color1.style.fill = 'rgb(0, 54, 255)';
+        color2.style.fill = 'rgb(154, 85, 70)';
+        color4.style.fill = color2.style.fill;
+        color3.style.fill = color1.style.fill;
+        color5.style.fill = 'rgb(249, 183, 149)';
+        color6.style.fill = 'rgb(240, 151, 33)';
         color7.style.fill = 'white';
     }
 }, 5000);
