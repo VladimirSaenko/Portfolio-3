@@ -4,10 +4,15 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
+    font-family: 'Lobster Two', cursive;
 }
 
 body {
-	background: #e09a17;
+    background: #e09a17;
+}
+
+.container {
+	background: inherit;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -20,7 +25,7 @@ svg {
 	display: block;
 	max-width: 980px;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -33,6 +38,7 @@ svg {
     flex-direction: row;
     width: 135px;
     height: 100%;
+    margin-bottom: 25px;
 }
 
 .colorsForm div {
@@ -41,7 +47,7 @@ svg {
 }
 
 .colorsForm div p {
-    font-family: "Guitar Font", sans-serif;
+    font-weight: bolder;
     font-size: 3.2em;
     color: #fff;
     text-shadow: black -5px 2px 1px;
@@ -57,18 +63,29 @@ svg {
         bottom: -65px;
         flex-direction: column;
 		align-items: center;
-        width: 170px;
-        height: 350px;
+        justify-content: center;
+        width: 185px;
+        height: 385px;
         background: linear-gradient(190deg,rgb(255, 115, 0) 15%, rgb(245, 5, 5) 100%);
         border-radius: 15px;
         border: 7px solid black;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        overflow: hidden;
+        height: 115vh;
     }
 
 	svg {
         height: 375px;
         width: 555px;
-        width: auto;
-        top: 150px;
+        top: 145px;
 	}
 
     .colorsForm div {
