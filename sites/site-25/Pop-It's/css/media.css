@@ -6,6 +6,10 @@
        height: auto; 
     }
 
+    body {
+        background: rgb(30, 30, 32);
+    }
+
     .popit-1, .popit-2, .popit-3 {
         margin: 7px 0px;
     }
