@@ -36,10 +36,10 @@ const questions = [
 		correctOption: "optionD"
 	},{
 		question: "Which is the longest river in the world ?",
-		optionA: "River Nile",
-		optionB: "Long River",
+		optionA: "River Amazonas",
+		optionB: "River Nile",
 		optionC: "River Dnieper",
-		optionD: "Lake Chad",
+		optionD: "River Congo",
 		correctOption: "optionA"
 	},{
 		question: "_____ is the hottest Continent on Earth ?",
@@ -120,10 +120,10 @@ const questions = [
 		correctOption: "optionA"
 	},{
 		question: "Los Angeles is also known as ?",
-		optionA: "Angels City",
+		optionA: "Demons city",
 		optionB: "Shining city",
 		optionC: "City of Angels",
-		optionD: "Lost Angels",
+		optionD: "City of Love",
 		correctOption: "optionC"
 	},{
 		question: "What is the capital of Germany ?",
