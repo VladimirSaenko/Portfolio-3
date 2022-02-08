@@ -179,6 +179,8 @@ function getSongBg() {
     }
     else if(title.innerText == 'Tom') {
         body.style.background = 'linear-gradient(326deg, black 21%, rgba(221,213,45,0.9110994739692753) 56%)';
+        title.style.color = "black";
+        mainTitle.style.color = "black";
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("phoenix");
         musicContainer.classList.remove("rock");
@@ -187,6 +189,8 @@ function getSongBg() {
     }
     else if(title.innerText == 'Hey') {
         body.style.background = 'linear-gradient(135deg, #ebd3d3 10%, #d90909 100%)';
+        title.style.color = "black";
+        mainTitle.style.color = "black";
         musicContainer.classList.add("hey");
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("phoenix");
