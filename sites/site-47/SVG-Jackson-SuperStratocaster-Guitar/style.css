@@ -14,9 +14,11 @@ body {
 .container {
 	background: inherit;
 	min-height: 100vh;
+    width: 100%;
 	display: flex;
 	align-items: center;
     flex-direction: column-reverse;
+    overflow: hidden;
 }
 
 svg {
@@ -65,7 +67,7 @@ svg {
 		align-items: center;
         justify-content: center;
         width: 185px;
-        height: 385px;
+        height: 415px;
         background: linear-gradient(190deg,rgb(255, 115, 0) 15%, rgb(245, 5, 5) 100%);
         border-radius: 15px;
         border: 7px solid black;
@@ -78,14 +80,14 @@ svg {
     }
 
     .container {
-        overflow: hidden;
         height: 115vh;
+        justify-content: center;
     }
 
 	svg {
-        height: 375px;
-        width: 555px;
-        top: 145px;
+        height: 100%;
+        width: 100%;
+        top: 150px;
 	}
 
     .colorsForm div {
