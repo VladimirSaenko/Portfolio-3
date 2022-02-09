@@ -6,13 +6,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --width-button: 350px;
-    --height-button: 75px;
-    --fontSize-button: 25px;
-    --borderRadius-button: 35px;
-}
-
 input, button {
     outline: none;
     border: none;
@@ -80,16 +73,16 @@ button {
     user-select: none;
 }
 
-.creatingPasswordButton, .onhiddenPasswordButton {
-    width: var(--width-button);
-    height: var(--height-button);
-    font-size: var(--fontSize-button);
+.creatingPasswordButton, .onhiddenPasswordButton, .clearButton {
+    width: 350px;
+    height: 75px;
+    font-size: 25px;
     text-transform: capitalize;
     color: rgb(117,255,71);
     background: black;
-    border-radius: var(--fontSize-button);
+    border-radius: 25px;
 }
 
-.creatingPasswordButton:hover, .onhiddenPasswordButton:hover {
+.creatingPasswordButton:hover, .onhiddenPasswordButton:hover, .clearButton:hover {
     color: rgb(59, 146, 30);
 }

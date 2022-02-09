@@ -4,6 +4,8 @@
 let userPassword = document.getElementById("password");
 let confirmUserPassword = document.getElementById("password2");
 let showPassword = false;
+const createPasswordBtn = document.getElementById("createPassBtn");
+const clearPasswordButton = document.getElementById("clearbtn");
 
 function getRandomPassword() {
     let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789/@#$%&()+&<>:";
@@ -49,6 +51,16 @@ function hiddenPassword() {
     userPassword.setAttribute("readonly", "readonly");
     confirmUserPassword.setAttribute("type", "password");
 }
+
+// userPassword.addEventListener('input', getRandomPassword); // не раскомментировать!
+userPassword.addEventListener('input', getUserPassword);
+createPasswordBtn.addEventListener('click', getRandomPassword);
+clearPasswordButton.addEventListener('click', () => {
+    if(userPassword.value != '') {
+        userPassword.value = '';
+        confirmUserPassword.value = '';
+    }
+})
 
 hiddenPassword();
 getRandomPassword();
