@@ -48,37 +48,3 @@ button {
     outline: none;
     flex-wrap: wrap;
 }
-
-.btn-container .hide {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.demo .hidenBtn {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: none;
-    background: #edda73;
-    border-radius: 15px;
-    border-color: transparent;
-    height: 40px;
-    width: 150px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 20px;
-    outline: none;
-    flex-wrap: wrap;
-    transition: 1s;
-}
-
-@media screen and (min-width: 300px) and (max-width: 800px) {
-    .btn-container {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 50%;
-        flex-wrap: wrap;
-    }
-}
