@@ -250,7 +250,9 @@
 
 ## SVG Fender Stratocaster Guitar
 
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147706700-93f8f769-c4a7-44ba-bf51-a0df905af942.jpg)
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-45/SVG-Fender-Stratocaster-Guitar/index.html
+
+![img-portfolio](https://user-images.githubusercontent.com/56477695/153401473-2a413257-3346-4e3d-bc9f-a95ddc5b0f7e.jpg)
 
 ## SVG Jackson SuperStrat Guitar
 
@@ -275,3 +277,9 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-51/Drag-and-Drop-Image-example/index.html
 
 ![148678229-32dd1ffc-3969-47b3-a5f9-918979db0961](https://user-images.githubusercontent.com/56477695/148845059-1be2f6ca-a9e8-4362-9f90-02b8b9a87235.png)
+
+## Top 10 Richest People List
+
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-52/Top10-RichestPeople-List/index.html
+
+![img-portfolio](https://user-images.githubusercontent.com/56477695/153401371-d4031f19-7a36-4fb3-b9c7-2b36ee16ba8d.jpg)
