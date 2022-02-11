@@ -48,3 +48,13 @@ button {
     outline: none;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        flex-wrap: wrap;
+    }
+}
