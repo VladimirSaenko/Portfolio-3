@@ -223,11 +223,15 @@ main {
   }
 
   .btn--hold {
-    top: 55%;
+    top: 51%;
+  }
+
+  .btn--roll {
+    top: 43%;
   }
 
   .btn--new {
-    top: 3.5%;
+    top: 15px;
   }
   
   /* #result {
@@ -236,4 +240,5 @@ main {
     width: 300px;
     height: 35px;
   } */
+  
 }
