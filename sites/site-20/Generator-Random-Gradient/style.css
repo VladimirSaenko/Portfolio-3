@@ -24,11 +24,6 @@
     text-shadow: black -5px 1px 1px;
 }
 
-.content h3:hover {
-    color: black;
-    text-shadow: white 5px 1px 1px;
-}
-
 .content input {
     outline: none;
     margin-top: 50px;
