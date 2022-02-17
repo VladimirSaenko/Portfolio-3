@@ -32,12 +32,6 @@ form {
     background: linear-gradient(326deg, rgba(139, 34, 34, 0.562) 34%, rgb(224, 9, 9) 62%);
 }
 
-form section {
-    width: 100%;
-    height: 50px;
-    margin: 10px 0px;
-}
-
 .inputsSection {
     margin-top: 25px;
     display: grid;
@@ -62,38 +56,6 @@ form section {
     font-size: 30px;
     margin: 1px 0px;
     text-transform: uppercase;
-}
-
-.portsSection {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.portsSection p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 200;
-    margin: 0px 50px;
-    color: white;
-    font-size: 30px;
-    transform: rotate(90deg);
-}
-
-.portsSection p:nth-child(1) {
-    transform: rotate(-90deg);
-}
-
-.portsSection div h2 {
-    font-family: 'Bebas Neue', cursive;
-    border: 10px solid white;
-    letter-spacing: 25px;
-    color: white;
-    font-size: 50px;
-    border-radius: 30px;
 }
 
 .lastSection {
@@ -124,20 +86,21 @@ form section {
 .mainButton {
     font-family: 'The Nautigal', cursive;
     color: white;
-    width: 200px;
-    height: 55px;
+    width: 250px;
+    height: 75px;
     text-align: center;
     border-radius: 15px;
     text-transform: capitalize;
+    margin: 50px;
     font-size: 50px;
     cursor: pointer;
-    border: none;
+    border: black 3px solid;
     background: rgb(161, 17, 17);
 }
 
 .mainButton:hover {
     border: 5px white solid;
-    font-size: 45px;
+    font-size: 55px;
     transition: 0.2s;
 }
 
