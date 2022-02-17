@@ -283,6 +283,74 @@ body {
     }
 }
 
+.container .icon.lion svg {
+    width: 350px;
+    height: 350px;
+}
+
+.container .icon.lion:hover path {
+    animation: animate-lion 1s linear forwards;
+}
+
+#title8 {
+    margin-top: 10px;
+    color: white;
+}
+
+@keyframes animate-lion {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 2560;
+    }
+
+    100% {
+        stroke-dashoffset: 4000;
+        fill: yellow;
+        stroke: black;
+    }
+}
+
+.container .icon.dragon svg {
+    width: 350px;
+    height: 350px;
+}
+
+.container .icon.dragon:hover path {
+    animation: animate-dragon 1s linear forwards;
+}
+
+#title9 {
+    margin-top: 10px;
+    color: white;
+}
+
+@keyframes animate-dragon {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 2560;
+    }
+
+    100% {
+        stroke-dashoffset: 4000;
+        fill: yellow;
+        stroke: black;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .container {
         width: 100%;
