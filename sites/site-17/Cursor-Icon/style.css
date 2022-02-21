@@ -23,13 +23,13 @@ ul {
 ul li {
     list-style: none;
     /* list-style: armenian; */
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 ul li a {
     position: relative;
     display: inline-block;
-    font-size: 32px;
+    font-size: 102px;
     text-decoration: none;
     color: white;
     transition: 0.2s;
