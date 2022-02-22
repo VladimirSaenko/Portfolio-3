@@ -30,7 +30,6 @@ body {
     cursor: default;
     text-align: center;
     margin: 0px 25px;
-    /* cursor: pointer; */
 }
 
 .container .icon path {
@@ -351,6 +350,36 @@ body {
     }
 }
 
+.container .icon.temeria path {
+    stroke: none;
+}
+
+.container .icon.temeria:hover path {
+    animation: animate-temeria 1s linear forwards;
+}
+
+#title10 {
+    margin-top: 10px;
+    color: white;
+}
+
+@keyframes animate-temeria {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 1560;
+    }
+    80% {
+        stroke-dashoffset: 2560;
+    }
+    100% {
+        stroke-dashoffset: 4000;
+        fill: white;
+        stroke: black;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .container {
         width: 100%;
@@ -362,17 +391,9 @@ body {
     .icon.drakkar {
         margin: 55px 0px;
     }
-
+    
     .container .icon.helmet svg {
         width: 350px;
         height: 350px;
-    }
-
-    .container .icon {
-        width: 275px;
-        cursor: default;
-        text-align: center;
-        margin: 0px 25px;
-        /* cursor: pointer; */
     }
 }

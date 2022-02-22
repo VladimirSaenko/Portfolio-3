@@ -8,9 +8,19 @@ let eagle = document.getElementById("redania"); // Redania kingdom
 let drakkar = document.getElementById("drakkar"); // Skellige
 let helmet = document.getElementById("helmet"); // Toussaint principality
 let axes = document.getElementById("axes"); // Mahakam
-let fish = document.getElementById("fish"); // Kerack
-let lion = document.getElementById("lion") // Cintra
-let dragon = document.getElementById("dragon") // Zerrikania
+let fish = document.getElementById("fish"); // Kerack principality
+let lion = document.getElementById("lion") // Cintra kingdom
+let dragon = document.getElementById("dragon") // Zerrikania kingdom
+let temerianLily = document.getElementById("temeria"); // Temeria kingdom
+
+let path8386 = document.getElementById("path8386") // lily Temerian
+let path8404 = document.getElementById("path8404"); // lily Temerian
+let path8406 = document.getElementById("path8406"); // lily Temerian
+let path8417 = document.getElementById("path8417"); // lily Temerian
+let path10182 = document.getElementById("path10182"); // lily Temerian
+let path11949 = document.getElementById("path11949"); // lily Temerian
+let path11074 = document.getElementById("path11074"); // lily Temerian
+
 let title1 = document.getElementById("title1");
 let title2 = document.getElementById("title2");
 let title3 = document.getElementById("title3");
@@ -20,6 +30,24 @@ let title6 = document.getElementById("title6");
 let title7 = document.getElementById("title7");
 let title8 = document.getElementById("title8");
 let title9 = document.getElementById("title9");
+let title10 = document.getElementById("title10");
+
+path8386.style.fill = 'rgb(6, 24, 31)';
+path8404.style.fill = 'rgb(6, 24, 31)';
+path8406.style.fill = 'rgb(6, 24, 31)';
+path8417.style.fill = 'rgb(6, 24, 31)';
+
+path8386.style.stroke = '#31e8ff';
+path8404.style.stroke = '#31e8ff';
+path8406.style.stroke = '#31e8ff';
+path8417.style.stroke = '#31e8ff';
+path10182.style.fill = '#31e8ff';
+path11949.style.fill = '#31e8ff';
+path11074.style.fill = '#31e8ff';
+
+function returnBg() {
+    body.style.background = "#06181f";
+}
 
 unicorn.addEventListener('mousemove', function() {
     body.style.background = "yellow";
@@ -29,7 +57,7 @@ unicorn.addEventListener('mousemove', function() {
 })
 
 unicorn.addEventListener('mouseout', function() {
-    body.style.background = "#06181f";
+    returnBg();
     title1.style.visibility = "hidden";
 })
 
@@ -41,7 +69,7 @@ eagle.addEventListener("mousemove",function() {
 })
 
 eagle.addEventListener('mouseout',function() {
-    body.style.background = "#06181f";
+    returnBg();
     title2.style.visibility = "hidden";
 })
 
@@ -53,7 +81,7 @@ sun.addEventListener('mousemove', function() {
 })
 
 sun.addEventListener('mouseout', function() {
-    body.style.background = "#06181f";
+    returnBg();
     title3.style.visibility = "hidden";
 })
 
@@ -65,7 +93,7 @@ drakkar.addEventListener('mousemove', function() {
 })
 
 drakkar.addEventListener('mouseout', function() {
-    body.style.background = "#06181f";
+    returnBg();
     title4.style.visibility = "hidden";
 })
 
@@ -77,7 +105,7 @@ helmet.addEventListener('mousemove', function() {
 })
 
 helmet.addEventListener('mouseout', function() {
-    body.style.background = "#06181f";
+    returnBg();
     title5.style.visibility = "hidden";
 })
 
@@ -89,7 +117,7 @@ axes.addEventListener('mousemove', function() {
 })
 
 axes.addEventListener('mouseleave', function() {
-    body.style.background = "#06181f";
+    returnBg();
     title6.style.visibility = 'hidden';
 })
 
@@ -101,7 +129,7 @@ fish.addEventListener('mousemove', function() {
 })
 
 fish.addEventListener("mouseleave", function() {
-    body.style.background = "#06181f";
+    returnBg();
     title7.style.visibility = 'hidden';
 })
 
@@ -113,7 +141,7 @@ lion.addEventListener('mousemove', () => {
 })
 
 lion.addEventListener('mouseleave', () => {
-    body.style.background = "#06181f";
+    returnBg();
     title8.style.visibility = 'hidden';
 })
 
@@ -125,6 +153,29 @@ dragon.addEventListener('mousemove', () => {
 })
 
 dragon.addEventListener('mouseleave', () => {
-    body.style.background = "#06181f";
     title9.style.visibility = 'hidden';
+    returnBg();
+})
+
+temerianLily.addEventListener('mousemove', () => {
+    body.style.background = 'black';
+    title10.style.visibility = 'visible';
+    title10.innerText = 'Temeria';
+    title10.style.color = 'white';
+})
+
+temerianLily.addEventListener('mouseleave', () => {
+    path8386.style.fill = 'rgb(6, 24, 31)';
+    path8404.style.fill = 'rgb(6, 24, 31)';
+    path8406.style.fill = 'rgb(6, 24, 31)';
+    path8417.style.fill = 'rgb(6, 24, 31)';
+    path8386.style.stroke = '#31e8ff';
+    path8404.style.stroke = '#31e8ff';
+    path8406.style.stroke = '#31e8ff';
+    path8417.style.stroke = '#31e8ff';
+    path10182.style.fill = '#31e8ff';
+    path11949.style.fill = '#31e8ff';
+    path11074.style.fill = '#31e8ff';
+    title10.style.visibility = 'hidden';
+    returnBg();
 })
