@@ -97,23 +97,7 @@ function renameRandomSubstancesNames() {
     name3 = "";
     name4 = "";
     name5 = "";
-    for(let i = 0; i < chemistrynameLength; i++) {
-        let randomName1 = Math.floor(Math.random() * chemistrynames.length);
-        let randomName2 = Math.floor(Math.random() * chemistrynames.length);
-        let randomName3 = Math.floor(Math.random() * chemistrynames.length);
-        let randomName4 = Math.floor(Math.random() * chemistrynames.length);
-        let randomName5 = Math.floor(Math.random() * chemistrynames.length);
-        name1 += chemistrynames[randomName1];
-        name2 += chemistrynames[randomName2];
-        name3 += chemistrynames[randomName3];
-        name4 += chemistrynames[randomName4];
-        name5 += chemistrynames[randomName5];
-        substanceName1.innerHTML = name1;
-        substanceName2.innerHTML = name2;
-        substanceName3.innerHTML = name3;
-        substanceName4.innerHTML = name4;
-        substanceName5.innerHTML = name5;
-    }
+    getRandomSubstancesNames();
 }
 
 substanceName1.addEventListener('click', function() {
