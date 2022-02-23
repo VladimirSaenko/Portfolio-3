@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    background: linear-gradient(90deg, #f7c40e 30%, #f16615 100%);
+    overflow: hidden;
+}
+
+svg {
+    width: 755px;
+    height: 755px;
+}
+
+.pedal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 500px;
+    background: linear-gradient(45deg, #ffe602 30%, #ffea29 100%);
+    border-radius: 15px;
+    border: black 3px solid;
+    text-transform: uppercase;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    flex-direction: row;
+}
+
+.inputs div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.inputs div h3 {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.allrestbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.allrestbox div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.allrestbox div svg {
+    width: 100px;
+    height: 100px;
+}
+
+.allrestbox div span {
+    font-size: 30px;
+    margin: 0px 20px;
+    font-weight: bolder;
+}
+
+.mainbutton {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.mainbutton:hover {
+    background: yellow;
+    color: black;
+    border: black 10px solid;
+}
+
+.mainbutton:active {
+    background: rgb(201, 201, 25);
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .pedal {
+        width: 300px;
+    }
+
+    .inputs div {
+        margin: 20px;
+    }
+
+    .inputs div h3 {
+        font-size: 50px;
+        margin-top: 25px;
+    }
+
+    .mainbutton {
+        font-size: 40px;
+        height: 100px;
+        margin-top: 5px;
+    }
+
+    .allrestbox div span {
+        margin: 0px 15px;
+    }
+}
