@@ -49,5 +49,5 @@ a {
 
 .album_details h2:hover {
     cursor: pointer;
-    color: white;
+    color: red;
 }
