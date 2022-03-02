@@ -80,12 +80,6 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/146922190-9c9b072f-5734-4a8e-8c37-03ed59de4c69.jpg)
 
-## Audio Player v1.0
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-14/Audio-Player-v1/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/146922416-9e81b837-810a-462d-a4eb-b911f7d0a121.jpg)
-
 ## RGB Slide site
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-15/RGB-Slide-site/index.html
