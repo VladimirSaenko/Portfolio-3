@@ -170,7 +170,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147705113-ae6dfcda-e291-4048-8e76-ebd16a19d6a8.jpg)
 
-## The Big Game
+## The Pig Game
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-31/The-Pig-Game/index.html
 
@@ -188,7 +188,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147705503-8af9750e-81e1-4684-893c-7ab3ee3b11f4.png)
 
-## JS DrumKit
+## JS DrumBitBox
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-34/JS-DrumKit/index.html
 
@@ -248,12 +248,6 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/153401473-2a413257-3346-4e3d-bc9f-a95ddc5b0f7e.jpg)
 
-## SVG Jackson SuperStrat Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-47/SVG-Jackson-SuperStratocaster-Guitar/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147706504-26a03703-0d9e-4c42-b745-6b418d80e982.jpg)
-
 ## Infiniti Scroll Lorem Blog
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-48/Infiniti-Scroll-Lorem-Blog-site/index.html
@@ -266,7 +260,7 @@
 
 ![147850551-8bf4b6d6-051d-446c-805a-36d4bcd4b252](https://user-images.githubusercontent.com/56477695/148844875-0e13160b-e1aa-4ede-aadf-b9fb54dec382.jpg)
 
-## Drag & Drop Image
+## Drag & Drop Image/s
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-51/Drag-and-Drop-Image-example/index.html
 
@@ -277,3 +271,7 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-52/Top10-RichestPeople-List/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/153401371-d4031f19-7a36-4fb3-b9c7-2b36ee16ba8d.jpg)
+
+## SVG Ibanez Guitar
+
+### 
