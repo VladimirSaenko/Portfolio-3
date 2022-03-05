@@ -116,7 +116,7 @@
 
 ![photo_2021-12-29_23-25-04](https://user-images.githubusercontent.com/56477695/147704532-8d2e58be-2ddc-4a80-8a3e-96257f3291e9.jpg)
 
-## User Color Neon Button
+## Neon Button
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-21/UserColor-Neon-Button/index.html
 
@@ -128,7 +128,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704746-4766f0ea-0549-4997-86f4-dd168f7e6a53.jpg)
 
-## RGB IMAC 2021
+## IMAC 2021
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-24/RGB-IMAC2021/index.html
 
@@ -158,7 +158,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704998-3479dbf7-4262-4d2f-b830-1a7180bae8da.jpg)
 
-## Random Choice Piker Tags
+## Tags creator 
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-29/RandomChoicePikerTagsSite/index.html
 
@@ -175,12 +175,6 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-31/The-Pig-Game/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147705207-0e2b250d-d17b-44f9-a615-5664fd5b76ce.png)
-
-## Arkanoid Breakout Game site
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-32/Arkanoid-Breakout-Game-site/index.html
-
-![icon](https://user-images.githubusercontent.com/56477695/147705244-7d222669-ceda-4d80-bc0a-083ba984dcb2.png)
 
 ## The Hangman Game
 
