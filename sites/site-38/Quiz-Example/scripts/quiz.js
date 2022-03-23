@@ -21,13 +21,6 @@ const questions = [
 		optionD: "George Washington",
 		correctOption: "optionD"
 	},{
-		question: "30 days has ______ ?",
-		optionA: "January",
-		optionB: "December",
-		optionC: "June",
-		optionD: "August",
-		correctOption: "optionC"
-	},{
 		question: "How many hours can be found in a day ?",
 		optionA: "30 hours",
 		optionB: "38 hours",
@@ -71,7 +64,7 @@ const questions = [
 		correctOption: "optionD"
 	},{
 		question: "Where is the world tallest building located ?",
-		optionA: "Bahrein",
+		optionA: "Bahrain",
 		optionB: "Canada",
 		optionC: "Dubai",
 		optionD: "Italy",
