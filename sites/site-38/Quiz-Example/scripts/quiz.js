@@ -31,7 +31,7 @@ const questions = [
 		question: "Which is the longest river in the world ?",
 		optionA: "River Amazonas",
 		optionB: "River Nile",
-		optionC: "River Dnieper",
+		optionC: "River Euphrates",
 		optionD: "River Congo",
 		correctOption: "optionA"
 	},{
@@ -41,13 +41,6 @@ const questions = [
 		optionC: "Africa",
 		optionD: "North America",
 		correctOption: "optionC"
-	},{
-		question: "Which country is the largest in the world ?",
-		optionA: "Russia",
-		optionB: "Canada",
-		optionC: "China",
-		optionD: "Egypt",
-		correctOption: "optionA"
 	},{
 		question: "Which of these numbers is an odd number ?",
 		optionA: "Ten",
@@ -69,13 +62,6 @@ const questions = [
 		optionC: "Dubai",
 		optionD: "Italy",
 		correctOption: "optionC"
-	},{
-		question: "The longest river in the Ukraine is ?",
-		optionA: "River Dnieper",
-		optionB: "River Nile",
-		optionC: "River Southern Bug",
-		optionD: "River Twitter",
-		correctOption: "optionA"
 	},{
 		question: "How many permanent teeth does a dog have ?",
 		optionA: "38",
