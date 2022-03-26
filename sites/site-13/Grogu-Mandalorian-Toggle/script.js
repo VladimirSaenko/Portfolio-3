@@ -9,7 +9,7 @@ let waySpan = document.getElementById("way");
 let isActive = false;
 
 function activateMando() {
-    if(!isActive){
+    if(!isActive) {
         mando.style.visibility = 'visible';
         gitSupp.style.visibility = 'visible';
         container.style.background = '#121011';
@@ -17,7 +17,7 @@ function activateMando() {
         waySpan.style.opacity = 1;
         waySpan.style.visibility = "visible";
     }
-    else if(isActive){
+    else if(isActive) {
         mando.style.visibility = 'hidden';
         gitSupp.style.visibility = 'hidden';
         container.style.background = '#5ec4e0';
@@ -27,17 +27,3 @@ function activateMando() {
     }
     isActive = !isActive;  
 }
-
-const countDate = new Date('may 4, 2022 10:00:00').getTime();
-
-function may4th() {
-    const nowDate = new Date().getTime();
-    let gap = countDate - nowDate;
-
-    if(gap <= 0) {
-        waySpan.innerText = "may the 4th be with you";
-        waySpan.style.transition = "1s";
-    }
-}
-
-setInterval(may4th(), 1);
