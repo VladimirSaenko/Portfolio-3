@@ -21,7 +21,7 @@ function activateMando() {
         mando.style.visibility = 'hidden';
         gitSupp.style.visibility = 'hidden';
         container.style.background = '#5ec4e0';
-        toggle.style.backgroundImage = "linear-gradient( #aefaa7, #00ff22, #1eff00, #33ff00, #aefda7 )";
+        toggle.style.backgroundImage = "linear-gradient(#aefaa7, #00ff22, #1eff00, #33ff00, #aefda7)";
         waySpan.style.opacity = 0;
         waySpan.style.visibility = "hidden";
     }
