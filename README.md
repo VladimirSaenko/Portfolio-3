@@ -182,7 +182,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147705503-8af9750e-81e1-4684-893c-7ab3ee3b11f4.png)
 
-## JS DrumBitBox
+## JS BitBox Machine
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-34/JS-DrumKit/index.html
 
