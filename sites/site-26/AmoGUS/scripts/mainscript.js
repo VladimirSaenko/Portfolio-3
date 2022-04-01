@@ -61,7 +61,7 @@ const colors = [
     'Fuchsia',
     'Fruit',
     // 'Minion Pink',
-    // 'Olympic Avocado',
+    // 'Olympic Green',
     'Mint',
     'Tomato',
     'Peach',
@@ -75,7 +75,7 @@ const colors = [
     'Glaucous',
     'Lychee',
     'Watermelon',
-    'Avocado', // Avocode
+    'Avocado',
     'Passion Fruit',
     'Scary Dark',
     'Empty Black',
