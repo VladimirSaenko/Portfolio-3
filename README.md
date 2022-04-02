@@ -124,15 +124,7 @@
 
 ## Random Color LightSaber
 
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-22/RandomColorLightSaber/index.html
-
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704746-4766f0ea-0549-4997-86f4-dd168f7e6a53.jpg)
-
-## IMAC 2021
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-24/RGB-IMAC2021/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147704805-4dbbe3ce-9317-4e29-ab1d-47af51e0a2b1.jpeg)
 
 ## Pop It's site
 
