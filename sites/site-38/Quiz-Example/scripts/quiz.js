@@ -146,5 +146,60 @@ const questions = [
 		optionC: "32",
 		optionD: "36",
 		correctOption: "optionC"
-	}
+	},{
+		question: "The company Ibanez produces?",
+		optionA: "Piano",
+		optionB: "Flute",
+		optionC: "Guitars",
+		optionD: "Drums",
+		correctOption: "optionC"
+	},
+	{
+		question: "Where is the city of Sofia ?",
+		optionA: "Andorra",
+		optionB: "Bulgaria",
+		optionC: "Luxemburg",
+		optionD: "Romania",
+		correctOption: "optionB"
+	},
+	{
+		question: "When did World War II start ?",
+		optionA: "1939",
+		optionB: "1823",
+		optionC: "981",
+		optionD: "1475",
+		correctOption: "optionA"
+	},
+	{
+		question: "How many satellites does the earth have ?",
+		optionA: "1",
+		optionB: "2",
+		optionC: "3",
+		optionD: "0",
+		correctOption: "optionA"
+	},
+	{
+		question: "Who has more copper reserves in the world?",
+		optionA: "Monaco",
+		optionB: "Finland",
+		optionC: "Chile",
+		optionD: "Japan",
+		correctOption: "optionC"
+	},
+	{
+		question: "Which of the following is included in the UK ?",
+		optionA: "Scotland",
+		optionB: "Estonia",
+		optionC: "Mongolia",
+		optionD: "Marocco",
+		correctOption: "optionA"
+	},
+	{
+		question: "Geralt from...",
+		optionA: "Aedirn",
+		optionB: "Kaedwen",
+		optionC: "Rivia",
+		optionD: "Nilfgaard",
+		correctOption: "optionC"
+	},
 ];
