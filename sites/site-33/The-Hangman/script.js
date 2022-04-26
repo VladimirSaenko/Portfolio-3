@@ -11,35 +11,21 @@ const finalMessageRevealWord = document.getElementById('final-message-reveal-wor
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['play', 'notification', 'javascript', 'amogus', 'abobus', 'kitty', 'squid', 'hangman', 'update', 'pizza', 'hamburger', 'display',
-'popit', 'circle', 'france', 'james', 'jonny', 'assassin', 'country', 'altair', 'sirius', 'potter', 'window', 'update', 'delete', 'metallica',
-'austria', 'ukraine', 'select', 'italia', 'romania', 'england', 'scotland', 'india', 'subscribe', 'hurricane', 'marshall', 'undefined', 'triangle',
-'soviet', 'republic', 'empire', 'kingdoom', 'principiality', 'space', 'studio', 'music', 'subnatica', 'underground', 'correct', 'germany', 'witcher',
-'rammstein', 'geralt', 'lindemann', 'october', 'august', 'april','overlord', 'stalin', 'adolf', 'rocker', 'darkness', 'upper', 'lower', 'github',
-'winston', 'paris','ludendorf', 'separatist', 'january', 'february', 'december', 'november', 'revolution', 'communism', 'socialism', 'democratica',
-'function', 'nightwish', 'marvel', 'geforce', 'dota', 'croatia', 'slovenia', 'slovakia', 'czechoslovakia', 'poland', 'belgium', 'luxemburg',
-'turkey','container', 'mathematic', 'ambulance', 'romanov', 'suleiman', 'nikolay', 'leonardo', 'florencia', 'auditore', 'stupid', 'tiktok','facebook',
-'instagramm','vkontakte','motherland', 'napoleon', 'alexander','document', 'letter', 'word', 'vendetta', 'occupation', 'annex', 'finland', 'score',
-'master', 'puppet', 'powerwolf', 'slayer', 'slash', 'belarus', 'benin', 'summer', 'octoberfest', 'portugal', 'venesuela', 'vietham', 'greece','steam',
-'vesemir', 'kaedwen', 'nilfgaard', 'aedirn', 'cintra', 'cidaris', 'rivia','livia','egypt', 'persia', 'ireland', 'iceland', 'canada', 'china', 'korea',
-'latvia', 'estonia', 'madagascar', 'mexico', 'bucharest', 'budapest','frankfurt','monako', 'mongol', 'japan', 'netherland', 'pakistan',
-'senegal', 'serbia', 'bosnia', 'herzegovina', 'america', 'tailand', 'togoland', 'colonia', 'octavian','severus','septima', 'borgia', 'montain', 'river',
-'winter', 'vatican', 'greenland', 'travel', 'random', 'imposter', 'guitar', 'fender', 'gibson', 'murmansk', 'world', 'hello', 'bulgaria', 'volga','argentina',
-'banrain', 'burundi', 'ecuador', 'brazilia', 'gibraltar','guatemala','skellige', 'explorer', 'telecaster', 'stratocaster', 'sherlock', 'novus','candy', 'hungary',
-'kenya', 'macedonia', 'ferdinand', 'style', 'moldova', 'holland', 'district', 'cordoba', 'cloud', 'apple', 'samsung', 'motobike', 'bicycle', 'sweden', 'escape',
-'brotherhood', 'revelation', 'istambul', 'constantin', 'syria', 'taiwan', 'uganda', 'virtual', 'speaker', 'cruella', 'clothe', 'united', 'syndicate',
-'snickers', 'airplane', 'uruguay', 'train', 'crazy', 'anton', 'edison', 'osman', 'never', 'witch', 'skills', 'viverna', 'endriaga', 'neron', 'autumn',
-'cybertron', 'transformers', 'khan', 'arabia', 'saudi', 'ozzy', 'joker', 'batman', 'covid', 'virus', 'paper', 'donatella', 'rafael','badcomedian', 'final',
-'countdown', 'again', 'machine', 'anime', 'discovery', 'multiplayer', 'clock', 'lightsaber', 'anakin', 'spitfire', 'firefly', 'notepad', 'millenium', 'plague',
-'moscow', 'petersburg', 'cappadocia', 'saturday', 'nightmare', 'wonderful', 'isolation', 'normandia', 'singleplayer', 'fortnite', 'ubisoft', 'netflix',
-'prussia', 'illyria', 'frederick', 'dreamland', 'steamland', 'mouseclick', 'keydown', 'keyup', 'profiler', 'firewall', 'moonlight', 'converse',
-'brussel', 'strasburg', 'gangsta', 'paradise', 'railway', 'berlin', 'hellraiser', 'valencia', 'federation', 'confederation', 'galatiic', 'fireplace',
-'vallonia', 'flandria', 'bitbox', 'audio', 'computer', 'playstation', 'mandarin', 'sturgeon', 'darknest', 'splice', 'coffescript', 'typescript', 'legendary'];
+const words = ['notification', 'javascript', 'hamburger', 'assassin', 'metallica',
+'austria', 'ukraine', 'italia', 'romania', 'england', 'scotland', 'subscribe', 'hurricane', 'marshall', 'undefined', 'triangle',
+'republic', 'principiality', 'subnatica', 'underground', 'correct','rammstein', 'overlord', 'darkness',
+'winston', 'january', 'february', 'revolution', 'communism', 'socialism',
+'function', 'nightwish', 'belgium', 'luxemburg','container', 'ambulance',
+'instagramm', 'alexander','letter', 'powerwolf', 'portugal', 'venesuela', 'nilfgaard',
+'madagascar', 'bucharest', 'budapest','frankfurt', 'netherland', 'pakistan', 'senegal','greenland', 'bulgaria', 'argentina',
+'banrain', 'burundi', 'gibraltar','guatemala','skellige', 'explorer', 'telecaster', 'stratocaster', 'sherlock', 'hungary','macedonia', 'ferdinand',
+'brotherhood', 'revelation', 'airplane', 'viverna', 'endriaga','cybertron', 'transformer', 'donatella',
+'multiplayer', 'lightsaber', 'spitfire','saturday', 'nightmare', 'singleplayer', 'fortnite',
+'prussia', 'dreamland', 'mouseclick', 'profiler', 'firewall', 'moonlight', 'strasburg', 'federation', 'confederation',
+'vallonia', 'flandria', 'playstation', 'coffescript', 'typescript', 'legendary'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
-
 let playable = true;
-
 let correctLetters = [];
 let wrongLetters = [];
 
@@ -50,8 +36,6 @@ function displayWord() {
 	<span class="letter">
 	${correctLetters.includes(letter) ? letter : ''}</span>`
 	).join('')}`;
-
-	// Add Congratulations
 
 	// console.log(wordEl.innerHTML);
 	// console.log(wordEl.innerText);
@@ -83,7 +67,7 @@ function updateWrongLettersEl() {
 	});
 
 	if(wrongLetters.length === figureParts.length) {
-		finalMessage.innerHTML = 'YOU LOST!';
+		finalMessage.innerHTML = 'You lost,';
 		finalMessageRevealWord.innerHTML = `the word: ${selectedWord}`;
 		popup.style.display = 'flex';
 		playable = false;
