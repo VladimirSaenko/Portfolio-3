@@ -9,18 +9,18 @@ let flask4 = document.getElementById("flask4");
 let flask5 = document.getElementById("flask5");
 let toggleDarkThemeButton = document.getElementById("toggleDark");
 let toggleLightThemeButton = document.getElementById("toggleLight");
-let color1= getRandomInt(5,1000);
-let color2= getRandomInt(5,1000);
-let color3= getRandomInt(5,1000);
-let color4= getRandomInt(5,1000);
-let color5= getRandomInt(5,1000);
+let color1 = getRandomInt(5,360);
+let color2 = getRandomInt(5,360);
+let color3 = getRandomInt(5,360);
+let color4 = getRandomInt(5,360);
+let color5 = getRandomInt(5,360);
 let chemistrynameLength = 4;
 let chemistrynames = [
     'гидро','хлор','ин','ан','дал','цикло','нид','гекс','рол','ка',
-    'лин','кло','нонан','нол','бен','зол','окс','гли','ин','лит',
+    'лин','кло','нонан','нол','бен','зол','окс','гли','лит',
     'кси','эти','лен','поли','ти','кол','трит','пен','бу','та',
-    'про','ар','зил','ард','зил','ал','па','аква','ви','зол',
-    'гид','де','аце','тон','ол','изо','бит','дио','ксид','лиз',
+    'про','ар','зил','ард','ал','па','аква','ви',
+    'гид','де','аце','тон','ол','изо','бит','дио','лиз',
     'ват','цик','бон','тер','эпо','окта','тетра','ил','нат','диен'
 ];
 let substanceName1 = document.getElementById("name1");
@@ -43,7 +43,6 @@ function toggleDarkTheme() {
     substanceName4.style.color = "white";
     substanceName5.style.color = "white";
     toggleLightThemeButton.style.visibility = "visible";
-
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "black";
@@ -59,7 +58,6 @@ function toggleLightTheme() {
     substanceName4.style.color = "black";
     substanceName5.style.color = "black";
     toggleLightThemeButton.style.visibility = "hidden";
-
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "white";
@@ -159,35 +157,36 @@ function autoColorFlasks() {
 }
 
 flask1.addEventListener('click', function() {
-    color1 = getRandomInt(0,1000);
+    color1 = getRandomInt(5,360);
     flask1.style.filter = 'hue-rotate(' + color1 + 'deg)';
 })
 
 flask2.addEventListener('click', function() {
-    color2 = getRandomInt(0,1000);
+    color2 = getRandomInt(5,360);
     flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
 })
 
 flask3.addEventListener('click', function() {
-    color3 = getRandomInt(0,1000);
+    color3 = getRandomInt(5,360);
     flask3.style.filter = 'hue-rotate(' + color3 + 'deg)';
 })
+
 flask4.addEventListener('click', function() {
-    color4 = getRandomInt(0,1000);
+    color4 = getRandomInt(5,360);
     flask4.style.filter = 'hue-rotate(' + color4 + 'deg)';
 })
 
 flask5.addEventListener('click', function() {
-    color5 = getRandomInt(0,1000);
+    color5 = getRandomInt(5,360);
     flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
 })
 
 function repaintAllFlasks() {
-    color1 = getRandomInt(5,1000);
-    color2 = getRandomInt(5,1000);
-    color3 = getRandomInt(5,1000);
-    color4 = getRandomInt(5,1000);
-    color5 = getRandomInt(5,1000);
+    color1 = getRandomInt(5,360);
+    color2 = getRandomInt(5,360);
+    color3 = getRandomInt(5,360);
+    color4 = getRandomInt(5,360);
+    color5 = getRandomInt(5,360);
     flask1.style.filter = 'hue-rotate(' + color1  + 'deg)';
     flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
     flask3.style.filter = 'hue-rotate(' + color3  + 'deg)';
