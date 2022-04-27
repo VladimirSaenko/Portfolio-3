@@ -22,13 +22,19 @@ svg {
     height: 755px;
 }
 
+.paint-text {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
 .pedal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 325px;
-    height: 500px;
+    height: 555px;
     background: linear-gradient(45deg, #ffe602 30%, #ffea29 100%);
     border-radius: 15px;
     border: black 3px solid;
