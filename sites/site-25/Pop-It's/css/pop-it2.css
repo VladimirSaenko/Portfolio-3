@@ -1,4 +1,3 @@
-
 .popit-2 {
     width: 475px;
     height: 450px;
@@ -30,13 +29,13 @@
 }
 
 .popit2__line:nth-child(1) .popit2__circle {
-    background: linear-gradient(145deg, #cf2929, #d32020);
+    background: linear-gradient(145deg, #671818, #d32020);
     box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #ff0000;
 }
 
 .popit2__line:nth-child(1) .popit2__circle.active {
     background: #ff1d1d;
-    box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #ff0000;
+    box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #af0707;
 }
 
 .popit2__line:nth-child(2) {
@@ -49,7 +48,7 @@
 }
 
 .popit2__line:nth-child(2) .popit2__circle.active {
-    background: #ff8c08;
+    background: #ff8000;
 }
 
 .popit2__line:nth-child(3) {
@@ -74,7 +73,7 @@
 }
 
 .popit2__line:nth-child(4) .popit2__circle {
-    background: linear-gradient(145deg, #138a11, #04e600);
+    background: linear-gradient(145deg, #0c580b, #04e600);
 }
 
 .popit2__line:nth-child(4) .popit2__circle.active {
@@ -91,23 +90,23 @@
 }
 
 .popit2__line:nth-child(5) .popit2__circle {
-    background: linear-gradient(145deg, #2f81a1, #00b7ff);
+    background: linear-gradient(145deg, #0e5d7d, #00b7ff);
 }
 
 .popit2__line:nth-child(5) .popit2__circle.active {
     background: #00b7ff;
-    box-shadow: inset 5px 5px 10px #2c8bb1, inset -5px -5px 10px #189bd8;
+    box-shadow: inset 5px 5px 10px #11313e, inset -5px -5px 10px #189bd8;
 }
 
 .popit2__line:nth-child(6) {
-    background: #e465f5;
+    background: #e101ff;
 }
 
 .popit2__line:nth-child(6) .popit2__circle {
-    background: linear-gradient(145deg, #b12ee9, #c46af5);
+    background: linear-gradient(145deg, #541b6d, #c46af5);
 }
 
 .popit2__line:nth-child(6) .popit2__circle.active {
     background: #e465f5;
-    box-shadow: inset 5px 5px 10px #9500e6, inset -5px -5px 10px #b200ff;
+    box-shadow: inset 5px 5px 10px #20082d, inset -5px -5px 10px #b200ff;
 }

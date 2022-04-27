@@ -1,4 +1,3 @@
-
 .popit-3 {
     width: 485px;
     height: 480px;
@@ -30,13 +29,13 @@
 }
 
 .popit3__line:nth-child(1) .popit3__circle {
-    background: linear-gradient(145deg, #cf2929, #d32020);
+    background: linear-gradient(145deg, #671818, #d32020);
     box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #ff0000;
 }
 
 .popit3__line:nth-child(1) .popit3__circle.active {
     background: #ff1d1d;
-    box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #ff0000;
+    box-shadow: inset 5px 5px 10px #660a0a, inset -5px -5px 10px #af0707;
 }
 
 .popit3__line:nth-child(1) .popit3__circle {
@@ -45,7 +44,7 @@
 }
 
 .popit3__line:nth-child(2) {
-    background: #ff8c08;
+    background: #ff8000;
 }
 
 .popit3__line:nth-child(2) .popit3__circle {
@@ -81,7 +80,7 @@
 }
 
 .popit3__line:nth-child(4) .popit3__circle {
-    background: linear-gradient(145deg, #138a11, #04e600);
+    background: linear-gradient(145deg, #0c3d0b, #04e600);
 }
 
 .popit3__line:nth-child(4) .popit3__circle.active {
@@ -100,7 +99,7 @@
 }
 
 .popit3__line:nth-child(5) .popit3__circle {
-    background: linear-gradient(145deg, #2f81a1, #00b7ff);
+    background: linear-gradient(145deg, #145069, #00b7ff);
 }
 
 .popit3__line:nth-child(5) .popit3__circle.active {
@@ -118,7 +117,7 @@
 
 .popit3__line:nth-child(6) .popit3__circle.active {
     background: #e465f5;
-    box-shadow: inset 5px 5px 10px #9500e6, inset -5px -5px 10px #b200ff;
+    box-shadow: inset 5px 5px 10px #20082d, inset -5px -5px 10px #b200ff;
 }
 
 .popit3__line:nth-child(6) .popit3__circle {
