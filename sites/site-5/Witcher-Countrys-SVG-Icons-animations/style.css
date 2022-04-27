@@ -60,16 +60,13 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 3120;
         fill: transparent;
     }
-
     100% {
         stroke-dashoffset: 3120;
         fill: black;
@@ -90,21 +87,24 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1810;
     }
-
     80% {
         stroke-dashoffset: 3620;
         fill: transparent;
     }
-
     100% {
         stroke-dashoffset: 3620;
         fill: #e6ff05;
         stroke: #eeff05;
     }
+}
+
+#title3 {
+    font-size: 45px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
 }
 
 .container .icon.eagle path {
@@ -121,16 +121,13 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 250;
     }
-
     80% {
         stroke-dashoffset: 500;
         fill: transparent;
     }
-
     100% {
         stroke-dashoffset: 500;
         fill: white;
@@ -165,15 +162,12 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 2560;
     }
-
     100% {
         stroke-dashoffset: 2560;
         fill: white;
@@ -193,20 +187,23 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 2560;
     }
-
     100% {
         stroke-dashoffset: 3680;
         fill: white;
         stroke: yellow;
     }
+}
+
+#title5 {
+    font-family: 'My Soul', cursive;
+    text-transform: capitalize;
+    font-size: 75px;
 }
 
 .container .icon.axes path {
@@ -232,15 +229,12 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 2560;
     }
-
     100% {
         stroke-dashoffset: 4000;
         fill: white;
@@ -266,15 +260,12 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 2560;
     }
-
     100% {
         stroke-dashoffset: 4000;
         fill: blue;
@@ -291,24 +282,16 @@ body {
     animation: animate-lion 1s linear forwards;
 }
 
-#title8 {
-    margin-top: 10px;
-    color: white;
-}
-
 @keyframes animate-lion {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 2560;
     }
-
     100% {
         stroke-dashoffset: 4000;
         fill: yellow;
@@ -325,7 +308,7 @@ body {
     animation: animate-dragon 1s linear forwards;
 }
 
-#title9 {
+#title9, #title8 {
     margin-top: 10px;
     color: white;
 }
@@ -334,15 +317,12 @@ body {
     0% {
         stroke-dashoffset: 0;
     }
-
     50% {
         stroke-dashoffset: 1560;
     }
-
     80% {
         stroke-dashoffset: 2560;
     }
-
     100% {
         stroke-dashoffset: 4000;
         fill: yellow;
@@ -359,7 +339,8 @@ body {
 }
 
 #title10 {
-    margin-top: 10px;
+    margin: 10px;
+    font-size: 47px;
     color: white;
 }
 
@@ -378,6 +359,43 @@ body {
         fill: white;
         stroke: black;
     }
+}
+
+.container .icon.nazairRose path {
+    stroke-dasharray: 2550;
+    stroke-dashoffset: 0;
+}
+
+#title11 {
+    margin: 18px 0;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'My Soul', cursive;
+}
+
+.container .icon.nazairRose:hover path {
+    animation: animate-rose 2.5s linear forwards;
+}
+
+@keyframes animate-rose {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 1560;
+    }
+    80% {
+        stroke-dashoffset: 2560;
+    }
+    100% {
+        stroke-dashoffset: 2560;
+        fill: darkblue;
+        stroke: white;
+    }
+}
+
+#path11960, #path11962 {
+    display: none;
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
