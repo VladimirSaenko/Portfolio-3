@@ -308,7 +308,7 @@ body {
     animation: animate-dragon 1s linear forwards;
 }
 
-#title9, #title8 {
+#title9, #title8, #title12 {
     margin-top: 10px;
     color: white;
 }
@@ -391,6 +391,31 @@ body {
         stroke-dashoffset: 2560;
         fill: darkblue;
         stroke: white;
+    }
+}
+
+.container .icon.elves path {
+    stroke-dasharray: 2550;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.elves:hover path {
+    animation: animate-arrows 1.5s linear forwards;
+}
+
+@keyframes animate-arrows {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 1560;
+    }
+    80% {
+        stroke-dashoffset: 2560;
+    }
+    100% {
+        stroke-dashoffset: 2560;
+        fill: yellow;
     }
 }
 
