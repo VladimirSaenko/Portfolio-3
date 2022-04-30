@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#e91e63,#f1f3f4);
+    text-align: center;
+    transition: 1s all ease-in;
+}
+
+.player {
+    position: relative;
+    width: 350px;
+    background: white;
+    box-shadow: 0 50px 80px rgba(0,0,0.25);
+}
+
+.player .imgBox {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.player .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+.title {
+    /* position: absolute; */
+    font-family: 'Train One', cursive, sans-serif;
+    top: 5%;
+    font-size: 65px;
+    color: red;
+    text-shadow: #0066FF 5px 5px 2px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.player audio {
+    width: 100%;
+    outline: none;
+    background: #f1f3f4;
+    border-color: transparent;
+}
+
+audio {
+    outline: none;
+}
+
+.vanilla-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 300px);
+    height: 100%;
+    /* background: transparent; */
+    background: rgba(255, 255, 255, 0);
+    /* backdrop-filter: blur(15px); */
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    border-left: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+/* .vanilla-container p {
+    font-family: 'Train One', cursive, sans-serif;
+    position: absolute;
+    bottom: 15px;
+    color: yellow;
+    text-shadow: #0066FF 5px 5px 2px;
+    white-space: nowrap;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.vanilla-container p span {
+    color: yellow;
+    text-shadow: #0066FF 5px 5px 2px;
+} */
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .title {
+        top: 25px;
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+
+    .vanilla-container {
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.432);
+    }
+
+    .vanilla-container p span, .vanilla-container p {
+        font-size: 15px;
+    }
+}
