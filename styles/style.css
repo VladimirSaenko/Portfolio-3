@@ -17,9 +17,7 @@ html {
 }
 
 body {
-    /* background: linear-gradient(110deg,#f93d66,); */
-    /* background: rgb(203,38,38); */
-    background: linear-gradient(0deg, rgb(48, 248, 7) 50%, rgb(0, 0, 0) 75%);
+    background: linear-gradient(90deg, rgb(48, 248, 7) 50%, rgb(0, 0, 0) 75%);
 }
 
 a {
