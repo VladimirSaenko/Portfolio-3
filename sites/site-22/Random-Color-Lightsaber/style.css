@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+:root {
+    --blade-color: 65;
+    --blade-lightness: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.randomColorBtn {
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    margin-top: 50px;
+    width: 350px;
+    border-radius: 35px;
+    height: 70px;
+    font-size: 35px;
+    color: white;
+    background: black;
+    border: white 5px solid;
+}
+
+.randomColorBtn:hover {
+    background: white;
+    color: black;
+}
+
+.lightsaber {
+    margin-top: 50vh;
+    grid-column: 1 / -1;
+    position: relative;
+}
+  
+#on-off {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+/* Рукоятка светового меча */
+
+.handle {
+    cursor: pointer;
+    display: block;
+    width: 14px;
+    height: 125px;
+    border-radius: 0 0 4px 4px;
+    background-image: linear-gradient(
+      black 0 10px,
+      orange 0 14px,
+      silver 0 15px,
+      black 0 20px,
+      silver 0 22px,
+      black 0 25px,
+      silver 0 27px,
+      black 0 30px,
+      silver 0 32px,
+      black 0 35px,
+      silver 0 37px,
+      black 0 40px,
+      silver 0 42px,
+      black 0 45px,
+      silver 0 47px,
+      black 0 50px,
+      silver 0 60px,
+      orange 60px 100px,
+      silver 50px 100%
+    );
+}
+  
+.blade {
+    position: absolute;
+    background: white;
+    cursor: pointer;
+    height: 350%;
+    width: 100%;
+    bottom: 100%;
+    border-radius: 100vw 100vw 0 0;
+    box-shadow: inset 0 0 4px
+      hsl(var(--blade-color) 100% var(--blade-lightness) / 1),
+    0 0 1em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.8),
+    0 0 1.5em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.7),
+    0 0 2em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.5),
+    0 0 3em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.3),
+    0 0 5em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.2);
+    transition: transform 100ms ease-out;
+    transform-origin: bottom;
+    transition: 0s;
+}
+  
+.blade::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: white;
+    border-radius: inherit;
+    z-index: 10;
+}
+
+/* Включение/Выключение светового меча */
+  
+#on-off:not(:checked) + .blade {
+    transform: scaleY(0);
+    transition: 1s;
+}
+  
+#on-off:checked + .blade {
+    transform: scaleY(1);
+}

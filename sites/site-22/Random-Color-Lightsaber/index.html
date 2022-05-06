@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Lightsaber</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <div class="content">
+        <div class="lightsaber">
+            <input type="checkbox" id="on-off">
+            <div onclick="getRandomColor()" title="Change Color" class="blade"></div>
+            <label class="handle" for="on-off"></label>
+        </div>
+        <button class="randomColorBtn" onclick="getRandomColor()">Get Random Color</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
