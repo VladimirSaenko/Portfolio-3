@@ -124,6 +124,8 @@
 
 ## Random Color LightSaber
 
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-22/Random-Color-Lightsaber/index.html
+
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704746-4766f0ea-0549-4997-86f4-dd168f7e6a53.jpg)
 
 ## Pop It's site
@@ -178,7 +180,7 @@
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-34/JS-DrumKit/index.html
 
-![bg](https://user-images.githubusercontent.com/56477695/147705545-8af50dae-4c1f-4af3-86ef-7ae99b058575.jpg)
+![bg](https://user-images.githubusercontent.com/56477695/167105659-332c2144-d285-4778-aaa9-96dd9e811abd.jpg)
 
 ## Music Player
 
