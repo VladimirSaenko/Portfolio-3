@@ -90,7 +90,7 @@
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-16/Live-Letters-Counter/index.html
 
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147703659-ac783890-75b2-455d-87a5-778df5b4aa85.png)
+![img-portfolio](https://user-images.githubusercontent.com/56477695/167127954-76716ffb-5627-4e4e-9891-00c8c324a94c.png)
 
 ## Cursor Icons
 
