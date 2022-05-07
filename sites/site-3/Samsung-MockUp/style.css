@@ -33,10 +33,10 @@ body {
 .container .tv .imgBx {
     position: absolute;
     transition: background-position 0.5s linear;
-    top: 98px;
+    top: 97px;
     left: 56px;
     width: 609px;
-    height: 332px;
+    height: 333px;
     background-size: 100%;
     background-position: top;
     background: red url(assets/window.jpg);
@@ -116,7 +116,7 @@ body {
     background-position: bottom;
 }
 
-@media(max-width:1110px) {
+@media(max-width: 1110px) {
     .container {
         flex-direction: column;
     }
