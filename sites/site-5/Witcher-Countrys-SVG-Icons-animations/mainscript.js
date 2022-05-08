@@ -104,10 +104,15 @@ sun.addEventListener('mousemove', function() {
     body.style.background = "black"
     title3.style.visibility = "visible";
     title3.style.color = "yellow";
+    path8386.style.fill = 'black';
+    path8404.style.fill = 'black';
+    path8406.style.fill = 'black';
+    path8417.style.fill = 'black';
 })
 
 sun.addEventListener('mouseout', function() {
     returnBg();
+    returnColorsTemerianLily();
     title3.style.visibility = "hidden";
 })
 
@@ -131,21 +136,31 @@ helmet.addEventListener('mousemove', function() {
     body.style.background = "black";
     title5.style.visibility = "visible";
     title5.style.color = "yellow";
+    path8417.style.fill = 'black';
+    path8386.style.fill = 'black';
+    path8404.style.fill = 'black';
+    path8406.style.fill = 'black';
 })
 
 helmet.addEventListener('mouseout', function() {
     returnBg();
     title5.style.visibility = "hidden";
+    returnColorsTemerianLily();
 })
 
 axes.addEventListener('mousemove', function() {
     body.style.background = "black";
     title6.style.visibility = 'visible';
     title5.style.color = "white";
+    path8417.style.fill = 'black';
+    path8386.style.fill = 'black';
+    path8404.style.fill = 'black';
+    path8406.style.fill = 'black';
 })
 
 axes.addEventListener('mouseleave', function() {
     returnBg();
+    returnColorsTemerianLily();
     title6.style.visibility = 'hidden';
 })
 
@@ -212,11 +227,16 @@ nazairRose.addEventListener('mousemove', () => {
     body.style.background = '#000';
     title11.style.visibility = 'visible';
     title11.style.color = 'white';
+    path8417.style.fill = 'black';
+    path8386.style.fill = 'black';
+    path8404.style.fill = 'black';
+    path8406.style.fill = 'black';
 })
 
 nazairRose.addEventListener('mouseleave', () => {
     title11.style.visibility = 'hidden';
     returnBg();
+    returnColorsTemerianLily();
 })
 
 elvesArrows.addEventListener('mousemove', () => {
