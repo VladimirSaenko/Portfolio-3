@@ -59,9 +59,6 @@ function returnColorsTemerianLily() {
     path8404.style.stroke = '#31e8ff';
     path8406.style.stroke = '#31e8ff';
     path8417.style.stroke = '#31e8ff';
-    path10182.style.fill = '#31e8ff';
-    path11949.style.fill = '#31e8ff';
-    path11074.style.fill = '#31e8ff';
 }
 
 function returnBg() {
