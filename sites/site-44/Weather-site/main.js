@@ -13,9 +13,9 @@ async function getWeather(city) {
     try {
         const queryURL = `${api.base}weather?q=${city}&units=metric&APPID=${api.key}`;
         const res = await fetch(queryURL);
-        console.log("res: ", res);
+        // console.log("res: ", res);
         const weather = await res.json();
-        console.log("weather: ", weather);
+        // console.log("weather: ", weather);
         displayResults(weather);
         // const res = await fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`);
     } catch(err) {
@@ -59,7 +59,7 @@ function createDate(date) {
 if('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(setPosition, showError);
 } else {
-    showError('Browser doesnt support Geolocation, please download normal working browser')
+    showError('Browser doesnt support Geolocation, please download normal working browser');
 }
 
 function setPosition(position) {
@@ -79,9 +79,9 @@ async function getWeatherByGeo(latitude, longitude) {
     try {
         const query = `${api.base}/weather?lat=${latitude}&lon=${longitude}&units=metric&APPID=${api.key}`;
         const res = await fetch(query);
-        console.log("res: ", res);
+        // console.log("res: ", res);
         const weather = await res.json();
-        console.log("weather: ", weather);
+        // console.log("weather: ", weather);
         displayResults(weather);
     } catch(err) {
         showError(err);
