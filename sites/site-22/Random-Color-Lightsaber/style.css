@@ -95,7 +95,7 @@ body {
     bottom: 100%;
     border-radius: 100vw 100vw 0 0;
     box-shadow: inset 0 0 4px
-      hsl(var(--blade-color) 100% var(--blade-lightness) / 1),
+    hsl(var(--blade-color) 100% var(--blade-lightness) / 1),
     0 0 1em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.8),
     0 0 1.5em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.7),
     0 0 2em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.5),
@@ -114,6 +114,7 @@ body {
     right: 0;
     left: 0;
     background: white;
+    /* background: black; */
     border-radius: inherit;
     z-index: 10;
 }
