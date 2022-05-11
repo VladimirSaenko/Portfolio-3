@@ -14,7 +14,7 @@ color6.style.fill = 'rgb(157, 205, 219)';
 color7.style.fill = 'rgb(225, 225, 225)';
 
 let impostortext = document.getElementById("impostertext");
-let randomColor = getRandomInt(0,22);
+let randomColor = getRandomInt(0, 22);
 
 const colors = [
     'Red',
@@ -51,8 +51,6 @@ const colors = [
     'Beige',
     'Turquoise',
     'CoffeeScript',
-    'Sky',
-    'Sky Blue',
     'Grey',
     'Pearl',
     'Ocean Breeze',
@@ -89,7 +87,7 @@ const colors = [
 ];
 
 setInterval(function() {
-    randomColor = getRandomInt(0, 70);
+    randomColor = getRandomInt(0, 68);
     if(randomColor == 1 || randomColor == 0) {
         impostortext.innerText = `${colors[0]} was The Imposter`;
         color1.style.fill = 'rgb(215, 30, 34)';
@@ -432,26 +430,6 @@ setInterval(function() {
     }
     if(randomColor == 35) {
         impostortext.innerText = `${colors[34]} was The Imposter`;
-        color1.style.fill = 'rgb(0, 148, 254)';
-        color2.style.fill = 'rgb(0, 125, 191)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-        color5.style.fill = 'rgb(69, 99, 109)';
-        color6.style.fill = 'rgb(157, 205, 219)';
-        color7.style.fill = 'rgb(225, 225, 225)';
-    }
-    if(randomColor == 36) {
-        impostortext.innerText = `${colors[35]} was The Imposter`;
-        color1.style.fill = 'rgb(0, 169, 198)';
-        color2.style.fill = 'rgb(0, 125, 145)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-        color5.style.fill = 'rgb(69, 99, 109)';
-        color6.style.fill = 'rgb(157, 205, 219)';
-        color7.style.fill = 'rgb(225, 225, 225)';
-    }
-    if(randomColor == 37) {
-        impostortext.innerText = `${colors[36]} was The Imposter`;
         color1.style.fill = 'rgb(128, 128, 128)';
         color2.style.fill = 'rgb(64, 64, 64)';
         color3.style.fill = color1.style.fill;
@@ -460,8 +438,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 38) {
-        impostortext.innerText = `${colors[37]} was The Imposter`;
+    if(randomColor == 36) {
+        impostortext.innerText = `${colors[35]} was The Imposter`;
         color1.style.fill = 'rgb(176, 192, 243)';
         color2.style.fill = 'rgb(87, 96, 161)';
         color3.style.fill = color1.style.fill;
@@ -470,8 +448,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 39) {
-        impostortext.innerText = `${colors[38]} was The Imposter`;
+    if(randomColor == 37) {
+        impostortext.innerText = `${colors[36]} was The Imposter`;
         color1.style.fill = 'rgb(91, 174, 128)';
         color2.style.fill = 'rgb(55, 117, 78)';
         color3.style.fill = color1.style.fill;
@@ -480,8 +458,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 40) {
-        impostortext.innerText = `${colors[39]} was The Imposter`;
+    if(randomColor == 38) {
+        impostortext.innerText = `${colors[37]} was The Imposter`;
         color1.style.fill = 'rgb(188, 167, 138)';
         color2.style.fill = 'rgb(156, 136, 103)';
         color3.style.fill = color1.style.fill;
@@ -490,8 +468,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 41) {
-        impostortext.innerText = `${colors[40]} was The Imposter`;
+    if(randomColor == 39) {
+        impostortext.innerText = `${colors[38]} was The Imposter`;
         color1.style.fill = 'rgb(153, 141, 215)';
         color2.style.fill = 'rgb(136, 118, 228)';
         color3.style.fill = color1.style.fill;
@@ -500,8 +478,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 42) {
-        impostortext.innerText = `${colors[41]} was The Imposter`;
+    if(randomColor == 40) {
+        impostortext.innerText = `${colors[39]} was The Imposter`;
         color1.style.fill = 'rgb(200, 43, 114)';
         color2.style.fill = 'rgb(158, 40, 100)';
         color3.style.fill = color1.style.fill;
@@ -510,8 +488,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 43) {
-        impostortext.innerText = `${colors[42]} was The Imposter`;
+    if(randomColor == 41) {
+        impostortext.innerText = `${colors[40]} was The Imposter`;
         color1.style.fill = 'rgb(254, 69, 2)';
         color2.style.fill = 'rgb(210, 43, 0)';
         color3.style.fill = color1.style.fill;
@@ -520,7 +498,7 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 44) {
+    if(randomColor == 42) {
         let randomNumber1 = getRandomInt(1, 457);
         impostortext.innerText = `Player ${randomNumber1} eliminated`;
         color1.style.fill = 'rgb(149, 33, 96)';
@@ -530,7 +508,7 @@ setInterval(function() {
         color5.style.fill = 'rgb(0, 0, 0)';
         color6.style.fill = 'rgb(0, 0, 0)';
     }
-    if(randomColor == 45) {
+    if(randomColor == 43) {
         let randomNumber2 = getRandomInt(1, 457);
         impostortext.innerText = `Player ${randomNumber2} was ejected`;
         color1.style.fill = 'rgb(45, 191, 190)';
@@ -540,8 +518,8 @@ setInterval(function() {
         color5.style.fill = 'rgb(0, 0, 0)';
         color6.style.fill = 'rgb(0, 0, 0)';
     }
-    if(randomColor == 46) {
-        impostortext.innerText = `${colors[43]} was The Imposter`;
+    if(randomColor == 44) {
+        impostortext.innerText = `${colors[41]} was The Imposter`;
         color1.style.fill = 'rgb(206, 254, 214)';
         color2.style.fill = 'rgb(143, 187, 151)';
         color3.style.fill = color1.style.fill;
@@ -550,8 +528,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 47) {
-        impostortext.innerText = `${colors[44]} was The Imposter`;
+    if(randomColor == 45) {
+        impostortext.innerText = `${colors[42]} was The Imposter`;
         color1.style.fill = 'rgb(179, 75, 76)';
         color2.style.fill = 'rgb(123, 37, 36)';
         color3.style.fill = color1.style.fill;
@@ -560,8 +538,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 48) {
-        impostortext.innerText = `${colors[45]} was The Imposter`;
+    if(randomColor == 46) {
+        impostortext.innerText = `${colors[43]} was The Imposter`;
         color1.style.fill = 'rgb(247, 193, 167)';
         color2.style.fill = 'rgb(231, 146, 107)';
         color3.style.fill = color1.style.fill;
@@ -570,8 +548,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 49) {
-        impostortext.innerText = `${colors[46]} was The Imposter`;
+    if(randomColor == 47) {
+        impostortext.innerText = `${colors[44]} was The Imposter`;
         color1.style.fill = 'rgb(80, 14, 75)';
         color2.style.fill = 'rgb(53, 11, 49)';
         color3.style.fill = color1.style.fill;
@@ -580,8 +558,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 50) {
-        impostortext.innerText = `${colors[47]} was The Imposter`;
+    if(randomColor == 48) {
+        impostortext.innerText = `${colors[45]} was The Imposter`;
         color1.style.fill = 'rgb(11, 129, 115)';
         color2.style.fill = 'rgb(5, 59, 61)';
         color3.style.fill = color1.style.fill;
@@ -590,8 +568,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 51) {
-        impostortext.innerText = `${colors[48]} was The Imposter`;
+    if(randomColor == 49) {
+        impostortext.innerText = `${colors[46]} was The Imposter`;
         color1.style.fill = 'rgb(45, 37, 96)';
         color2.style.fill = 'rgb(37, 30, 74)';
         color3.style.fill = color1.style.fill;
@@ -600,8 +578,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 52) {
-        impostortext.innerText = `${colors[49]} was The Imposter`;
+    if(randomColor == 50) {
+        impostortext.innerText = `${colors[47]} was The Imposter`;
         color1.style.fill = 'rgb(123, 255, 206)';
         color2.style.fill = 'rgb(68, 220, 159)';
         color3.style.fill = color1.style.fill;
@@ -610,8 +588,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 53) {
-        impostortext.innerText = `${colors[50]} was The Imposter`;
+    if(randomColor == 51) {
+        impostortext.innerText = `${colors[48]} was The Imposter`;
         color1.style.fill = 'rgb(158, 198, 50)';
         color2.style.fill = 'rgb(107, 63, 36)';
         color3.style.fill = color1.style.fill;
@@ -620,8 +598,8 @@ setInterval(function() {
         color6.style.fill = color5.style.fill;
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 54) {
-        impostortext.innerText = `${colors[51]} was The Imposter`;
+    if(randomColor == 52) {
+        impostortext.innerText = `${colors[49]} was The Imposter`;
         color1.style.fill = 'white';
         color2.style.fill = 'rgb(87, 42, 21)';
         color3.style.fill = color1.style.fill;
@@ -630,8 +608,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 55) {
-        impostortext.innerText = `${colors[52]} was The Imposter`;
+    if(randomColor == 53) {
+        impostortext.innerText = `${colors[50]} was The Imposter`;
         color1.style.fill = 'rgb(251, 238, 170)';
         color2.style.fill = 'rgb(151, 14, 42)';
         color3.style.fill = color1.style.fill;
@@ -640,8 +618,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 56) {
-        impostortext.innerText = `${colors[53]} was The Imposter`;
+    if(randomColor == 54) {
+        impostortext.innerText = `${colors[51]} was The Imposter`;
         color1.style.fill = 'rgb(99, 131, 178)';
         color2.style.fill = 'rgb(44, 60, 86)';
         color3.style.fill = color1.style.fill;
@@ -650,8 +628,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 57) {
-        impostortext.innerText = `${colors[54]} was The Imposter`;
+    if(randomColor == 55) {
+        impostortext.innerText = `${colors[52]} was The Imposter`;
         color1.style.fill = 'rgb(243, 237, 213)';
         color2.style.fill = 'rgb(226, 71, 89)';
         color3.style.fill = color1.style.fill;
@@ -660,8 +638,8 @@ setInterval(function() {
         color6.style.fill = color5.style.fill;
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 58) {
-        impostortext.innerText = `${colors[55]} was The Imposter`;
+    if(randomColor == 56) {
+        impostortext.innerText = `${colors[53]} was The Imposter`;
         color1.style.fill = 'rgb(215, 96, 118)';
         color2.style.fill = 'rgb(84, 145, 50)';
         color3.style.fill = color1.style.fill;
@@ -670,8 +648,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 59) {
-        impostortext.innerText = `${colors[56]} was The Imposter`;
+    if(randomColor == 57) {
+        impostortext.innerText = `${colors[54]} was The Imposter`;
         color1.style.fill = 'rgb(240, 245, 155)';
         color2.style.fill = 'rgb(92, 147, 56)';
         color3.style.fill = color1.style.fill;
@@ -680,8 +658,8 @@ setInterval(function() {
         color6.style.fill = color5.style.fill;
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 60) {
-        impostortext.innerText = `${colors[57]} was The Imposter`;
+    if(randomColor == 58) {
+        impostortext.innerText = `${colors[55]} was The Imposter`;
         color1.style.fill = 'white';
         color2.style.fill = 'rgb(124, 15, 57)';
         color3.style.fill = color1.style.fill;
@@ -690,8 +668,8 @@ setInterval(function() {
         color6.style.fill = color5.style.fill;
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 61) {
-        impostortext.innerText = `${colors[58]} was The Imposter`;
+    if(randomColor == 59) {
+        impostortext.innerText = `${colors[56]} was The Imposter`;
         color1.style.fill = 'rgb(96, 134, 137)';
         color2.style.fill = 'rgb(58, 52, 100)';
         color3.style.fill = color1.style.fill;
@@ -700,8 +678,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(217, 8, 1)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 62) {
-        impostortext.innerText = `${colors[59]} was The Imposter`;
+    if(randomColor == 60) {
+        impostortext.innerText = `${colors[57]} was The Imposter`;
         color1.style.fill = 'rgb(38, 38, 38)';
         color2.style.fill = 'rgb(26, 26, 26)';
         color3.style.fill = color1.style.fill;
@@ -710,8 +688,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(76, 76, 76)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 63) {
-        impostortext.innerText = `${colors[60]} was The Imposter`;
+    if(randomColor == 61) {
+        impostortext.innerText = `${colors[58]} was The Imposter`;
         color1.style.fill = 'rgb(155, 188, 11)';
         color2.style.fill = 'rgb(53, 98, 57)';
         color3.style.fill = color1.style.fill;
@@ -720,8 +698,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(117, 162, 103)';
         color7.style.fill = 'rgb(200, 232, 191)';
     }
-    if(randomColor == 64) {
-        impostortext.innerText = `${colors[61]} was The Imposter`;
+    if(randomColor == 62) {
+        impostortext.innerText = `${colors[59]} was The Imposter`;
         color1.style.fill = 'rgb(45, 64, 107)';
         color2.style.fill = 'rgb(34, 44, 71)';
         color3.style.fill = color1.style.fill;
@@ -730,8 +708,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(157, 205, 219)';
         color7.style.fill = 'rgb(225, 225, 225)';
     }
-    if(randomColor == 65) {
-        impostortext.innerText = `${colors[62]} was The Imposter`;
+    if(randomColor == 63) {
+        impostortext.innerText = `${colors[60]} was The Imposter`;
         color1.style.fill = 'rgb(172, 181, 182)';
         color2.style.fill = 'rgb(94, 101, 101)';
         color3.style.fill = color1.style.fill;
@@ -740,8 +718,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(219, 228, 230)';
         color7.style.fill = 'white';
     }
-    if(randomColor == 66) {
-        impostortext.innerText = `${colors[63]} was The Imposter`;
+    if(randomColor == 64) {
+        impostortext.innerText = `${colors[61]} was The Imposter`;
         color1.style.fill = 'rgb(56, 234, 0)';
         color2.style.fill = 'rgb(231, 218, 0)';
         color4.style.fill = color2.style.fill;
@@ -750,8 +728,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(219, 228, 230)';
         color7.style.fill = 'white';
     }
-    if(randomColor == 67) {
-        impostortext.innerText = `${colors[64]} was The Imposter`;
+    if(randomColor == 65) {
+        impostortext.innerText = `${colors[62]} was The Imposter`;
         color1.style.fill = 'rgb(255, 236, 253)';
         color2.style.fill = 'rgb(169, 0, 255)';
         color4.style.fill = color2.style.fill;
@@ -760,8 +738,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(219, 228, 230)';
         color7.style.fill = 'white';
     }
-    if(randomColor == 68) {
-        impostortext.innerText = `${colors[65]} was The Imposter`;
+    if(randomColor == 66) {
+        impostortext.innerText = `${colors[63]} was The Imposter`;
         color1.style.fill = 'rgb(0, 54, 255)';
         color2.style.fill = 'rgb(154, 85, 70)';
         color4.style.fill = color2.style.fill;
@@ -770,8 +748,8 @@ setInterval(function() {
         color6.style.fill = 'rgb(240, 151, 33)';
         color7.style.fill = 'white';
     }
-    if(randomColor == 69 || randomColor == 70) {
-        impostortext.innerText = `${colors[66]} was The Imposter`;
+    if(randomColor == 67 || randomColor == 68) {
+        impostortext.innerText = `${colors[64]} was The Imposter`;
         color1.style.fill = 'rgb(90, 127, 22)';
         color2.style.fill = 'rgb(44, 62, 14)';
         color4.style.fill = color2.style.fill;
