@@ -3,9 +3,7 @@ const closeBtn = document.getElementById('close-btn');
 const rules = document.getElementById('rules');
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-
 let score = 0;
-
 const brickRowCount = 9;
 const brickColumnCount = 5;
 const delay = 500; 
@@ -142,7 +140,6 @@ function moveBall() {
         ) {
           ball.dy *= -1;
           brick.visible = false;
-
           increaseScore();
         }
       }
@@ -159,12 +156,9 @@ function moveBall() {
 // Increase score
 function increaseScore() {
   score++;
-
   if (score % (brickRowCount * brickColumnCount) === 0) {
-
       ball.visible = false;
       paddle.visible = false;
-
       //After 0.5 sec restart the game
       setTimeout(function () {
           showAllBricks();
@@ -189,7 +183,6 @@ function showAllBricks() {
 // Draw everything
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-
   drawBall();
   drawPaddle();
   drawScore();

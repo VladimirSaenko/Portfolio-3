@@ -80,12 +80,15 @@ canvas {
 
 .rules.show {
   transform: translateX(0);
+  user-select: none;
 }
 
 .rules h2 {
   font-size: 47px;
+  user-select: text;
 }
 
 .rules p {
   margin: 25px 0px;
+  user-select: text;
 }
