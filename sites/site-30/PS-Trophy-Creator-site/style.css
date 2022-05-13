@@ -20,7 +20,7 @@ button {
     color: white;
     width: 100%;
     height: 100vh;
-    background: #06181f;
+    background: linear-gradient(190deg, #006FCD 38%, rgba(4, 4, 29, 1) 84%);
     overflow: hidden;
 }
 
@@ -39,8 +39,8 @@ button {
     align-items: center;
     width: 430px;
     height: 355px;
-    background: rgb(20, 19, 20);
-    color: white;
+    background: white;
+    color: black;
     border-radius: 50px;
 }
 
@@ -75,7 +75,7 @@ button {
     color: white;
     background: black;
     border-radius: 25px;
-    border: 5px white solid;
+    border: 5px black solid;
 }
 
 .mainbutton:hover {
@@ -87,17 +87,32 @@ button {
 .trophyIcon {
     position: absolute;
     top: 0;
-    left: 0;
-    transform: translateX(-500px);
+    left: 50px;
+    transform: translateX(-600px);
+    display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
-    width: 445px;
+    width: 545px;
     height: 165px;
-    background: black;
-    border: 5px white solid;
+    background: rgb(30, 30, 30);
+    border-radius: 15px;
     transition: transform 1s ease-in-out;
+}
+
+.trophyIcon div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 100%;
+}
+
+.trophyIcon div p {
+    margin-top: 10px;
+    color: gainsboro;
 }
 
 .trophyIcon.active {
@@ -105,13 +120,13 @@ button {
 }
 
 .trophyName {
-    font-size: 35px;
+    font-size: 45px;
     text-transform: capitalize;
 }
 
 .trophytypeImg {
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
 }
 
 .title {
@@ -127,18 +142,24 @@ button {
     .trophyIcon {
         left: 10%;
         top: 0;
-        width: 305px;
-        height: 200px;
-        flex-direction: column;
+        width: 345px;
+        height: 185px;
+        border: 3.5px white solid;
+        background: white;
+        border-radius: 5px;
+        /* flex-direction: column; */
+    }
+
+    .trophyName, .trophyIcon div p {
+        color: #000;
     }
 
     .trophytypeImg {
-        width: 75px;
-        height: 75px;
         margin-top: 15px;
     }
 
     .container {
-        height: 150vh;
+        height: 105vh;
+        background: rgb(33, 33, 210);
     }
 }
