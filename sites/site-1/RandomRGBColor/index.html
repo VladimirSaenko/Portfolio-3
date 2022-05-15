@@ -7,19 +7,13 @@
     <title>Generator Random RGB Color</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Radio+Canada:300,regular,500,600,700" rel="stylesheet"/>
 </head>
 <body>
     <div id="mainBox" class="mainBox">
         <input class="inputRGBText" id="mainInput" type="text" value="" readonly>
-        <button onclick="activateUserRGBColor()" class="userColorButton" id="userColorBtn">Get User Color</button>
-        <ul class="inputsUserColor-List" id="userColorInpsList">
-            <input onchange="getUserRGBColor()" class="inputUserColor1" value="" placeholder="0" id="userColor1">
-            <input onchange="getUserRGBColor()" class="inputUserColor2" value="" placeholder="0" id="userColor2">
-            <input onchange="getUserRGBColor()" class="inputUserColor3" value="" placeholder="0" id="userColor3">
-        </ul>
-        <img id="copyBtn" title="скопировать текст" onclick="copyRGBColor()" class="copyImg" src="img/copy.png">
-        <button onclick="getRandomRGBColor()" id="btnka" class="getRandomRGBcolorButton">Get Random RGB Color</button>
-        <button id="infColorStream" onclick="activateInfinityStreamColor()" class="infinityColorStreamBtn">infinity Color Stream</button>
+        <img id="copyBtn" title="скопировать текст" class="copyImg" src="img/copy.png" alt="img">
+        <button id="mainbtn" class="getRandomRGBcolorButton">Get Random</button>
     </div>
     <script src="mainscript.js"></script>
 </body>

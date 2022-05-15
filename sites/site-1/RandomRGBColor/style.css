@@ -1,8 +1,8 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Radio Canada', sans-serif;
 }
 
 input, button {
@@ -22,21 +22,15 @@ input, button {
 
 .inputRGBText {
     cursor: default;
-    margin: auto;
-    padding: auto;
     user-select: text;
     width: 545px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-align: center;
     height: 100px;
-    box-shadow: -4px -4px 10px rgb(255 255 255), 
-    inset 4px 4px 10px rgb(0 0 0 / 50%), 
-    inset -4px -4px 10px rgb(255 255 255), 
-    inset -4px -4px 10px rgb(0 0 0 / 50%);
-    border-radius: 8px;
     font-size: 52px;
     letter-spacing: 0;
     transition: 1s;
+    background: #f2f2f2;
 }
 
 .getRandomRGBcolorButton {
@@ -47,69 +41,12 @@ input, button {
     user-select: none;
     top: 60%;
     width: 350px;
-    border-radius: 5px;
+    border-radius: 50px;
     height: 85px;
-    font-size: 35px;
-    transition: 0.3s;
-}
-
-.infinityColorStreamBtn {
-    cursor: pointer;
-    position: absolute;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 35px;
-    user-select: none;
-    bottom: 25px;
-    width: 350px;
-    height: 75px;
-    border-radius: 5px;
-    transition: 1s;
-}
-
-.userColorButton {
-    cursor: pointer;
-    position: absolute;
-    top: 73.5%;
-    width: 350px;
-    height: 75px;
-    border-radius: 10px;
-    user-select: none;
-    font-size: 35px;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.inputsUserColor-List {
-    display: none;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 55px;
-}
-
-.inputsUserColor-List input {
-    margin: 0px 10px;
-    height: 100px;
-    width: 100px;
-    user-select: none;
-    text-align: center;
     font-size: 45px;
-    box-shadow: -4px -4px 10px rgb(255 255 255), 
-    inset 4px 4px 10px rgb(0 0 0 / 50%), 
-    inset -4px -4px 10px rgb(255 255 255), 
-    inset -4px -4px 10px rgb(0 0 0 / 50%);
-    border-radius: 25px;
-    color: black;
-}
-
-/* .inputsUserColor-List input::placeholder {
-    color: black;
-} */
-
-.inputUserColor1 input, .inputUserColor2 input .inputUserColor3 input {
-    user-select: none;
+    font-weight: bold;
+    transition: 0.3s;
+    background: #f2f2f2;
 }
 
 .copyImg {
@@ -138,24 +75,12 @@ input, button {
     .getRandomRGBcolorButton {
         /* transform: translateY(-45%); */
         margin: -10px 0px;
-        border-radius: 50px;
         width: 350px;
     }
 
     .copyImg {
         display: block;
-        width: 65px;
-        height: 65px;
-    }
-
-    .infinityColorStreamBtn {
-        margin: -10px 0px;
-        border-radius: 50px;
-        width: 335px;
-    }
-
-    .userColorButton {
-        border-radius: 50px;
-        width: 300px;
+        width: 60px;
+        height: 60px;
     }
 }
