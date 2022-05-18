@@ -16,9 +16,14 @@
             <h2 class="title">PS Trophy Creator</h2>
             <form>
                 <p>Name Trophy</p>
-                <input maxlength="12" id="trophynameInp">
+                <input maxlength="9" id="trophynameInp" type="text">
                 <p>Trophy Type</p>
-                <input id="trophytype" list="trophy" value="">
+                <select id="trophytype" >
+                    <option value="Бронза">Бронза</option>
+                    <option value="Серебро">Серебро</option>
+                    <option value="Золото">Золото</option>
+                    <option value="Платина">Платина</option>
+                </select>
                 <button type="button" id="mainbutton" class="mainbutton">Take Trophy!</button>
             </form>
         </div>
@@ -31,12 +36,6 @@
             </div>
         </div>
     </div>
-    <datalist id="trophy">
-        <option value="Бронза"></option>
-        <option value="Серебро"></option>
-        <option value="Золото"></option>
-        <option value="Платина"></option>
-    </datalist>
     <script src="mainscript.js"></script>
 </body>
 </html>
