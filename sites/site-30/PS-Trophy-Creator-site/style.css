@@ -137,6 +137,10 @@ button {
         font-size: 50px;
     }
 
+    body {
+        overflow: hidden;
+    }
+
     .trophyIcon {
         left: 5%;
         top: 0;
