@@ -89,6 +89,7 @@ button {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .container {
-        height: 110vh;
+        height: 100%;
+        text-align: center;
     }
 }
