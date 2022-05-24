@@ -4,30 +4,26 @@
 let gradientText = document.getElementById('gradient-text');
 let box = document.getElementById("box");
 let body = document.body;
-
-let directions = [
-    "right",
-    "left",
-    "top",
-    "bottom"
-];
-
 let createGradientButton = document.getElementById("createbtn");
 let copyButton = document.getElementById("copybtn");
 
-box.style.background = 'linear-gradient(' + `to ${directions[getRandomInt(0, 4)]}` + ',' + 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255) + 
-',' + getRandomInt(0, 255) + ')' + ',' + 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255) + 
-',' + getRandomInt(0, 255) + ')' + ')';
-body.style.background = box.style.background;
-gradientText.value = box.style.background;
+// let directions = [
+//     "right",
+//     "left",
+//     "top",
+//     "bottom"
+// ];
 
-createGradientButton.addEventListener('click', () => {
-    box.style.background = 'linear-gradient(' + `to ${directions[getRandomInt(0, 4)]}` + ',' + 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255) + 
-    ',' + getRandomInt(0, 255) + ')' + ',' + 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255) + 
-    ',' + getRandomInt(0, 255) + ')' + ')';
+function getRandomGradient() {
+    box.style.background = `linear-gradient(${getRandomInt(0, 350)}deg, rgb(${getRandomInt(0, 255)}, ${getRandomInt(0, 255)}, ${getRandomInt(0, 255)}) 
+    ${getRandomInt(0, 40)}%, rgb(${getRandomInt(0, 255)}, ${getRandomInt(0, 255)}, ${getRandomInt(0, 255)}) ${getRandomInt(40, 100)}%)`;
     body.style.background = box.style.background;
     gradientText.value = box.style.background;
-})
+}
+
+getRandomGradient();
+
+createGradientButton.addEventListener('click', getRandomGradient);
 
 copyButton.addEventListener('click', () => {
     gradientText.select();
