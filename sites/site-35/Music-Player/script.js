@@ -1,22 +1,11 @@
-/* TODO
-*		Add play/pause song
-*		Add song titles and pictures
-*		Add switch songs
-*		Add progress bar
-*		Add current song time and duration for that song
-*		Add setting the current time with the mouse
-*/
-
 "use strict";
 
 const musicContainer = document.getElementById("music-container");
 const playBtn = document.getElementById("play");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
-
 const body = document.body;
 const mainTitle = document.getElementById("main-title");
-
 const audio = document.getElementById("audio");
 const progress = document.getElementById("progress");
 const progressContainer = document.getElementById("progress-container");
@@ -159,7 +148,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Rock') {
         body.style.background = 'linear-gradient(135deg, #000000 25%, #0d138f 100%)';
-        title.style.color = "white";
         mainTitle.style.color = "white";
         musicContainer.classList.add("rock");
         musicContainer.classList.remove("summer");
