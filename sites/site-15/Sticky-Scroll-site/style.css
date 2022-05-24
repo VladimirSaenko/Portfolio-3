@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    scroll-snap-align: center;
+}
+
+h3 {
+    color: #fff;
+    font-size: 10vw;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.sec:nth-child(1) {
+    background: url(images/bg1.jpg) red;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(2) {
+    background: url(images/bg2.jpg) #0f0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(3) {
+    background: url(images/bg3.jpg) #ff0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(4) {
+    background: url(images/bg4.jpg) #f436ee;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(5) {
+    background: url(images/bg5.jpg) #00f;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(6) {
+    background: url(images/bg6.jpg) #ff9800;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(7) {
+    background: url(images/bg7.jpg) #0f0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.sec:nth-child(9) {
+    background: url(images/bg8.jpg) red;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.text-sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.text-sticky h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.text-sticky h2 span {
+    position: sticky;
+    top: 0;
+    line-height: 100vh;
+    height: 100vh;
+    color: white;
+    font-size: 14vw;
+    margin-top: calc(100vh * var(--i));
+}
