@@ -43,4 +43,4 @@ swap.addEventListener('click', () => {
     currencyEl_one.value = currencyEl_two.value;
     currencyEl_two.value = temp;
     calculate();
-  });
+});
