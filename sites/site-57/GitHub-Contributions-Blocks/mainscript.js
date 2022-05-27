@@ -167,6 +167,30 @@ colorlist.addEventListener('input', () => {
             document.documentElement.style.setProperty('--level3', '#48009a');
             document.documentElement.style.setProperty('--level4', 'darkblue');
         break;
+        case 'lightteal':
+            colorlist.style.color = '#7fffd4';
+            document.documentElement.style.setProperty('--level0', 'rgb(237, 237, 237)');
+            document.documentElement.style.setProperty('--level1', '#7fffd4');
+            document.documentElement.style.setProperty('--level2', '#76eec6');
+            document.documentElement.style.setProperty('--level3', '#66cdaa');
+            document.documentElement.style.setProperty('--level4', '#458b74');
+        break;
+        case 'deepblack':
+            colorlist.style.color = 'white';
+            document.documentElement.style.setProperty('--level0', 'black');
+            document.documentElement.style.setProperty('--level1', '#646464');
+            document.documentElement.style.setProperty('--level2', '#a5a5a5');
+            document.documentElement.style.setProperty('--level3', '#dddddd');
+            document.documentElement.style.setProperty('--level4', 'white');
+        break;
+        case 'forestberries':
+            colorlist.style.color = '#bd93f9';
+            document.documentElement.style.setProperty('--level0', 'rgb(63, 70, 78)');
+            document.documentElement.style.setProperty('--level1', '#44475a');
+            document.documentElement.style.setProperty('--level2', '#6272a4');
+            document.documentElement.style.setProperty('--level3', '#bd93f9');
+            document.documentElement.style.setProperty('--level4', '#ff79c6');
+        break;
         default:
             colorlist.style.color = 'greenyellow';
             // colorlist.style.color = 'rgb(59, 207, 93)';
