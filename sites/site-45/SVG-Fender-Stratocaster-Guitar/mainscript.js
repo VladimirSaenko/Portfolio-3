@@ -81,6 +81,6 @@ inputElectrics.addEventListener('input', function() {
     electronica9.style.fill = inputElectrics.value;
 })
 
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
+// function getRandomInt(min, max) {
+//     return Math.floor(Math.random() * (max - min)) + min;
+// }
