@@ -87,6 +87,86 @@ colorlist.addEventListener('input', () => {
             document.documentElement.style.setProperty('--level3', 'rgb(231, 221, 36)');
             document.documentElement.style.setProperty('--level4', 'gold');
         break;
+        case 'lightgrey':
+            colorlist.style.color = '#eeeeee';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#cfd8dc');
+            document.documentElement.style.setProperty('--level2', '#90a4ae');
+            document.documentElement.style.setProperty('--level3', '#546e7a');
+            document.documentElement.style.setProperty('--level4', '#263238');
+        break;
+        case 'brown':
+            colorlist.style.color = '#eeeeee';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#d7ccc8');
+            document.documentElement.style.setProperty('--level2', '#a1887f');
+            document.documentElement.style.setProperty('--level3', '#6d4c41');
+            document.documentElement.style.setProperty('--level4', '#3e2723');
+        break;
+        case 'cyan':
+            colorlist.style.color = 'cyan';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#b2ebf2');
+            document.documentElement.style.setProperty('--level2', '#4dd0e1');
+            document.documentElement.style.setProperty('--level3', '#00acc1');
+            document.documentElement.style.setProperty('--level4', '#006064');
+        break;
+        case 'lightapelsin':
+            colorlist.style.color = '#f4511e';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#ffccbc');
+            document.documentElement.style.setProperty('--level2', '#ff8a65');
+            document.documentElement.style.setProperty('--level3', '#f4511e');
+            document.documentElement.style.setProperty('--level4', '#bf360c');
+        break;
+        case 'purple':
+            colorlist.style.color = '#5e35b1';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#d1c4e9');
+            document.documentElement.style.setProperty('--level2', '#9575cd');
+            document.documentElement.style.setProperty('--level3', '#5e35b1');
+            document.documentElement.style.setProperty('--level4', '#311b92');
+        break;
+        case 'bamboo':
+            colorlist.style.color = '#7cb342';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#dcedc8');
+            document.documentElement.style.setProperty('--level2', '#aed581');
+            document.documentElement.style.setProperty('--level3', '#7cb342');
+            document.documentElement.style.setProperty('--level4', '#33691e');
+        break;
+        case 'sourlemon':
+            colorlist.style.color = '#c0ca33';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#f0f4c3');
+            document.documentElement.style.setProperty('--level2', '#dce775');
+            document.documentElement.style.setProperty('--level3', '#c0ca33');
+            document.documentElement.style.setProperty('--level4', '#827717');
+        break;
+        case 'teal':
+            colorlist.style.color = 'teal';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#b2dfdb');
+            document.documentElement.style.setProperty('--level2', '#4db6ac');
+            document.documentElement.style.setProperty('--level3', '#00897b');
+            document.documentElement.style.setProperty('--level4', '#004d40');
+        break;
+        case 'sunset':
+            colorlist.style.color = '#fed800';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#fed800');
+            document.documentElement.style.setProperty('--level2', '#ff6f01');
+            document.documentElement.style.setProperty('--level3', '#fd2f24');
+            document.documentElement.style.setProperty('--level4', '#811d5e');
+        break;
+        case 'seablue':
+            colorlist.style.color = '#00a1f3';
+            document.documentElement.style.setProperty('--level0', '#eeeeee');
+            document.documentElement.style.setProperty('--level1', '#6bcdff');
+            document.documentElement.style.setProperty('--level2', '#00a1f3');
+            document.documentElement.style.setProperty('--level3', '#48009a');
+            document.documentElement.style.setProperty('--level4', 'darkblue');
+        break;
         default:
             colorlist.style.color = 'greenyellow';
             // colorlist.style.color = 'rgb(59, 207, 93)';
