@@ -186,7 +186,7 @@ colorlist.addEventListener('input', () => {
         case 'forestberries':
             colorlist.style.color = '#bd93f9';
             document.documentElement.style.setProperty('--level0', 'rgb(63, 70, 78)');
-            document.documentElement.style.setProperty('--level1', '#44475a');
+            document.documentElement.style.setProperty('--level1', 'purple');
             document.documentElement.style.setProperty('--level2', '#6272a4');
             document.documentElement.style.setProperty('--level3', '#bd93f9');
             document.documentElement.style.setProperty('--level4', '#ff79c6');
