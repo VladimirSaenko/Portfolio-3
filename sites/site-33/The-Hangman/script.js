@@ -12,16 +12,15 @@ const finalMessageRevealWord = document.getElementById('final-message-reveal-wor
 const figureParts = document.querySelectorAll('.figure-part');
 
 const words = ['notification', 'javascript', 'hamburger', 'assassin', 'metallica',
-'austria', 'ukraine', 'italia', 'romania', 'england', 'scotland', 'subscribe', 'hurricane', 'marshall', 'undefined', 'triangle',
-'republic', 'principiality', 'subnatica', 'underground', 'correct','rammstein', 'overlord', 'darkness',
-'winston', 'january', 'february', 'revolution', 'communism', 'socialism',
+'austria', 'ukraine', 'italia', 'romania', 'england', 'scotland', 'youtube', 'hurricane', 'marshall', 'undefined', 'triangle',
+'republic', 'principiality', 'subnatica', 'underground', 'forever','rammstein', 'january', 'february', 'revolution', 'australia', 'wonderful',
 'function', 'nightwish', 'belgium', 'luxemburg','container', 'ambulance',
-'instagramm', 'alexander','letter', 'powerwolf', 'portugal', 'venesuela', 'nilfgaard',
-'madagascar', 'bucharest', 'budapest','frankfurt', 'netherland', 'pakistan', 'senegal','greenland', 'bulgaria', 'argentina',
+'instagramm', 'alexander','scandinavia', 'powerwolf', 'portugal', 'venesuela', 'nilfgaard',
+'madagascar', 'bucharest', 'budapest','frankfurt','greenland', 'bulgaria', 'argentina',
 'banrain', 'burundi', 'gibraltar','guatemala','skellige', 'explorer', 'telecaster', 'stratocaster', 'sherlock', 'hungary','macedonia', 'ferdinand',
 'brotherhood', 'revelation', 'airplane', 'viverna', 'endriaga','cybertron', 'transformer', 'donatella',
-'multiplayer', 'lightsaber', 'spitfire','saturday', 'nightmare', 'singleplayer', 'fortnite',
-'prussia', 'dreamland', 'mouseclick', 'profiler', 'firewall', 'moonlight', 'strasburg', 'federation', 'confederation',
+'multiplayer', 'lightsaber', 'spitfire','saturday', 'singleplayer', 'fortnite',
+'prussia', 'dreamland', 'mouseclick', 'profiler', 'firewall', 'moonlight', 'federation', 'confederation',
 'vallonia', 'flandria', 'playstation', 'coffescript', 'typescript', 'legendary'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
@@ -36,7 +35,6 @@ function displayWord() {
 	<span class="letter">
 	${correctLetters.includes(letter) ? letter : ''}</span>`
 	).join('')}`;
-
 	// console.log(wordEl.innerHTML);
 	// console.log(wordEl.innerText);
 	// console.log(innerWord);
