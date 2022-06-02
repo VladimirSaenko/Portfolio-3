@@ -23,37 +23,25 @@ mainbutton.addEventListener("click", function() {
 })
 
 function getTrophyInType() {
-    if(trophytypeInput.value == "") {
-        let random = getRandomInt(1, 5);
-        if(random == 1 || random == 4) {
+    switch (trophytypeInput.value) {
+        case 'Бронза':
             trophyImg.src = "images/bronze-trophy.png";
-        }
-        if(random == 2) {
+        break;
+        case 'Серебро':
             trophyImg.src = "images/silver-trophy.png";
-        }
-        if(random == 3) {
+        break;
+        case 'Золото':
             trophyImg.src = "images/gold-trophy.png";
-        }
-        if(random == 5) {
+        break;
+        case 'Платина':
             trophyImg.src = "images/platinum-trophy.png";
-        }
-    }
-    else {
-        if (trophytypeInput.value == "Бронза") {
+        break;
+        default:
             trophyImg.src = "images/bronze-trophy.png";
-        }
-        if (trophytypeInput.value == "Серебро") {
-            trophyImg.src = "images/silver-trophy.png";
-        }
-        if (trophytypeInput.value == "Золото") {
-            trophyImg.src = "images/gold-trophy.png";
-        }
-        if (trophytypeInput.value == "Платина") {
-            trophyImg.src = "images/platinum-trophy.png";
-        }
+        break;
     }
 }
 
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
+// function getRandomInt(min, max) {
+//     return Math.floor(Math.random() * (max - min)) + min;
+// }
