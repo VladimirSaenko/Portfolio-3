@@ -62,12 +62,6 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/146921141-d63132b1-ae75-4764-ab43-fb3d5420b399.jpg)
 
-## Chemistry Flasks 
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-10/Chemistry-Flasks-site/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/146921242-3a545eb5-1e34-4b76-8a7d-953159c1e7a7.jpg)
-
 ## Preloader Rocket
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-11/Preloader-example/index.html
@@ -263,3 +257,11 @@
 ## SVG Ibanez Guitar
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-53/Ibanez/index.html
+
+![23423573](https://user-images.githubusercontent.com/56477695/172371645-cbdfbffd-88c7-40f2-9b0d-8b544caf9f0c.jpg)
+
+## Github Contributions Blocks/Calendar
+
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-57/GitHub-Contributions-Blocks/index.html
+
+![img-portfolio](https://user-images.githubusercontent.com/56477695/172371883-55f73fb7-2cba-4fab-a7e9-1716d10ba721.png)
