@@ -61,8 +61,3 @@
     font-size: 35px;
     text-transform: uppercase;
 }
-
-.way-span:hover {
-    text-decoration: underline;
-    color: white;
-}
