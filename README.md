@@ -6,7 +6,8 @@
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-1/RandomRGBColor/index.html
 
-![img-portfolio](https://user-images.githubusercontent.com/56477695/146916669-de689f64-25d5-4d8d-9481-54258843c06a.png)
+![147704532-8d2e58be-2ddc-4a80-8a3e-96257f3291e9](https://user-images.githubusercontent.com/56477695/174476951-f3c277e1-f89c-407d-96cb-75d104e2084c.jpg)
+<!-- ![img-portfolio](https://user-images.githubusercontent.com/56477695/146916669-de689f64-25d5-4d8d-9481-54258843c06a.png) -->
 
 ## Apples Mock Up
 
