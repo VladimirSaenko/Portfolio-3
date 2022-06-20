@@ -32,7 +32,7 @@ const questions = [
 		optionA: "River Amazonas",
 		optionB: "River Nile",
 		optionC: "River Euphrates",
-		optionD: "River Congo",
+		optionD: "River Pontar",
 		correctOption: "optionA"
 	},{
 		question: "_____ is the hottest Continent on Earth ?",
@@ -147,7 +147,7 @@ const questions = [
 		optionD: "36",
 		correctOption: "optionC"
 	},{
-		question: "The company Ibanez produces?",
+		question: "Company Jackson make?",
 		optionA: "Piano",
 		optionB: "Flute",
 		optionC: "Guitars",
@@ -187,7 +187,7 @@ const questions = [
 		correctOption: "optionC"
 	},
 	{
-		question: "Which of the following is included in the UK ?",
+		question: "Which country is part of the UK ?",
 		optionA: "Scotland",
 		optionB: "Estonia",
 		optionC: "Mongolia",
