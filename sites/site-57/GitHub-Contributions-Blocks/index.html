@@ -12,10 +12,10 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="title">GitHub Contributions Blocks</h2>
+        <h2 class="title" id="title">GitHub Contributions Blocks</h2>
         <!-- <h2 class="title">GitHub Contributions Blocks/Calendar</h2> -->
         <div class="contributions-box">
-            <div class="week">
+            <div class="week" id="week">
                 <span>Monday</span>
                 <span>Tuesday</span>
                 <span>Wednesday</span>
@@ -25,7 +25,7 @@
                 <span>Sunday</span>
             </div>
             <div class="mainbox">
-                <div class="months">
+                <div class="months" id="months">
                     <span>Jan</span>
                     <span>Feb</span>
                     <span>Mar</span>
@@ -53,28 +53,35 @@
                 </div>
             </div>
         </div>
-        <select class="colors-list" id="colorlist">
-            <option value="standard" selected>Standard</option>
-            <option value="halloween">Halloween</option>
-            <option value="office">Office</option>
-            <option value="angry">Angry</option>
-            <option value="windu">Windu</option>
-            <option value="standard2">Standard 2</option>
-            <option value="bananawolf">Banana Wolf</option>
-            <option value="lightgrey">Light Grey</option>
-            <option value="brown">Brown</option>
-            <option value="cyan">Cyan</option>
-            <option value="lightapelsin">Light Apelsin</option>
-            <option value="purple">Purple</option>
-            <option value="bamboo">Bamboo</option>
-            <option value="sourlemon">Sour Lemon</option>
-            <option value="teal">Teal</option>
-            <option value="sunset">Sunset</option>
-            <option value="seablue">Sea Blue</option>
-            <option value="lightteal">Light Teal</option>
-            <option value="deepblack">Deep Black</option>
-            <option value="forestberries">Forest Berries</option>
-        </select>
+        <div class="selects">
+            <select class="colors-list" id="colorlist">
+                <option value="standard" selected>Standard</option>
+                <option value="halloween">Halloween</option>
+                <option value="office">Office</option>
+                <option value="angry">Angry</option>
+                <option value="windu">Windu</option>
+                <option value="standard2">Standard 2</option>
+                <option value="bananawolf">Banana Wolf</option>
+                <option value="lightgrey">Light Grey</option>
+                <option value="brown">Brown</option>
+                <option value="cyan">Cyan</option>
+                <option value="lightapelsin">Light Apelsin</option>
+                <option value="purple">Purple</option>
+                <option value="sourlemon">Sour Lemon</option>
+                <option value="teal">Teal</option>
+                <option value="sunset">Sunset</option>
+                <option value="seablue">Sea Blue</option>
+                <option value="lightteal">Light Teal</option>
+                <option value="deepblack">Deep Black</option>
+                <option value="forestberries">Forest Berries</option>
+            </select>
+            <select id="theme-list" class="themes">
+                <option value="black" selected>Black</option>
+                <option value="white">White</option>
+                <option value="sunny">Sunny</option>
+                <option value="deepblue">Deep Blue</option>
+            </select>
+        </div>
     </div>
     <script src="mainscript.js"></script>
 </body>
