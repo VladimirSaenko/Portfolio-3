@@ -60,7 +60,7 @@ h3 {
 }
 
 .sec:nth-child(4) {
-    background: url(images/bg4.jpg) #f436ee;
+    background: url(images/bg8.jpg) #f436ee;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -85,14 +85,6 @@ h3 {
 
 .sec:nth-child(7) {
     background: url(images/bg7.jpg) #0f0;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: multiply;
-}
-
-.sec:nth-child(9) {
-    background: url(images/bg8.jpg) red;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
