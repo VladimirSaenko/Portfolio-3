@@ -75,9 +75,9 @@ section:nth-child(3) {
 section:nth-child(4) {
     background: url(images/bg4.jpg) #f436ee;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: multiply;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-blend-mode: multiply !important;
 }
 
 section:nth-child(5) {
@@ -115,5 +115,10 @@ section:nth-child(8) {
 @media screen and (min-width: 300px) and (max-width: 800px) {
     section {
         overflow: hidden;
+    }
+
+    section:nth-child(4) {
+        background: url(images/bg4.jpg) #f436ee;
+        background-position: right;
     }
 }
