@@ -6,8 +6,8 @@ let color2 = document.querySelector('.st3'); // цвет в тени
 let color3 = document.querySelector('.st7'); // цвет учатска портфеля
 let color4 = document.querySelector('.st4'); // цвет портфеля
 let color5 = document.querySelector('.st5'); // скафандер
-let color6 = document.querySelector('.st6'); // скафандер тоже
-let color7 = document.querySelector('.st8');
+let color6 = document.querySelector('.st6'); // скафандер
+let color7 = document.querySelector('.st8'); // скафандер
 
 color5.style.fill = 'rgb(69, 99, 109)';
 color6.style.fill = 'rgb(157, 205, 219)';
