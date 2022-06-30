@@ -75,10 +75,16 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const user = search.value;
     if(user) {
-      if(user == 'VladimirSaenko' || user == 'alexanderkhapchenko' || user == 'Dizabanik') {
+      if(user == 'VladimirSaenko' ||
+       user == 'alexanderkhapchenko' || 
+       user == 'Dizabanik' ||
+       user == 'AlexanderFox777' ||
+       user == 'NazarKobets' ||
+       user == 'OneFY' || 
+       user == 'Otanukun') {
         createErrorCard('top secret');
       }
-      else if(user == 'aboba') {
+      else if(user == 'aboba' || user == 'AleksandraHrevtsova') {
         createErrorCard('AMOGUS');
       }
       else {
