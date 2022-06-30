@@ -111,6 +111,7 @@ body {
     stroke-dasharray: 250;
     stroke-dashoffset: 0;
     stroke: rgb(10, 255, 243);
+    stroke-width: 75;
 }
 
 .container .icon.eagle:hover path {
@@ -247,6 +248,10 @@ body {
     height: 350px;
 }
 
+.container .icon.fish path {
+    stroke-width: 60;
+}
+
 .container .icon.fish:hover path {
     animation: animate-fish 1s linear forwards;
 }
@@ -270,6 +275,7 @@ body {
         stroke-dashoffset: 4000;
         fill: blue;
         stroke: black;
+        stroke-width: 10;
     }
 }
 
