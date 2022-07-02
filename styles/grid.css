@@ -10,10 +10,6 @@
     grid-gap: 20px;
 }
 
-/* .album_artwork {
-    width: 100%;
-} */
-
 .album {
     display: grid;
     grid-template-columns: 150px 1fr;
