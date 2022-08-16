@@ -8,6 +8,7 @@
 
 html {
   font-size: 10px;
+  background: white;
   background: url(bg.jpg) bottom center;
   background-size: cover;
 }
@@ -42,8 +43,8 @@ body, html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: rgb(0, 195, 255);
+  box-shadow: 0 0 1rem rgb(0, 195, 255);
 }
 
 kbd {
@@ -52,10 +53,10 @@ kbd {
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: rgb(0, 195, 255);
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
