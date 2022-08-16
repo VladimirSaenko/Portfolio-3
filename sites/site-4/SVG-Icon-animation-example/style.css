@@ -185,13 +185,14 @@ body {
 }
 
 .container .icon.eagle path {
-    stroke-dasharray: 500;
+    stroke-dasharray: 0;
     stroke-dashoffset: 0;
+    stroke-width: 145;
     stroke: #31e8ff;
 }
 
 .container .icon.eagle:hover path {
-    animation: animate-eagle 3.5s linear forwards;
+    animation: animate-eagle 1.5s linear forwards;
 }
 
 @keyframes animate-eagle {
