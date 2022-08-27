@@ -33,7 +33,7 @@ input, button {
     background: #f2f2f2;
 }
 
-.getRandomRGBcolorButton {
+.randomButton {
     cursor: pointer;
     position: absolute;
     text-align: center;
@@ -72,7 +72,7 @@ input, button {
         border: white 10px solid;
     }
 
-    .getRandomRGBcolorButton {
+    .randomButton {
         transform: translateY(45%);
         margin: -10px 0px;
         width: 350px;
