@@ -9,6 +9,12 @@
 ![147704532-8d2e58be-2ddc-4a80-8a3e-96257f3291e9](https://user-images.githubusercontent.com/56477695/174476951-f3c277e1-f89c-407d-96cb-75d104e2084c.jpg)
 <!-- ![img-portfolio](https://user-images.githubusercontent.com/56477695/146916669-de689f64-25d5-4d8d-9481-54258843c06a.png) -->
 
+## Generator Random HSL Color
+
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-1-2/Generator-Random-HSL-Color/index.html
+
+![174476951-f3c277e1-f89c-407d-96cb-75d104e2084c](https://user-images.githubusercontent.com/56477695/187518303-c96d76f2-5bf1-43a1-9eab-6893d2395528.jpg)
+
 ## Apples Mock Up
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-2/Apples-MockUp/index.html
