@@ -108,10 +108,10 @@ body {
 }
 
 .container .icon.eagle path {
-    stroke-dasharray: 250;
+    stroke-dasharray: 0;
     stroke-dashoffset: 0;
     stroke: rgb(10, 255, 243);
-    stroke-width: 75;
+    stroke-width: 145;
 }
 
 .container .icon.eagle:hover path {
