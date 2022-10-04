@@ -86,7 +86,7 @@ const questions = [
 	},{
 		question: "____ is the capital of Latvia ?",
 		optionA: "Riga",
-		optionB: "Budapesht",
+		optionB: "Tallin",
 		optionC: "Paris",
 		optionD: "Roma",
 		correctOption: "optionA"
