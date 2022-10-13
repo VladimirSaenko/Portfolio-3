@@ -146,14 +146,12 @@ button {
         top: 0;
         width: 365px;
         height: 185px;
-        border: 3.5px white solid;
-        background: white;
         border-radius: 5px;
         /* flex-direction: column; */
     }
 
-    .trophyName, .trophyIcon div p {
-        color: #000;
+    .trophyIcon.active {
+        transform: translateX(-50px);
     }
 
     .trophytypeImg {
