@@ -7,7 +7,7 @@
 // }
 
 // const obj = {
-//     name: 'Alex',
+//     name: 'Bogdan',
 //     id: '2'
 // }
 
@@ -25,7 +25,7 @@ User.prototype.exit = function() {
 }
 
 const ivan = new User('Ivan', '28');
-const alex = new User('Alex', '31');
+const alex = new User('Bogdan', '31');
 
 ivan.hello();
 ivan.exit();
@@ -47,7 +47,7 @@ class User2 {
     }
 }
 
-const alex2 = new User2('alex stupid', 124);
+const alex2 = new User2('bogdan smart', 124);
 
 class Rectangle {
     constructor(height, width) {

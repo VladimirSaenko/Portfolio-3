@@ -10,7 +10,7 @@
 // // 2 //
 
 // const arrNames = ['Ivan', 'Vova', 'Nazar', 'Gosha', 'Egor', 'Ilya'];
-// arrNames.push('Alexander');
+// arrNames.push('Bogdan');
 // const arr2Names = arrNames.map(name => {
 //     return `Username: ${name}`
 // })
