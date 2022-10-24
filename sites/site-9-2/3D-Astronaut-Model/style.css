@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-button {
-    outline: none;
-}
-
 .demo {
     height: 100vh;
     width: 100%;
