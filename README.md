@@ -75,12 +75,6 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/146921450-896b69f0-d06e-4930-b2d6-e8657516653d.png)
 
-## Grogu Mandalorian Toggle
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-13/Grogu-Mandalorian-Toggle/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/146922190-9c9b072f-5734-4a8e-8c37-03ed59de4c69.jpg)
-
 ## Sticky Scroll
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-15/Sticky-Scroll-site/index.html
@@ -110,12 +104,6 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-16/Live-Letters-Counter/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704153-35481ef9-aee9-4506-bb5a-9438ed6344e1.png)
-
-## Uncover Hidden Password site
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-19/Uncover-Hidden-Password-site/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/151596890-9f8aafc4-1ac7-4718-b08f-b234800034ee.jpg)
 
 ## Generator Random Gradient
 
@@ -237,23 +225,11 @@
 
 ![icon](https://user-images.githubusercontent.com/56477695/147706244-41723d73-804c-447b-9380-ef45ac0b2728.png)
 
-## SVG Fender Stratocaster Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-45/SVG-Fender-Stratocaster-Guitar/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/153401473-2a413257-3346-4e3d-bc9f-a95ddc5b0f7e.jpg)
-
 ## Infiniti Scroll Lorem Blog
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-48/Infiniti-Scroll-Lorem-Blog-site/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147706557-5697352f-5f04-49dc-a393-79d2f321b9a1.jpg)
-
-## SVG Gibson Les Paul Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-50/SVG-Gibson-Les-Paul-Guitar/index.html
-
-![147850551-8bf4b6d6-051d-446c-805a-36d4bcd4b252](https://user-images.githubusercontent.com/56477695/148844875-0e13160b-e1aa-4ede-aadf-b9fb54dec382.jpg)
 
 ## Drag & Drop Image/s
 
@@ -266,12 +242,6 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-52/Top10-RichestPeople-List/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/153401371-d4031f19-7a36-4fb3-b9c7-2b36ee16ba8d.jpg)
-
-## SVG Ibanez Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-53/Ibanez/index.html
-
-![23423573](https://user-images.githubusercontent.com/56477695/172371645-cbdfbffd-88c7-40f2-9b0d-8b544caf9f0c.jpg)
 
 ## Food site
 
@@ -296,6 +266,24 @@
 ###
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/172371883-55f73fb7-2cba-4fab-a7e9-1716d10ba721.png)
+
+## Grogu Mandalorian Toggle
+
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-13/Grogu-Mandalorian-Toggle/index.html
+
+![img-portfolio](https://user-images.githubusercontent.com/56477695/146922190-9c9b072f-5734-4a8e-8c37-03ed59de4c69.jpg)
+
+## SVG Gibson Les Paul Guitar
+
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-50/SVG-Gibson-Les-Paul-Guitar/index.html
+
+![147850551-8bf4b6d6-051d-446c-805a-36d4bcd4b252](https://user-images.githubusercontent.com/56477695/148844875-0e13160b-e1aa-4ede-aadf-b9fb54dec382.jpg)
+
+## SVG Ibanez Guitar
+
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-53/Ibanez/index.html
+
+![23423573](https://user-images.githubusercontent.com/56477695/172371645-cbdfbffd-88c7-40f2-9b0d-8b544caf9f0c.jpg)
 
 -->
 
