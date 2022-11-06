@@ -110,7 +110,7 @@ body {
 .container .icon.eagle path {
     stroke-dasharray: 0;
     stroke-dashoffset: 0;
-    stroke: rgb(10, 255, 243);
+    stroke: #31e8ff;
     stroke-width: 145;
 }
 
@@ -243,7 +243,9 @@ body {
     }
 }
 
-.container .icon.fish svg {
+.container .icon.fish svg, 
+.container .icon.lion svg,
+.container .icon.dragon svg  {
     width: 350px;
     height: 350px;
 }
@@ -279,11 +281,6 @@ body {
     }
 }
 
-.container .icon.lion svg {
-    width: 350px;
-    height: 350px;
-}
-
 .container .icon.lion:hover path {
     animation: animate-lion 1s linear forwards;
 }
@@ -303,11 +300,6 @@ body {
         fill: yellow;
         stroke: black;
     }
-}
-
-.container .icon.dragon svg {
-    width: 350px;
-    height: 350px;
 }
 
 .container .icon.dragon:hover path {
