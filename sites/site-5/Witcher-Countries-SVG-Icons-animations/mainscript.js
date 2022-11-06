@@ -14,6 +14,7 @@ const dragon = document.getElementById("dragon") // Zerrikania
 const temerianLily = document.getElementById("temeria"); // Temeria kingdom
 const nazairRose = document.getElementById("nazairRose"); // Nazair
 const elvesArrows = document.getElementById("arrows"); // Elves/Dol Blathanna
+const arm = document.getElementById("arm"); // Kovir and Poviss
 
 let path8386 = document.getElementById("path8386") // lily Temerian
 let path8404 = document.getElementById("path8404"); // lily Temerian
@@ -36,6 +37,7 @@ let title9 = document.getElementById("title9"); // Zerrikania
 let title10 = document.getElementById("title10"); // Temeria
 let title11 = document.getElementById("title11"); // Nazair
 let title12 = document.getElementById("title12"); // Elves/Dol Blathanna
+let title14 = document.getElementById("title14"); // Kovir and Poviss
 
 path8386.style.fill = 'rgb(6, 24, 31)'; // lily Temerian
 path8404.style.fill = 'rgb(6, 24, 31)'; // lily Temerian
@@ -250,5 +252,22 @@ elvesArrows.addEventListener('mousemove', () => {
 elvesArrows.addEventListener('mouseleave', () => {
     title12.style.visibility = 'hidden';
     returnBg();
+    returnColorsTemerianLily();
+})
+
+arm.addEventListener('mousemove', function() {
+    body.style.background = "yellow";
+    title14.style.visibility = 'visible';
+    title14.style.color = "white";
+    title14.style.textShadow = 'black 1px 3px 1px'
+    path8386.style.fill = 'orange';
+    path8404.style.fill = 'orange';
+    path8406.style.fill = 'orange';
+    path8417.style.fill = 'orange';
+})
+
+arm.addEventListener("mouseleave", function() {
+    returnBg();
+    title14.style.visibility = 'hidden';
     returnColorsTemerianLily();
 })
