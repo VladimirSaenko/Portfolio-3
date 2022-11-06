@@ -256,7 +256,7 @@ elvesArrows.addEventListener('mouseleave', () => {
 })
 
 arm.addEventListener('mousemove', function() {
-    body.style.background = "yellow";
+    body.style.background = "orange";
     title14.style.visibility = 'visible';
     title14.style.color = "white";
     title14.style.textShadow = 'black 1px 3px 1px'
