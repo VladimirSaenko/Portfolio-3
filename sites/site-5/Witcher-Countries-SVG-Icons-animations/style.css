@@ -258,11 +258,6 @@ body {
     animation: animate-fish 1s linear forwards;
 }
 
-#title7 {
-    margin-top: 10px;
-    color: white;
-}
-
 @keyframes animate-fish {
     0% {
         stroke-dashoffset: 0;
@@ -306,7 +301,7 @@ body {
     animation: animate-dragon 1s linear forwards;
 }
 
-#title8, #title9, #title12 {
+#title7, #title8, #title9, #title12, #title14 {
     margin-top: 10px;
     color: white;
 }
@@ -427,11 +422,6 @@ body {
 
 .container .icon.arm:hover path {
     animation: animate-arm 1s linear forwards;
-}
-
-#title14 {
-    margin-top: 10px;
-    color: white;
 }
 
 @keyframes animate-arm {
