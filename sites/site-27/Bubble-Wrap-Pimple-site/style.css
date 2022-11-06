@@ -42,12 +42,16 @@
     margin-top: 20px;
     width: 302px;
     height: 75px;
-    background: linear-gradient(3deg, rgb(0, 89, 255) 24%, rgba(45,96,221,1) 53%);
+    background: linear-gradient(3deg, rgb(14, 46, 106) 24%, rgb(0, 72, 255) 53%);
     color: whitesmoke;
     transition: 0.5s;
 }
 
 .sheetbutton:hover {
+    background: rgb(0, 0, 255);
+}
+
+.sheetbutton:active {
     background: rgb(33, 33, 105);
 }
 
