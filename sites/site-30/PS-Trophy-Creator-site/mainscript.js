@@ -24,16 +24,16 @@ mainbutton.addEventListener("click", function() {
 
 function getTrophyInType() {
     switch (trophytypeInput.value) {
-        case 'Бронза':
+        case 'Bronze':
             trophyImg.src = "images/bronze-trophy.png";
         break;
-        case 'Серебро':
+        case 'Silver':
             trophyImg.src = "images/silver-trophy.png";
         break;
-        case 'Золото':
+        case 'Gold':
             trophyImg.src = "images/gold-trophy.png";
         break;
-        case 'Платина':
+        case 'Platinum':
             trophyImg.src = "images/platinum-trophy.png";
         break;
         default:
