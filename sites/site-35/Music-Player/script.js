@@ -126,10 +126,10 @@ audio.addEventListener('ended', nextSong);
 audio.addEventListener('timeupdate', durationTimeSong);
 
 function getSongBg() {
+    // title.style.color = "black";
+    // mainTitle.style.color = "black";
     if(title.innerText == 'Summer') {
         body.style.backgroundImage = 'linear-gradient(135deg, #92FFC0 10%, #002661 100%)';
-        title.style.color = "black";
-        mainTitle.style.color = "black";
         musicContainer.classList.add("summer");
         musicContainer.classList.remove("phoenix");
         musicContainer.classList.remove("rock");
@@ -138,8 +138,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Phoenix') {
         body.style.background = 'linear-gradient(50deg, #cfcb0c 47%, #d90909 100%)';
-        title.style.color = "black";
-        mainTitle.style.color = "black";
         musicContainer.classList.add("phoenix");
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("rock");
@@ -148,7 +146,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Rock') {
         body.style.background = 'linear-gradient(135deg, red 45%, #0d138f 100%)';
-        mainTitle.style.color = "white";
         musicContainer.classList.add("rock");
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("phoenix");
@@ -157,8 +154,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Hyper') {
         body.style.background = 'linear-gradient(135deg, #FEC163 10%, #DE4313 100%)';
-        title.style.color = "black";
-        mainTitle.style.color = "black";
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("phoenix");
         musicContainer.classList.remove("rock");
@@ -167,8 +162,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Tom') {
         body.style.background = 'linear-gradient(326deg, black 21%, rgba(221,213,45,0.9110994739692753) 56%)';
-        title.style.color = "black";
-        mainTitle.style.color = "black";
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("phoenix");
         musicContainer.classList.remove("rock");
@@ -177,8 +170,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Hey') {
         body.style.background = 'linear-gradient(135deg, #ebd3d3 10%, #d90909 100%)';
-        title.style.color = "black";
-        mainTitle.style.color = "black";
         musicContainer.classList.add("hey");
         musicContainer.classList.remove("summer");
         musicContainer.classList.remove("phoenix");
