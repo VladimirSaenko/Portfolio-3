@@ -1,3 +1,4 @@
+
 "use strict";
 
 const main = document.querySelector('main');
@@ -50,7 +51,7 @@ const data = [
   },
   {
     image: './img/angry.jpg',
-    text: 'I Want To Go Minecraft'
+    text: 'I Want To Play Minecraft'
   },
   {
     image: './img/grandma.jpg',
@@ -72,7 +73,6 @@ function createBox(item) {
     box.classList.add('active');
     setTimeout(() => box.classList.remove('active'), 800);
   });
-
   main.appendChild(box);
 }
 
