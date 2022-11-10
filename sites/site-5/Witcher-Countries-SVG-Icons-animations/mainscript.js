@@ -15,6 +15,7 @@ const temerianLily = document.getElementById("temeria"); // Temeria kingdom
 const nazairRose = document.getElementById("nazairRose"); // Nazair
 const elvesArrows = document.getElementById("arrows"); // Elves/Dol Blathanna
 const arm = document.getElementById("arm"); // Kovir and Poviss
+const dragon2 = document.getElementById("dragon2"); // Saskia's Free State
 
 let path8386 = document.getElementById("path8386") // lily Temerian
 let path8404 = document.getElementById("path8404"); // lily Temerian
@@ -38,6 +39,7 @@ let title10 = document.getElementById("title10"); // Temeria
 let title11 = document.getElementById("title11"); // Nazair
 let title12 = document.getElementById("title12"); // Elves/Dol Blathanna
 let title14 = document.getElementById("title14"); // Kovir and Poviss
+let title15 = document.getElementById("title15"); // Saskia's Free State
 
 path8386.style.fill = 'rgb(6, 24, 31)'; // lily Temerian
 path8404.style.fill = 'rgb(6, 24, 31)'; // lily Temerian
@@ -242,7 +244,6 @@ elvesArrows.addEventListener('mousemove', () => {
     body.style.background = 'green';
     title12.style.visibility = 'visible';
     title12.style.color = 'white';
-    // title12.style.color = 'black';
     path8386.style.fill = 'green';
     path8404.style.fill = 'green';
     path8406.style.fill = 'green';
@@ -269,5 +270,21 @@ arm.addEventListener('mousemove', function() {
 arm.addEventListener("mouseleave", function() {
     returnBg();
     title14.style.visibility = 'hidden';
+    returnColorsTemerianLily();
+})
+
+dragon2.addEventListener('mousemove', () => {
+    body.style.background = 'white';
+    title15.style.visibility = 'visible';
+    title15.style.color = 'black';
+    path8386.style.fill = 'white';
+    path8404.style.fill = 'white';
+    path8406.style.fill = 'white';
+    path8417.style.fill = 'white';
+})
+
+dragon2.addEventListener('mouseleave', () => {
+    title15.style.visibility = 'hidden';
+    returnBg();
     returnColorsTemerianLily();
 })
