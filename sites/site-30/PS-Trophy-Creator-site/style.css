@@ -120,6 +120,9 @@ button {
     display: block;
     font-size: 45px;
     text-transform: capitalize;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .trophytypeImg {
