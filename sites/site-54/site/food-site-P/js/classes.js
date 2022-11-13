@@ -2,7 +2,7 @@
 "use strict";
 
 // const obj = {
-//     name: 'Steve',
+//     name: 'Notch',
 //     id: '212000112'
 // }
 
@@ -25,7 +25,7 @@ User.prototype.exit = function() {
 }
 
 const ivan = new User('Ivan', '28');
-const alex = new User('Bogdan', '31');
+const steve = new User('Steve', '31');
 
 ivan.hello();
 ivan.exit();
@@ -47,7 +47,7 @@ class User2 {
     }
 }
 
-const alex2 = new User2('bogdan smart', 124);
+const steve2 = new User2('steve smart', 124);
 
 class Rectangle {
     constructor(height, width) {
