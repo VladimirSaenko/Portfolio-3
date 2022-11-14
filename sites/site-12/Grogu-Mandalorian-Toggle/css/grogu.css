@@ -119,9 +119,7 @@ input:checked + .slider .crib #Grogu {
   }
 }
 
-.cls-1,
-.cls-16,
-.cls-5 {
+.cls-1, .cls-16, .cls-5 {
   fill: none;
 }
 
@@ -147,25 +145,19 @@ input:checked + .slider .crib #Grogu {
   stroke-miterlimit: 10;
 }
 
-.cls-15,
-.cls-4 {
+.cls-15, .cls-4 {
   fill: #ccc8c5;
 }
 
-.cls-15,
-.cls-16,
-.cls-4 {
+.cls-15, .cls-16, .cls-4 {
   stroke: #000000;
 }
 
-.cls-4,
-.cls-5,
-.cls-6 {
+.cls-4, .cls-5, .cls-6 {
   stroke-width: 4px;
 }
 
-.cls-5,
-.cls-6 {
+.cls-5, .cls-6 {
   stroke: #000000;
 }
 
@@ -173,8 +165,7 @@ input:checked + .slider .crib #Grogu {
   fill: #dbd2ca;
 }
 
-.cls-7,
-.cls-8 {
+.cls-7, .cls-8 {
   fill: #5c7064;
 }
 

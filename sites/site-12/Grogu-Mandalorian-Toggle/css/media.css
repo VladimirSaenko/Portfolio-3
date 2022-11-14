@@ -23,21 +23,7 @@
         transform: translateX(200px);
     }
 
-    .gitSupp-link {
-        position: absolute;
-        bottom: 35px;
-        flex-wrap: wrap;
-        font-size: 17px;
-        letter-spacing: -0.5px;
-    }
-
-    .gitSupp-link a img {
-        width: 30px;
-        height: 30px;
-    }
-
     .way-span {
-        bottom: 0;
-        font-size: 25px;
+        font-size: 30px;
     }
 }

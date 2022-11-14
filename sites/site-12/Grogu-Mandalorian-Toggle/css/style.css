@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,39 +24,13 @@
     top: 15%;
 }
 
-.gitSupp-link {
-    visibility: hidden;
-    color: white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10%;
-}
-
-.gitSupp-link a {
-    color: blue;
-    text-decoration: none;
-}
-
-.gitSupp-link a:checked {
-    color: blueviolet;
-}
-
-.gitSupp-link a:hover {
-    text-decoration: underline;
-}
-
-.gitSupp-link a img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
 .way-span {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     color: rgb(177, 175, 175);
-    bottom: 40%;
-    font-size: 35px;
+    bottom: 0;
+    font-size: 20px;
     text-transform: uppercase;
+    transition: 0s;
 }
