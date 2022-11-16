@@ -40,15 +40,15 @@ ul li a {
 }
 
 .cursor2 {
-    cursor: url(cursors/ponasenkovCup.cur), pointer;
+    cursor: url(cursors/champagne.cur), pointer;
 }
 
 .cursor4 {
-    cursor: url(cursors/gam1569.cur), pointer;
+    cursor: url(cursors/amogus1.cur), pointer;
 }
 
 .cursor3, .cursor5 {
-    cursor: url(cursors/gam1570.cur),pointer;
+    cursor: url(cursors/amogus2.cur),pointer;
 }
 
 ul li:hover a {
