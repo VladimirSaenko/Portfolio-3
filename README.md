@@ -277,11 +277,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/178139498-affbf3de-e59a-4961-8a8f-48a63111aab5.jpg)
 
-<!-- ## Github Contributions Blocks/Calendar
-
-###
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/172371883-55f73fb7-2cba-4fab-a7e9-1716d10ba721.png)
+<!-- 
 
 ## Grogu Mandalorian Toggle
 
@@ -305,6 +301,6 @@
 
 ## IPhone 14 CSS
 
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-49/IPhone14/index.html
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-49/IPhone14CSS/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/192336549-de9e8479-594d-47da-8eef-2b3a824e4ca0.jpg)
