@@ -69,3 +69,23 @@ body {
     top: -50px;
     right: -101%;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 100vw;
+    }
+
+    .colorInput {
+        right: 0;
+        top: 0;
+    }
+
+    #tags {
+        margin-top: 25px;
+    }
+}
