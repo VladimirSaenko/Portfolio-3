@@ -15,9 +15,9 @@
 
 ![174476951-f3c277e1-f89c-407d-96cb-75d104e2084c](https://user-images.githubusercontent.com/56477695/187518303-c96d76f2-5bf1-43a1-9eab-6893d2395528.jpg)
 
-## Apples Mock Up
+## Apple Mock Up
 
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-2/Apples-MockUp/index.html
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-2/Apple-MockUp/index.html
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704077-23e3cbc7-7612-46e2-9ba1-631574f1210c.jpg)
 
