@@ -35,7 +35,7 @@
 
 ## Witcher Countrys SVG Icons
 
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-5/Witcher-Countrys-SVG-Icons-animations/index.html
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-5/Witcher-Countries-SVG-Icons-animations/index.html
 
 ![150773754-5d23534e-dd4f-4192-a28b-10960143311e](https://user-images.githubusercontent.com/56477695/161564106-db74bd59-311f-446f-8d03-fb9fd49f6f3c.jpg)
 
