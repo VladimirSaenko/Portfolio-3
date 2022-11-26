@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Bladed Random Color LightSaber</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <div class="content">
+        <div class="lightsaber">
+            <div class="lightsaber1" id="saber1">
+                <input type="checkbox" id="on-off">
+                <div onclick="getRandomColor()" class="blade"></div>
+                <label class="handle" id="lightsaber1" for="on-off"></label>
+            </div>
+            <div class="lightsaber2" id="saber2">
+                <input type="checkbox" id="on-off2">
+                <div  onclick="getRandomColor()"class="blade2"></div>
+                <label class="handle" id="lightsaber2" for="on-off2"></label>
+            </div>
+        </div>
+        <button class="randomColorBtn" onclick="getRandomColor()">Get Random Color</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
