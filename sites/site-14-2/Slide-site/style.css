@@ -105,7 +105,7 @@ section:nth-child(7) {
 }
 
 section:nth-child(8) {
-    background: url(images/bg8.jpg) red;
+    background: url(images/bg8.jpg) rgb(0, 255, 251);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
