@@ -92,7 +92,7 @@ const questions = [
 		correctOption: "optionA"
 	},{
 		question: "Los Angeles is also known as ?",
-		optionA: "Demons city",
+		optionA: "City of Wolf",
 		optionB: "Shining city",
 		optionC: "City of Angels",
 		optionD: "City of Love",
