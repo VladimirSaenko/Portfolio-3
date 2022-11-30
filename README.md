@@ -271,12 +271,6 @@
 
 ![olive-oil](https://user-images.githubusercontent.com/56477695/174350491-b1392cc4-953b-47e7-a1ac-71f02e8e52e3.jpg)
 
-## Little Twitter React
-
-### https://vladimirsaenko.github.io/Litte-Twitter-React/
-
-![icon](https://user-images.githubusercontent.com/56477695/177035328-a8fceee7-ebdb-4daa-bc79-15eb3475ec1e.png)
-
 ## Trailer Movies Watch
 
 ### https://vladimirsaenko.github.io/trailer-movies-watch/
