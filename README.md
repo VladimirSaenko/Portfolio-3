@@ -79,6 +79,8 @@
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-12/Audio-Player-V1/index.html
 
+![166143920-a62872c3-3324-4eac-be12-b7e5d9fa0a40](https://user-images.githubusercontent.com/56477695/205440943-2f473d55-ba98-44db-8dab-c7af805af6ec.jpg)
+
 ## Sticky Scroll
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-14/Sticky-Scroll-site/index.html
