@@ -159,7 +159,7 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147704998-3479dbf7-4262-4d2f-b830-1a7180bae8da.jpg)
 
-## Tags creator 
+## Tags Creator 
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-25/Tags-Creator/index.html
 
