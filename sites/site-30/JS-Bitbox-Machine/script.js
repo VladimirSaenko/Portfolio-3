@@ -37,8 +37,6 @@ function playingSound() {
     currentAudio && playSound(currentAudio, currentBlock);
 }
 
-// console.log(audios);
-
 function key1() {
     let audio1 = document.getElementById("a1");
     audio1.play();
@@ -77,9 +75,4 @@ function key7() {
 function key8() {
     let audio8 = document.getElementById("a8");
     audio8.play();
-}
-
-function key9() {
-    let audio9 = document.getElementById("a9");
-    audio9.play();
 }
