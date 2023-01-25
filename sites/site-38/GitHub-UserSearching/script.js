@@ -76,12 +76,21 @@ form.addEventListener('submit', (e) => {
     const user = search.value;
     if(user) {
       if(user == 'VladimirSaenko' ||
-       user == 'alexanderkhapchenko' || 
+       user == 'alexanderkhapchenko' ||
        user == 'OneFY' || 
-       user == 'Otanukun') {
+       user == 'Otanukun' ||
+       user == 'Vladimirsaenko' ||
+       user == 'vladimirSaenko' ||
+       user == 'Alexanderkhapchenko' ||
+       user == 'AlexanderKhapchenko' ||
+       user == 'Vladimir Saenko' ||
+       user == 'witcherwow240' ||
+       user == 'Alexander Khapchenko') {
         createErrorCard('top secret');
       }
-      else if(user == 'aboba' || user == 'AleksandraHrevtsova') {
+      else if(user == 'aboba' || user == 'AleksandraHrevtsova'
+      || user == 'Aleksandra Hrevtsova'
+      || user == 'aleksandrahrevtsova') {
         createErrorCard('AMOGUS');
       }
       else {
