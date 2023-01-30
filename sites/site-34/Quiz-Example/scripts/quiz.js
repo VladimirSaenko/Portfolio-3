@@ -49,13 +49,6 @@ const questions = [
 		optionD: "Eleven",
 		correctOption: "optionD"
 	},{
-		question: `"You Can't see me" is a popular saying by...`,
-		optionA: "Eminem",
-		optionB: "Bill Gates",
-		optionC: "Chris Brown",
-		optionD: "John Cena",
-		correctOption: "optionD"
-	},{
 		question: "Where is the world tallest building located ?",
 		optionA: "Bahrain",
 		optionB: "Canada",
