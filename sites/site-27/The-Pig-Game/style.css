@@ -225,11 +225,15 @@ main {
   }
 
   .btn--hold {
-    top: 51%;
+    top: 55%;
+  }
+
+  .name {
+    margin-top: 21px;
   }
 
   .btn--roll {
-    top: 43%;
+    top: 40%;
   }
 
   .btn--new {
