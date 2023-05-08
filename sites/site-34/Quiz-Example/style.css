@@ -26,12 +26,14 @@ main {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+/* 	background: linear-gradient(180deg, purple, red); */
 }
 
 .game-quiz-container {
 	width: 40rem;
 	height: 30rem;
 	background-color: #FFDC63;
+/* 	background: linear-gradient(45deg, yellow, orange); */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -116,16 +118,18 @@ input[type=radio]:checked ~ .option {
 
 .next-button-container {
 	width: 50%;
-	height: 3rem;
+	height: 4rem;
 	display: flex;
 	justify-content: center;
 }
 
 .next-button-container button {
-	width: 8rem;
-	height: 2rem;
+	position: relative;
+	width: 11rem;
+	height: 4rem;
 	border-radius: 10px;
 	background: none;
+	font-size: 19px;
 	color: rgb(25, 25, 25);
 	font-weight: 600;
 	border: 2px solid #8833FF;
@@ -247,7 +251,7 @@ input[type=radio]:checked ~ .option {
 	}
 
 	.game-options-container span label {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 
 	.modal-content-container {
@@ -290,6 +294,11 @@ input[type=radio]:checked ~ .option {
 
 	.modal-content-container h1 {
 		font-size: 1.2rem;
+	}
+
+	.next-button-container button {
+		height: 2rem;
+		top: 20px;
 	}
 }
 
