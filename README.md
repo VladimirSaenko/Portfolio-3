@@ -165,12 +165,6 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/147705076-741e17a4-7542-45d6-be08-938be9e4bc4e.jpg)
 
-## PS Trophy Creator
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-26/PS-Trophy-Creator-site/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147705113-ae6dfcda-e291-4048-8e76-ebd16a19d6a8.jpg)
-
 ## The Pig Game
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-27/The-Pig-Game/index.html
@@ -278,28 +272,6 @@
 ### https://vladimirsaenko.github.io/trailer-movies-watch/
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/178139498-affbf3de-e59a-4961-8a8f-48a63111aab5.jpg)
-
-<!-- 
-
-## Grogu Mandalorian Toggle
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-13/Grogu-Mandalorian-Toggle/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/146922190-9c9b072f-5734-4a8e-8c37-03ed59de4c69.jpg)
-
-## SVG Gibson Les Paul Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-50/SVG-Gibson-Les-Paul-Guitar/index.html
-
-![147850551-8bf4b6d6-051d-446c-805a-36d4bcd4b252](https://user-images.githubusercontent.com/56477695/148844875-0e13160b-e1aa-4ede-aadf-b9fb54dec382.jpg)
-
-## SVG Ibanez Guitar
-
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-53/Ibanez/index.html
-
-![23423573](https://user-images.githubusercontent.com/56477695/172371645-cbdfbffd-88c7-40f2-9b0d-8b544caf9f0c.jpg)
-
--->
 
 ## IPhone 14 CSS
 
