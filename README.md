@@ -1,6 +1,4 @@
 # Portfolio-3
- 
-## Третья версия портфолио
 
 ## Generator Random RGB Color
 
