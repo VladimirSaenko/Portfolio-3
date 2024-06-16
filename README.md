@@ -175,12 +175,6 @@
 
 ![img-portfolio](https://user-images.githubusercontent.com/56477695/201996013-c58248b2-852b-4586-8a77-ef8aba577f6e.jpg)
 
-## The Hangman Game
-
-### Link: https://vladimirsaenko.github.io/Portfolio-3/sites/site-29/The-Hangman/index.html
-
-![img-portfolio](https://user-images.githubusercontent.com/56477695/147705503-8af9750e-81e1-4684-893c-7ab3ee3b11f4.png)
-
 ## JS BitBox Machine
 
 ### Link: https://vladimirsaenko.github.io/Portfolio-3/sites/site-30/JS-Bitbox-Machine/index.html
