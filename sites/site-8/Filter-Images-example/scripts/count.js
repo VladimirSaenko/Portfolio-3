@@ -21,35 +21,35 @@ allImages.addEventListener('click', function() {
 camera.addEventListener('click', function() {
     countTitle.style.display = "flex";
     countTitle.style.visibility = "visible";
-    countTitle.textContent = "Найдено 3 совпадений";
+    countTitle.textContent = "Знайдено 3 співпадіння";
 })
 
 headphone.addEventListener('click', function() {
     countTitle.style.display = "flex";
     countTitle.style.visibility = "visible";
-    countTitle.textContent = "Найдено 4 совпадений";
+    countTitle.textContent = "Знайдено 4 співпадіння";
 })
 
 mobile.addEventListener('click', function() {
     countTitle.style.display = "flex";
     countTitle.style.visibility = "visible";
-    countTitle.textContent = "Найдено 5 совпадений";
+    countTitle.textContent = "Знайдено 5 співпадіння";
 })
 
 sho.addEventListener('click', function() {
     countTitle.style.display = "flex";
     countTitle.style.visibility = "visible";
-    countTitle.textContent = "Найдено 4 совпадения";
+    countTitle.textContent = "Знайдено 4 співпадіння";
 })
 
 watch.addEventListener('click', function() {
     countTitle.style.display = "flex";
     countTitle.style.visibility = "visible";
-    countTitle.textContent = "Найдено 4 совпадения";
+    countTitle.textContent = "Знайдено 4 співпадіння";
 })
 
 computer.addEventListener('click', function() {
     countTitle.style.display = "flex";
     countTitle.style.visibility = "visible";
-    countTitle.textContent = "Найдено 4 совпадения";
+    countTitle.textContent = "Знайдено 4 співпадіння";
 })
